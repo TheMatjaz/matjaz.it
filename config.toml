@@ -1,3 +1,12 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://matjaz.it/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Thinking in a digital life"
+theme = "hyde-x-mod"
+canonifyurls = true ## Transform all URLs to absolute using baseUrl
+
+[author]
+    name = "Matjaž"
+[permalinks]
+    post = "/:title/"
+[taxonomies]
+    category = ""
