@@ -1,12 +1,22 @@
 baseurl = "http://matjaz.it/"
 languageCode = "en-us"
 title = "Thinking in a digital life"
-theme = "hyde-x-mod"
 canonifyurls = true ## Transform all URLs to absolute using baseUrl
-
+enableRobotsTXT = "true"
+log = "true"
+logFile = "hugo.log"
+verboseLog = "false"
+publishdir = "public"
+themesdir = "themes"
+theme = "hyde"
 [author]
     name = "Matjaž"
 [permalinks]
     post = "/:title/"
 [taxonomies]
-    category = ""
+    category = "categories"
+    tag = "tags"
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+    filename = "sitemap.xml"
