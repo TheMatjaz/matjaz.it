@@ -20,7 +20,6 @@ copyright = "2014-2016 matjaz.it"
 [sitemap]
     changefreq = "weekly"
     priority = 0.5
-    filename = "sitemap.xml"
 [params]
     logo      = "/images/matjaz_it_logo.png"
     twitter   = "https://twitter.com/TheMatjaz"
