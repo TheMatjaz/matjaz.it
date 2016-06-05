@@ -8,7 +8,8 @@ logFile = "hugo.log"
 verboseLog = "false"
 publishdir = "public"
 themesdir = "themes"
-theme = "hyde"
+theme = "mat-zen"
+copyright = "2014-2016 matjaz.it"
 [author]
     name = "Matjaž"
 [permalinks]
@@ -20,3 +21,9 @@ theme = "hyde"
     changefreq = "weekly"
     priority = 0.5
     filename = "sitemap.xml"
+[params]
+    logo      = "/images/matjaz_it_logo.png"
+    twitter   = "https://twitter.com/TheMatjaz"
+    github    = "https://github.com/TheMatjaz"
+    email     = "blog@matjaz.it"
+#    analytics = "UA-12345678-9"

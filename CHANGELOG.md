@@ -1,4 +1,6 @@
-# Change Log
+Change Log
+==========
+
 All notable changes to the structure of the blog [matjaz.it](http://matjaz.it/)
 will be documented in this file.
 
@@ -8,4 +10,8 @@ numbers. Those are **not** based on [Semantic versioning](http://semver.org);
 they are simply dates in ISO format since each version of the blog means a new
 post or page and not a new feature, bugfix or compatibility break.
 
-## [Unreleased]
+
+[Unreleased]
+------------
+
+
