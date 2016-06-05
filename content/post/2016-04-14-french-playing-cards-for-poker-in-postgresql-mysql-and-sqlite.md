@@ -1,0 +1,36 @@
+---
+author: matjaz_admin
+comments: true
+date: 2016-04-14 17:21:49+00:00
+layout: post
+link: http://matjaz.it/french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite/
+slug: french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite
+title: French playing cards for Poker in PostgreSQL, MySQL and SQLite
+wordpress_id: 612
+categories:
+- Development
+- Software
+tags:
+- card
+- Database
+- MySql
+- poker
+- PostgreSQL
+- Software
+- SQL
+- sqlite
+---
+
+Not much to tell. I thought a nice SQL-programming exercise would be to see how a deck of cards could be implemented in a database. It's simple and straightforward but got me thinking a bit. [Check it out on GitHub](https://github.com/TheMatjaz/sql-playcard). I programmed different versions of the same solution for PostgreSQL, MySQL and SQLite (this one in 2 versions). Everything is BSD licensed, use it as you wish.
+
+At first I thought about a _user defined data type_ (yay PostgreSQL!), but then I realized that the instances of the problem were limited, thus a simple relation would suffice. A lesson for the future:
+
+
+
+<blockquote>Check for the simplest solution first. If none is found, complicate it a little. Repeat.</blockquote>
+
+
+
+A standard french playing deck (yes, that's the official name for the _Poker cards_) contains 52 cards, 13 for each suit, and two jokers. In my solution I added an additional _Covered card_ for a card with unknown value.
+
+_[Photo: Wikipedia](https://en.wikipedia.org/wiki/File:French_suits.svg)_
