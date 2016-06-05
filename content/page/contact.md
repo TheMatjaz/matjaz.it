@@ -1,40 +1,21 @@
----
-author: matjaz_admin
-comments: false
-date: 2014-05-19 09:44:44+00:00
-layout: page
-link: http://matjaz.it/contact/
-slug: contact
-title: Contact & GPG
-hidefromhome: true
-wordpress_id: 80
----
++++
+aliases      = ["gpg", "pgp", "contact-me", "siggpg"]
+date         = "2014-05-19T09:44:44+00:00"
+description  = "Contact, RSS, social and PGP"
+draft        = false
+hidefromhome = true
+slug         = "contact"
+title        = "Contact & GPG"
+type         = "page"
+weight       = 0
++++
 
+- [@TheMatjaz](https://twitter.com/TheMatjaz)
+- [GitHub](https://github.com/TheMatjaz)
+- [Follow this blog (RSS feed)](http://matjaz.it/feed/)
+- [blog@matjaz.it](mailto:blog@matjaz.it)
+- [PGP/GnuPG public key on KeyBase](https://keybase.io/TheMatjaz)
 
-    
-  * [__ @TheMatjaz](https://twitter.com/TheMatjaz)
-
-    
-  * [__ GitHub](https://github.com/TheMatjaz)
-
-    
-  * [__ Follow this blog](http://matjaz.it/feed/)
-
-    
-  * [__ blog AT thisdomain](mailto:blog@matjaz.it)
-
-    
-  * [__ PGP/GnuPG key on KeyBase](https://keybase.io/TheMatjaz)
-
-
-
-[su_spacer size="20"]
-
-
-
-### There is even a contact form!
-
-
-
-[su_spacer size="5"]
-[contact-form][contact-field label='What%26#039;s your name?' type='name' required='1'/][contact-field label='Your e-mail address' type='email' required='1'/][contact-field label='Subject' type='text'/][contact-field label='Message' type='textarea' required='1'/][/contact-form]
+For those who have my mobile phone number (no, I'm not putting it here), **my
+favourite communication tool is [Signal](https://whispersystems.org/)** by
+Open Whisper Systems.
