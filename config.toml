@@ -16,7 +16,8 @@ verboseLog = true
 [author]
     name = "Matjaž"
 [permalinks]
-    post = "/:title/"
+    post = "/:slug/"
+    page = "/:slug/"
 [taxonomies]
     category = "categories"
     tag = "tags"
