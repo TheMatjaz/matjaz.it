@@ -1,15 +1,18 @@
-baseurl = "http://matjaz.it/"
-languageCode = "en-us"
-title = "Thinking in a digital life"
-canonifyurls = true ## Transform all URLs to absolute using baseUrl
-enableRobotsTXT = "true"
-log = "true"
-logFile = "hugo.log"
-verboseLog = "false"
-publishdir = "public"
-themesdir = "themes"
-theme = "mat-zen"
+metaDataFormat = "toml"
+baseURL = "http://matjaz.it/"
+canonifyURLs = true ## Transform all URLs to absolute using baseURL
 copyright = "2014-2016 matjaz.it"
+editor = "e"
+enableEmoji = false
+enableRobotsTXT = true
+languageCode = "en-us"
+log = true
+logFile = "hugo.log"
+theme = "mat-zen"
+title = "Thinking in a digital life"
+verbose = true
+verboseLog = true
+
 [author]
     name = "Matjaž"
 [permalinks]
