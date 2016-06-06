@@ -45,6 +45,7 @@ main {
 
 .site-title {
   margin-top: 2rem;
+  margin-bottom: 0rem;
   font-size: 3.3rem;
 }
 
@@ -80,3 +81,88 @@ main {
   background: -webkit-linear-gradient(left, white, #E1E1E1, white);
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
+
+
+/*--------------------------------------------------------------
+Social Links from the Decode theme by MachoThemes
+--------------------------------------------------------------*/
+.contact-links {
+	display: block;
+	margin: 3% 0;
+}
+
+.contact-links-container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact-link {
+	transition: opacity 0.4s ease-out;
+	border: none;
+	margin: 0 1%;
+	.no-touch &:hover {
+		opacity: 0.6;
+	}
+	.no-touch &:active {
+		opacity: 0.8;
+	}
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+	svg,
+	img {
+		overflow: visible;
+		width: 2.25em;
+		height: 2.25em;
+	}
+	.no-inlinesvg & svg {
+		display: none;
+	}
+	.no-inlinesvg & {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		margin: 0 0.5%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50px;
+	}
+}
+
+/* Fallback Images for browsers that don't support Inline SVG */
+.no-inlinesvg {
+	.TwitterLink {
+		background-image: url('images/Twitter.png');
+	}
+	.GithubLink {
+		background-image: url('images/GitHub.png');
+	}
+	.BitbucketLink {
+		background-image: url('images/Bitbucket.png');
+	}
+  	.LinkedInLink {
+		background-image: url('images/LinkedIn.png');
+	}
+	.SlideShareLink {
+		background-image: url('images/SlideShare.png');
+	}
+	.SkypeLink {
+		background-image: url('images/Skype.png');
+	}
+   	.StackOverflowLink {
+		background-image: url('images/StackOverflow.png');
+	}
+	.RSSLink {
+		background-image: url('images/RSS.png');
+	}
+	.EmailLink {
+		background-image: url('images/Email.png');
+	}
+	.WebsiteLink {
+		background-image: url('images/Website.png');
+	}
+}
+
