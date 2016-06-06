@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Computer"]
 date         = "2015-08-29T17:04:26+00:00"
-description  = "The first post of this blog"
+description  = "This is how I regularly cleanup my computer, from hardware to software"
 draft        = false
-hidefromhome = false
 slug         = "macbook-regular-maintenance"
 tags         = ["Backup", "Calibration", "Cleanup", "Wipe", "Software", "Mac", "Tip"]
 title        = "MacBook regular maintenance (also for other machines)"

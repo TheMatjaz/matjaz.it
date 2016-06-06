@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2015-11-30T20:51:48+00:00"
-description  = "The first post of this blog"
+description  = "Wget alias to make it retry the download infinite times until it's done"
 draft        = false
-hidefromhome = false
 slug         = "wget-retry-until-completed-alias"
 tags         = ["Wget", "Shell", "Linux", "Download", "Software", "Connection"]
 title        = "Wget retry-until-completed alias"

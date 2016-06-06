@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Privacy and Security"]
 date         = "2015-01-30T12:47:05+00:00"
-description  = "The first post of this blog"
+description  = "Some math and thoughts about the hundreds of spam e-mails I recieved"
 draft        = false
-hidefromhome = false
 slug         = "a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack"
 tags         = ["E-mail", "Security", "Spam", "Spoofing"]
 title        = "A spammer spoofed my e-mail: analysis of a spam attack"

@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Computer", "Computer Tricks", "Life Hacks"]
 date         = "2014-04-26T10:35:28+00:00"
-description  = "The first post of this blog"
+description  = "List of nice tech tips by TED to be faster on your computer"
 draft        = false
-hidefromhome = false
 slug         = "cool-time-saving-tech-tips-everybody-should-know"
 tags         = ["Browser", "Computer", "Lifehack", "Shortcut", "TED", "Time-saving", "Tip", "trick"]
 title        = "Cool time-saving tech tips everybody should know"

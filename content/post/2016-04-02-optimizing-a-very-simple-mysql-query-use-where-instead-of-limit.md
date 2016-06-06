@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Sysadmin"]
 date         = "2016-04-02T12:03:33+00:00"
-description  = "The first post of this blog"
+description  = "A friend had problems with MySQL because it was not using an existing index for a query"
 draft        = false
-hidefromhome = false
 slug         = "optimizing-a-very-simple-mysql-query-use-where-instead-of-limit"
 tags         = ["Software", "MySQL", "Database", "Query"]
 title        = "Optimizing a very simple MySQL query: use WHERE instead of LIMIT"

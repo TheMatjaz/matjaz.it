@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2014-11-22T17:35:44+00:00"
-description  = "The first post of this blog"
+description  = "Cleaning Android cache on boot menu"
 draft        = false
-hidefromhome = false
 slug         = "speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop"
 tags         = ["Android", "Smartphone", "Cache", "Wipe", "Trick"]
 title        = "Speed up a slow Nexus 5 after upgrading to Android Lollipop"

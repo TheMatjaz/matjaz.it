@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Sysadmin"]
 date         = "2014-06-05T19:09:29+00:00"
-description  = "The first post of this blog"
+description  = "Apt-get commands in cron"
 draft        = false
-hidefromhome = false
 slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"
 tags         = ["apt-get", "cron", "Linux", "automatic", "Raspberry Pi", "Update"]
 title        = "Automatically update a Debian/Ubuntu using apt-get and cron"

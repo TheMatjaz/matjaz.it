@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Life hack"]
 date         = "2016-05-18T09:30:46+00:00"
-description  = "The first post of this blog"
+description  = "This is why I use a fountain pen"
 draft        = false
-hidefromhome = false
 slug         = "a-syringe-of-blue-ink"
 tags         = ["Life hack", "Fountain pen", "Trick", "Writing"]
 title        = "A syringe of blue ink"

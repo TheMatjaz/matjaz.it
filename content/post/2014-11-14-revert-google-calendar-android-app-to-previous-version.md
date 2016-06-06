@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2014-11-14T14:21:28+00:00"
-description  = "The first post of this blog"
+description  = "The Google Calendar App has bad design: here is how you switch to the old version"
 draft        = false
-hidefromhome = false
 slug         = "revert-google-calendar-android-app-to-previous-version"
 tags         = ["Android", "Smartphone", "Google", "Calendar"]
 title        = "Revert Google Calendar Android app to previous version"

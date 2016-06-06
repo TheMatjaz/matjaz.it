@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Privacy and Security"]
 date         = "2015-12-02T15:47:19+00:00"
-description  = "The first post of this blog"
+description  = "My #simplesecurity rants on Twitter all in one place"
 draft        = false
-hidefromhome = false
 slug         = "simplesecurity-tips-for-non-techies"
 tags         = ["Encryption", "Password", "Security", "Tip"]
 title        = "#SimpleSecurity tips for non-techies"

@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Privacy and Security"]
 date         = "2014-10-09T10:07:20+00:00"
-description  = "The first post of this blog"
+description  = "Some doubts about my mobile ISP"
 draft        = false
-hidefromhome = false
 slug         = "open-question-to-my-mobile-internet-provider"
 tags         = ["Smartphone", "Encryption", "Privacy", "Security", "VPN", "Provider"]
 title        = "Open security questions to my mobile internet provider"

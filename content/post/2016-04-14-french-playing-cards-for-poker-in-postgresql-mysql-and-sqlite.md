@@ -2,9 +2,8 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2016-04-14T17:21:49+00:00"
-description  = "The first post of this blog"
+description  = "My short SQL scripts implementing a deck of Poker cards in a database"
 draft        = false
-hidefromhome = false
 slug         = "french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite"
 tags         = ["Software", "Development", "Database", "SQL", "MySQL", "PostgreSQL", "SQLite", "Poker"]
 title        = "French playing cards for Poker in PostgreSQL, MySQL and SQLite"
