@@ -1,24 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-04-23 23:09:42+00:00
-layout: post
-link: http://matjaz.it/shortest-path-problem-in-ring-buffer-or-circular-double-linked-list/
-slug: shortest-path-problem-in-ring-buffer-or-circular-double-linked-list
-title: Shortest path problem in ring buffer or circular double linked list
-wordpress_id: 461
-categories:
-- Software
-tags:
-- Algorithm
-- C
-- Code
-- List
-- Path
-- Ring
-- Shortest path
-- Software
----
++++
+aliases      = []
+categories   = ["Software"]
+date         = "2015-04-15T06:23:41+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "shortest-path-problem-in-ring-buffer-or-circular-double-linked-list"
+tags         = ["Algorithm", "C", "List", "Ring", "Software"]
+title        = "Shortest path problem in ring buffer or circular double linked list"
+type         = "post"
+weight       = 0
++++
+
 
 Shortest path problems are everywhere with many algorithms and since I haven't (yet) found an algorithm for this particular one, well, here we go!
 

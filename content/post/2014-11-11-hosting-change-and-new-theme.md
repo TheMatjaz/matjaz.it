@@ -1,20 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-11-11 11:39:26+00:00
-layout: post
-link: http://matjaz.it/hosting-change-and-new-theme/
-slug: hosting-change-and-new-theme
-title: Hosting change and new theme
-wordpress_id: 290
-categories:
-- Blog
-tags:
-- Domain
-- Hosting
-- MySql
-- Wordpress
----
++++
+aliases      = []
+categories   = ["Blog"]
+date         = "2014-11-11T11:39:26+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "hosting-change-and-new-theme"
+tags         = ["Domain", "Hosting", "MySQL", "Wordpress", "Blog"]
+title        = "Hosting change and new theme"
+type         = "post"
+weight       = 0
++++
+
 
 Yay! Better servers for this epic blog, my dear 3 readers! Yes, apparently this whole website is kind of a game I play alone. But that's not a problem; it's fun and I'm making experience for the future.
 

@@ -1,22 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-11-22 17:35:44+00:00
-layout: post
-link: http://matjaz.it/speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop/
-slug: speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop
-title: Speed up a slow Nexus 5 after upgrading to Android Lollipop
-wordpress_id: 344
-categories:
-- How to
-- Software
-tags:
-- Android
-- Cache
-- Smartphone
-- Tricks
-- Wipe
----
++++
+aliases      = []
+categories   = ["Software"]
+date         = "2014-11-22T17:35:44+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop"
+tags         = ["Android", "Smartphone", "Cache", "Wipe", "Trick"]
+title        = "Speed up a slow Nexus 5 after upgrading to Android Lollipop"
+type         = "post"
+weight       = 0
++++
+
 
 Right after upgrading my phone from Android Kitkat 4.4.4 to Lollipop 5.0 my face was:
 

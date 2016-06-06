@@ -1,23 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-11-14 14:21:28+00:00
-layout: post
-link: http://matjaz.it/revert-google-calendar-android-app-to-previous-version/
-slug: revert-google-calendar-android-app-to-previous-version
-title: Revert Google Calendar Android app to previous version
-wordpress_id: 316
-categories:
-- Software
-tags:
-- Android
-- Calendar
-- Google
-- Previous version
-- Revert
-- Rollback
-- Smartphone
----
++++
+aliases      = []
+categories   = ["Software"]
+date         = "2014-11-14T14:21:28+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "revert-google-calendar-android-app-to-previous-version"
+tags         = ["Android", "Smartphone", "Google", "Calendar"]
+title        = "Revert Google Calendar Android app to previous version"
+type         = "post"
+weight       = 0
++++
+
 
 <blockquote>EDIT: since the update of the graphical design of the Google Calendar app into a much more suitable one, with more space for the events, zooming ability, week view and more, reverting to the older version is not necessary anymore, in my opinion.</blockquote>
 

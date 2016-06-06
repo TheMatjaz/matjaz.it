@@ -1,23 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-10-15 05:44:53+00:00
-layout: post
-link: http://matjaz.it/your-phone-is-infected-not-only-computer-viruses-also-real-bacteria/
-slug: your-phone-is-infected-not-only-computer-viruses-also-real-bacteria
-title: 'Your phone is infected: not only computer viruses, also real bacteria'
-wordpress_id: 262
-categories:
-- Computer
-- Life Hacks
-tags:
-- Bacteria
-- Clean
-- Disinfect
-- Keyboard
-- Keys
-- Smartphone
----
++++
+aliases      = []
+categories   = ["Computer", "Life Hack"]
+date         = "2014-10-15T05:44:53+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "your-phone-is-infected-not-only-computer-viruses-also-real-bacteria"
+tags         = ["Computer", "Life Hack", "Bacteria", "Smartphone", "Keyboard"]
+title        = "Your phone is infected: not only computer viruses, also real bacteria"
+type         = "post"
+weight       = 0
++++
+
 
 <blockquote>Disclaimer: I'm **not** a medical professional and this is **not** medical advice, just **my personal opinion**. I can not take any responsibility for the results or consequences of any attempt to use or adopt any of the information presented on this website. Please comment if you find something untrue in the text.</blockquote>
 

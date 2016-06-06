@@ -1,26 +1,16 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-10-09 10:07:20+00:00
-layout: post
-link: http://matjaz.it/open-question-to-my-mobile-internet-provider/
-slug: open-question-to-my-mobile-internet-provider
-title: Open security questions to my mobile internet provider
-wordpress_id: 257
-categories:
-- Security
-tags:
-- Cell phone
-- DNS
-- Encryption
-- Mobile
-- Privacy
-- Private
-- Provider
-- Radio
-- Smartphone
-- VPN
----
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2014-10-09T10:07:20+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "open-question-to-my-mobile-internet-provider"
+tags         = ["Smartphone", "Encryption", "Privacy", "Security", "VPN", "Provider"]
+title        = "Open security questions to my mobile internet provider"
+type         = "post"
+weight       = 0
++++
 
 After some burocra**z**y with my mobile network provider (which I will not mention), I finally enabled my smartphone to have internet access. Yeey! I waited way too much for this, but now I'm enjoying being able to find any information, be reachable or connect home wherever I want.
 

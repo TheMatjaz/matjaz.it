@@ -1,21 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-01-30 12:47:05+00:00
-layout: post
-link: http://matjaz.it/a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack/
-slug: a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack
-title: 'A spammer spoofed my e-mail: analysis of a spam attack'
-wordpress_id: 365
-categories:
-- Security
-tags:
-- Domain
-- E-mail
-- Security
-- Spam
-- Spoofing
----
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2015-01-30T12:47:05+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack"
+tags         = ["E-mail", "Security", "Spam", "Spoofing"]
+title        = "A spammer spoofed my e-mail: analysis of a spam attack"
+type         = "post"
+weight       = 0
++++
+
 
 Spam, spam, spam everywhere. We all know that our mail boxes are filled with it, but usually the anti-spam filter takes care of most of it. But who is sending those e-mails filled with ads, scams and viruses?
 
