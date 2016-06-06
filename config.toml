@@ -29,5 +29,4 @@ verboseLog = true
     twitter   = "https://twitter.com/TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
-    pageNotFoundTitle = "...aaand that's a broken link!"
 #    analytics = "UA-12345678-9"
