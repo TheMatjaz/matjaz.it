@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+    <main role="main">
+	  <h1 class="entry-title" itemprop="headline">{{ .Site.Params.pageNotFoundTitle }}</h1>
+      <span class="entry-meta"></span>
+		<section itemprop="entry-text">
+          <p>Tecnically it's called an <strong>HTTP Error 404</strong>.</p>
+          <p>The link you used does not point to anything. Please check it for any typing errors. If you think I have misplaced it, be a kind person and <a href="{{ .Site.BaseURL }}contact/">contact me</a> so I'll fix it. Thanks!</p>
+        </section>
+    </main>
+
+{{ partial "footer.html" . }}
