@@ -1,21 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-12-02 15:47:19+00:00
-layout: post
-link: http://matjaz.it/simplesecurity-tips-for-non-techies/
-slug: simplesecurity-tips-for-non-techies
-title: '#SimpleSecurity tips for non-techies'
-wordpress_id: 546
-categories:
-- Security
-tags:
-- Encryption
-- Hacks
-- password
-- Security
-- Tips
----
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2015-12-02T15:47:19+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "simplesecurity-tips-for-non-techies"
+tags         = ["Encryption", "Password", "Security", "Tip"]
+title        = "#SimpleSecurity tips for non-techies"
+type         = "post"
+weight       = 0
++++
+
 
 A discussion with a friend about what should non-tech savvy people do to improve their information security made me think later on and write a series [[1](https://twitter.com/TheMatjaz/status/671961375233736704), [2](https://twitter.com/TheMatjaz/status/671962144469065728), [3](https://twitter.com/TheMatjaz/status/671964017221640192), [4](https://twitter.com/TheMatjaz/status/671964298739060736), [5](https://twitter.com/TheMatjaz/status/671965340209979392), [6](https://twitter.com/TheMatjaz/status/671969134670970882), [7](https://twitter.com/TheMatjaz/status/671969854598094848), [8](https://twitter.com/TheMatjaz/status/671970594787827712), [9](https://twitter.com/TheMatjaz/status/671971839225274368), [10](https://twitter.com/TheMatjaz/status/671972324170682368)] of Tweets hashtagged [#SimpleSecurity](https://twitter.com/hashtag/SimpleSecurity?src=hash) with suggestions about what to do, which software to use and how. Here I'm proposing a more curated version of them.
 

@@ -1,24 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-08-29 17:04:26+00:00
-layout: post
-link: http://matjaz.it/macbook-regular-maintenance/
-slug: macbook-regular-maintenance
-title: MacBook regular maintenance (also for other machines)
-wordpress_id: 520
-categories:
-- Computer Tricks
-tags:
-- Backup
-- Calibration
-- Cleanup
-- Computer
-- Mac
-- Reset
-- Software
-- Tips
----
++++
+aliases      = []
+categories   = ["Computer"]
+date         = "2015-08-29T17:04:26+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "macbook-regular-maintenance"
+tags         = ["Backup", "Calibration", "Cleanup", "Wipe", "Software", "Mac", "Tip"]
+title        = "MacBook regular maintenance (also for other machines)"
+type         = "post"
+weight       = 0
++++
+
 
 Those are the steps I usually do to cleanup, verify and recalibrate a MacBook regularly. Those steps should work for iMacs too (except the battery recalibration and similar stuff) and can be used as a guideline for other operating systems too but with other software tools than the mentioned ones. Perform them in this order if unsure.
 

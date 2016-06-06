@@ -1,22 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-11-02 20:29:37+00:00
-layout: post
-link: http://matjaz.it/i-m-leaving-facebook/
-slug: i-m-leaving-facebook
-title: I'm leaving Facebook
-wordpress_id: 530
-categories:
-- Blog
-- Computer
-tags:
-- Contact
-- E-mail
-- Facebook
-- Social
-- Time-saving
----
++++
+aliases      = []
+categories   = ["Blog"]
+date         = "2015-11-02T20:29:37+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "i-m-leaving-facebook"
+tags         = ["Contact", "E-mail", "Facebook", "Social", "Time saving"]
+title        = "I'm leaving Facebook"
+type         = "post"
+weight       = 0
++++
+
 
 <blockquote>On the 1st of December 2015 I'll shut down my Facebook account.</blockquote>
 

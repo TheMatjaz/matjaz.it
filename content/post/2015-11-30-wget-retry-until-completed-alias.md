@@ -1,24 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2015-11-30 20:51:48+00:00
-layout: post
-link: http://matjaz.it/wget-retry-until-completed-alias/
-slug: wget-retry-until-completed-alias
-title: Wget retry-until-completed alias
-wordpress_id: 525
-categories:
-- Computer Tricks
-tags:
-- alias
-- bash
-- connection
-- download
-- shell
-- Software
-- unstable
-- wget
----
++++
+aliases      = []
+categories   = ["Software"]
+date         = "2015-11-30T20:51:48+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "wget-retry-until-completed-alias"
+tags         = ["Wget", "Shell", "Linux", "Download", "Software", "Connection"]
+title        = "Wget retry-until-completed alias"
+type         = "post"
+weight       = 0
++++
+
 
 `wget` is a great tool and may be used also in case of a low bandwidth. It works also when the connection with a server is unstable for some reason and the download of a file simply fails way to many times.
 

@@ -1,3 +1,16 @@
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2015-12-02T15:47:19+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "simplesecurity-tips-for-non-techies"
+tags         = ["Encryption", "Password", "Security", "Tip"]
+title        = "#SimpleSecurity tips for non-techies"
+type         = "post"
+weight       = 0
++++
 ---
 author: matjaz_admin
 comments: true
