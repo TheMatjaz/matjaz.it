@@ -1,6 +1,6 @@
 baseURL = "http://matjaz.it/"
 canonifyURLs = true ## Transform all URLs to absolute using baseURL
-copyright = "2014-2016 matjaz.it"
+copyright = "Creative Commons Attribution-ShareAlike 4.0 International License"
 editor = "e"
 enableEmoji = false
 enableRobotsTXT = true
@@ -28,3 +28,5 @@ verboseLog = true
     twitter   = "https://twitter.com/TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
+    keybase   = "https://keybase.io/TheMatjaz"
+    cc        = "<a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>"
