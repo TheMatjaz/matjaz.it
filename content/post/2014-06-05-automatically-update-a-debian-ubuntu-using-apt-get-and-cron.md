@@ -1,30 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-06-05 19:09:29+00:00
-layout: post
-link: http://matjaz.it/automatically-update-a-debian-ubuntu-using-apt-get-and-cron/
-slug: automatically-update-a-debian-ubuntu-using-apt-get-and-cron
-title: Automatically update a Debian/Ubuntu using apt-get and cron
-wordpress_id: 196
-categories:
-- Development
-- Raspberry Pi
-tags:
-- apt
-- apt-get
-- automatic
-- Computer
-- cron
-- debian
-- linux
-- pi
-- raspberry
-- server
-- ubuntu
-- update
-- upgrade
----
++++
+aliases      = []
+categories   = ["Sysadmin"]
+date         = "2014-06-05T19:09:29+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"
+tags         = ["apt-get", "cron", "Linux", "automatic", "Raspberry Pi", "Update"]
+title        = "Automatically update a Debian/Ubuntu using apt-get and cron"
+type         = "post"
+weight       = 0
++++
+
 
 Updating a home Ubuntu/Debian computer, a Raspberry Pi and especially a small server periodically is tedious. A quick solution: create a simple script and let the computer run it periodically with cron.
 

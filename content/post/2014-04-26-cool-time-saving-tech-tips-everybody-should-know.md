@@ -1,34 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-04-26 10:35:28+00:00
-layout: post
-link: http://matjaz.it/cool-time-saving-tech-tips-everybody-should-know/
-slug: cool-time-saving-tech-tips-everybody-should-know
-title: Cool time-saving tech tips everybody should know
-wordpress_id: 42
-categories:
-- Computer
-- Computer Tricks
-- Life Hacks
-tags:
-- Browser
-- Computer
-- David
-- Hack
-- Hacks
-- Life
-- Pogue
-- Scroll
-- Shortcuts
-- Spacebar
-- Tech
-- TED
-- Time
-- Time-saving
-- Tips
-- Tricks
----
++++
+aliases      = []
+categories   = ["Computer", "Computer Tricks", "Life Hacks"]
+date         = "2014-04-26T10:35:28+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "cool-time-saving-tech-tips-everybody-should-know"
+tags         = ["Browser", "Computer", "Lifehack", "Shortcut", "TED", "Time-saving", "Tip", "trick"]
+title        = "Cool time-saving tech tips everybody should know"
+type         = "post"
+weight       = 0
++++
+
 
 Among many [TED](http://www.ted.com) talks I stumbled upon [David Pogue's 10 top time-saving tech tips](http://www.ted.com/talks/david_pogue_10_top_time_saving_tech_tips). I liked it because it's simple, fast and effective: it's a list of many tips that will help you a lot, like how to save time when scrolling a web page or how to use Google as a calculator. Tech stuff everybody should know, but they don't, which really irritates me more than it should. As the speaker says:
 

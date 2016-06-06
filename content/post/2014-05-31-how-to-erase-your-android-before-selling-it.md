@@ -1,31 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-05-31 21:55:46+00:00
-layout: post
-link: http://matjaz.it/how-to-erase-your-android-before-selling-it/
-slug: how-to-erase-your-android-before-selling-it
-title: How to securely and truly erase your Android before selling it
-wordpress_id: 182
-categories:
-- Computer
-- Computer Tricks
-- How to
-tags:
-- Android
-- Computer
-- Data
-- Delete
-- Device
-- Encryption
-- Erase
-- How to
-- Privacy
-- Private
-- SecureWipe
-- Security
-- Sell
----
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2014-05-31T21:55:46+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "how-to-erase-your-android-before-selling-it"
+tags         = ["Android", "Security", "Privacy", "Delete", "Data", "Wipe"]
+title        = "How to securely and truly erase your Android before selling it"
+type         = "post"
+weight       = 0
++++
+
 
 Let's say you just bought a new mobile device and want to sell the old Android phone or tablet to get some extra money. It's a cool idea, right?
 

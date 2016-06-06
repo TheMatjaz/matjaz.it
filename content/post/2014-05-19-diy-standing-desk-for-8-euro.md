@@ -1,28 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2014-05-19 08:32:08+00:00
-layout: post
-link: http://matjaz.it/diy-standing-desk-for-8-euro/
-slug: diy-standing-desk-for-8-euro
-title: DIY Standing desk for 8 € (and some tools)
-wordpress_id: 30
-categories:
-- Life Hacks
-- Maker
-tags:
-- Computer
-- Desk
-- Hacks
-- Handwork
-- Life
-- Lifehack
-- Lifehacker
-- Maker
-- Standing
-- Standing desk
-- Wood
----
++++
+aliases      = ["diy-standing-desk-for-8-euros"]
+categories   = ["Computer", "Life Hacks"]
+date         = "2014-05-19T08:32:08+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "diy-standing-desk-for-8-euro"
+tags         = ["Computer", "Lifehack", "Desk", "Standing Desk", "Wood", "Maker"]
+title        = "DIY Standing desk for 8 € (and some tools)"
+type         = "post"
+weight       = 0
++++
+
 
 Standing desks are becoming more and more popular in the last years. Don't know what a standing desk is? It's a desk of a certain height so you could work while standing instead of sitting. Why? Because sitting is lethal. Standing keeps you more engaged in your work, more dynamic, less lazy and has some health benefits like better posture, but too much standing may hurt and be unhealthy. So the best thing may be the _aurea mediocritas_, a path in the middle. There are [many many many posts on Lifehacker about standing desks](http://lifehacker.com/tag/standing-desk), just check them out for more details. I may suggest you [this one](http://lifehacker.com/5735528/why-and-how-i-switched-to-a-standing-desk).
 
