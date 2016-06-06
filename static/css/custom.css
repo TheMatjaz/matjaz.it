@@ -69,10 +69,6 @@ main {
   color: #888;
 }
 
-.footer-link {
-  margin: 2rem 0;
-}
-
 .hr {
   height: 1px;
   margin: 2rem 0;
@@ -82,14 +78,24 @@ main {
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
 
+.footer {
+  margin: 1rem 0;
+}
+
 .pages-links {
   font-size: 2rem;
   margin: 2% 0 0 0;
 }
 
-.pages-links a {
+.pages-links a,
+.footer-link a {
   text-decoration: none;
 }
+
+.footer-link {
+  margin: 1.2% 0 0 0;
+}
+
 
 
 /*--------------------------------------------------------------
