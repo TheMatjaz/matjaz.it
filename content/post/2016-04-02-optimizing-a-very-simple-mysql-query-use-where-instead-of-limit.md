@@ -1,23 +1,16 @@
----
-author: matjaz_admin
-comments: true
-date: 2016-04-02 12:03:33+00:00
-layout: post
-link: http://matjaz.it/optimizing-a-very-simple-mysql-query-use-where-instead-of-limit/
-slug: optimizing-a-very-simple-mysql-query-use-where-instead-of-limit
-title: 'Optimizing a very simple MySQL query: use WHERE instead of LIMIT'
-wordpress_id: 604
-categories:
-- Software
-tags:
-- Database
-- LIMIT
-- MySql
-- Optimization
-- Software
-- SQL
-- WHERE
----
++++
+aliases      = []
+categories   = ["Sysadmin"]
+date         = "2016-04-02T12:03:33+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "optimizing-a-very-simple-mysql-query-use-where-instead-of-limit"
+tags         = ["Software", "MySQL", "Database", "Query"]
+title        = "Optimizing a very simple MySQL query: use WHERE instead of LIMIT"
+type         = "post"
+weight       = 0
++++
 
 A friend of mine has a net of sensors in his production plant and a web-based administration panel to visualize the data and to operate some control systems. This website runs on a Raspberry Pi 2 which also hosts the MySQL database used to store all the data from the sensors.
 

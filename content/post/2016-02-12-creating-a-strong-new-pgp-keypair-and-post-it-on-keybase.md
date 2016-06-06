@@ -1,24 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2016-02-12 15:35:32+00:00
-layout: post
-link: http://matjaz.it/creating-a-strong-new-pgp-keypair-and-post-it-on-keybase/
-slug: creating-a-strong-new-pgp-keypair-and-post-it-on-keybase
-title: Creating a strong new PGP keypair and post it on Keybase
-wordpress_id: 587
-categories:
-- Security
-- Software
-tags:
-- GPG
-- key
-- keybase
-- OpenPGP
-- PGP
-- Privacy
-- Security
----
++++
+aliases      = []
+categories   = ["Privacy and Security"]
+date         = "2016-02-12T15:35:32+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "creating-a-strong-new-pgp-keypair-and-post-it-on-keybase"
+tags         = ["GnuPG", "PGP", "Keybase", "Privacy", "Security", "E-mail"]
+title        = "Creating a strong new PGP keypair and post it on Keybase"
+type         = "post"
+weight       = 0
++++
+
 
 The learning curve for PGP is steep. It took me a while to get the basics and understand how to use `gpg`, but the real problem was: I was afraid to do something the wrong way and end up with, you know, my private key published. Ups!
 

@@ -1,37 +1,17 @@
 +++
 aliases      = []
-categories   = ["Privacy and Security"]
-date         = "2015-12-02T15:47:19+00:00"
+categories   = ["Software"]
+date         = "2016-02-05T08:49:53+00:00"
 description  = "The first post of this blog"
 draft        = false
 hidefromhome = false
-slug         = "simplesecurity-tips-for-non-techies"
-tags         = ["Encryption", "Password", "Security", "Tip"]
-title        = "#SimpleSecurity tips for non-techies"
+slug         = "numerus-v2-0-0-released"
+tags         = ["Development", "Software", "GitHub", "Numerus", "Roman numerals", "Library", "C"]
+title        = "Numerus v2.0.0 released"
 type         = "post"
 weight       = 0
 +++
----
-author: matjaz_admin
-comments: true
-date: 2016-02-05 08:49:53+00:00
-layout: post
-link: http://matjaz.it/numerus-v2-0-0-released/
-slug: numerus-v2-0-0-released
-title: Numerus v2.0.0 released
-wordpress_id: 561
-categories:
-- Development
-- Software
-tags:
-- Development
-- GitHub
-- Library
-- numerals
-- Numerus
-- roman
-- Software
----
+
 
 [Numerus](https://github.com/TheMatjaz/Numerus), my roman numerals library has been completely updated!
 

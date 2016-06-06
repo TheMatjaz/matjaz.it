@@ -1,25 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2016-04-14 17:21:49+00:00
-layout: post
-link: http://matjaz.it/french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite/
-slug: french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite
-title: French playing cards for Poker in PostgreSQL, MySQL and SQLite
-wordpress_id: 612
-categories:
-- Development
-- Software
-tags:
-- card
-- Database
-- MySql
-- poker
-- PostgreSQL
-- Software
-- SQL
-- sqlite
----
++++
+aliases      = []
+categories   = ["Software"]
+date         = "2016-04-14T17:21:49+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite"
+tags         = ["Software", "Development", "Database", "SQL", "MySQL", "PostgreSQL", "SQLite", "Poker"]
+title        = "French playing cards for Poker in PostgreSQL, MySQL and SQLite"
+type         = "post"
+weight       = 0
++++
+
 
 Not much to tell. I thought a nice SQL-programming exercise would be to see how a deck of cards could be implemented in a database. It's simple and straightforward but got me thinking a bit. [Check it out on GitHub](https://github.com/TheMatjaz/sql-playcard). I programmed different versions of the same solution for PostgreSQL, MySQL and SQLite (this one in 2 versions). Everything is BSD licensed, use it as you wish.
 

@@ -1,23 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2016-05-18 09:30:46+00:00
-layout: post
-link: http://matjaz.it/a-syringe-of-blue-ink/
-slug: a-syringe-of-blue-ink
-title: A syringe of blue ink
-wordpress_id: 631
-categories:
-- Life Hacks
-- Random happening
-tags:
-- Fountain pen
-- Handwriting
-- Ink
-- Pen
-- Tricks
-- Writing
----
++++
+aliases      = []
+categories   = ["Life hack"]
+date         = "2016-05-18T09:30:46+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "a-syringe-of-blue-ink"
+tags         = ["Life hack", "Fountain pen", "Trick", "Writing"]
+title        = "A syringe of blue ink"
+type         = "post"
+weight       = 0
++++
+
 
 I suddenly stop writing, open a compartment of my pencil-case and take a syringe out. Then my hand reaches a nylon bag in my backpack.
 

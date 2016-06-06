@@ -1,22 +1,17 @@
----
-author: matjaz_admin
-comments: true
-date: 2016-02-07 15:13:20+00:00
-layout: post
-link: http://matjaz.it/improving-my-wordpress-blog-look-and-speed/
-slug: improving-my-wordpress-blog-look-and-speed
-title: Improving my Wordpress blog look and speed
-wordpress_id: 581
-categories:
-- Blog
-- How to
-tags:
-- Blog
-- Domain
-- Speed
-- Theme
-- Wordpress
----
++++
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-02-07T15:13:20+00:00"
+description  = "The first post of this blog"
+draft        = false
+hidefromhome = false
+slug         = "improving-my-wordpress-blog-look-and-speed"
+tags         = ["Blog", "Performance", "Wordpress"]
+title        = "Improving my Wordpress blog look and speed"
+type         = "post"
+weight       = 0
++++
+
 
 ## Theme change! Why? Because yes!
 
