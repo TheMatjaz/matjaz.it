@@ -52,6 +52,11 @@ main {
   margin-bottom: 0;
 }
 
+.single-title {
+  margin-bottom: 0;
+  font-size: 2.7rem;
+}
+
 .entry-title a {
   text-decoration: none;
 }
