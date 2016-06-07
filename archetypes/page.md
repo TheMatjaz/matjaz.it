@@ -1,5 +1,5 @@
 +++
-aliases      = [""]
+aliases      = []
 date         = ""
 description  = ""
 draft        = true

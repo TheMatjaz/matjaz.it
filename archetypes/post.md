@@ -1,12 +1,11 @@
 +++
-aliases      = [""]
-categories   = [""]
+aliases      = []
+categories   = []
 date         = ""
 description  = ""
 draft        = true
-hidefromhome = false
 slug         = ""
-tags         = [""]
+tags         = []
 title        = ""
 type         = "post"
 weight       = 0
