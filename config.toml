@@ -24,7 +24,8 @@ verboseLog = true
     changefreq = "weekly"
     priority = 0.5
 [params]
-    logo      = "/images/matjaz_it_logo.png"
+    logo      = "/images/logos/matjaz_it_logo.png"
+    icon      = "/images/logos/matjaz_it_logo_small.png"
     twitter   = "https://twitter.com/TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
