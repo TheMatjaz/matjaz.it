@@ -13,24 +13,46 @@ weight = 0
 
 ## Copyright and Creative Commons
 
-All content, except for the sections where is explicitly stated otherwise (like
-source code parts) and the [matjaz.it logo](/images/matjaz_it_logo.png) (see
-below), is published under the terms and conditions of the
-[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+The content on [matjaz.it](/) is **free and open even for commercial purpuses**
+upon providing credit to the original author (_matjaz.it_), except for the logo
+and where is explicitly stated otherwise.
 
-This means you may **freely copy, distribute or alter content**, provided that
-you:
 
-- give the original author (matjaz.it) credit and
-- publish the (altered) content under the same terms and conditions.
-
-This does not apply to any content with explicitly reserved reproduction rights:
-`©` or `(c)` or `(C)` followed by the right owner. Reproduction of the latter
-requires prior authorization from the author.
+#### Website logo
 
 The [matjaz.it logo](/images/matjaz_it_logo.png) is copyrighted property of the
-website owner. All rights reserved. The logo may not be used, except by prior
+website owner. 2012 - All rights reserved. The logo may not be used, except by prior
 explicit authorisation.
+
+
+#### Code **on** the website
+
+Any source code published on [matjaz.it](/), except where is
+explicitly stated otherwise, is released under the
+**[BSD 3-clause License](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)**,
+also known as _Revised BSD License_, _New BSD License_ or _Modified BSD
+License_.
+
+
+#### Code **of** the website
+
+The [source code of the website itself](https://github.com/TheMatjaz/matjaz.it) (such as the website generator configuration or CSS files) is under the [GNU GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.html).
+
+
+#### Text, images and other content
+
+All remaining content, except for where is explicitly stated otherwise, is
+published under the terms and conditions of the
+**[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)**
+also known as _CC BY 4.0_.
+
+
+#### Exceptions
+
+This does not apply to any content with explicitly reserved reproduction rights:
+`©` or `(c)` or `(C)` followed by the right owner or for content not created by
+the website owner. Reproduction of the latter requires prior authorization from
+the original author.
 
 
 ## Privacy and personal data
@@ -70,5 +92,6 @@ for nor approval of the information contained in any other website.
 *******
 
 _Big thanks to the [EQAR](https://www.eqar.eu/about/topnav/legal-notice.html)
-website, which is under CC-BY-SA 2.0, for the great legal notice I used as
-template._
+website, which is under CC BY-SA 2.0, for the great legal notice I used as
+template. Because of that, the content of this particular page is released under
+the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
