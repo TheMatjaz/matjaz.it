@@ -54,13 +54,13 @@ and request the complete removal of it from the logs.
 For any query or complaint, please contact the owner at <blog@matjaz.it>
 
 
-## Disclaimer
+## Disclaimer of warranties and limitation of liability
 
 The website owner's goal is to keep all information on the website timely and
 accurate. However, the owner **cannot guarantee that all the information on this
 website is correct or unbiased** as stated in the
-[Section 5](https://creativecommons.org/licenses/by-sa/4.0/legalcode) of the
-full CC-BY-SA 4.0 License.
+[Section 5](https://creativecommons.org/licenses/by/4.0/legalcode) of the
+full CC BY 4.0 License.
 
 The owner does not assume any responsibility regarding links to external sites
 over which the owner has no control. Those links do neither imply responsibility
