@@ -12,12 +12,17 @@ weight       = 0
 +++
 
 
-I started to use GnuPG and it looks pretty cool, although it's "so 90s" :) It gets really useful for signatures, for instance for signing _git_ commits. On the other hand, modern encryption protocols and systems like [Signal](http://whispersystems.org/) are **much** more user-friendly.
+I started to use GnuPG and it looks pretty cool, although its user experience is
+just awful. The complexity is high enough to make you do mistakes without even
+realizing it. On the other hand, modern encryption protocols and systems like
+[Signal](https://whispersystems.org/) are **much** more user-friendly.
 
-[**My public PGP key**](https://keybase.io/TheMatjaz/key.asc) is available on [my Keybase profile](https://keybase.io/thematjaz).
+But PGP systems get really useful for signatures, for instance for signing _Git_
+commits.
+
+[**My public PGP key**](https://keybase.io/TheMatjaz/key.asc) is available on
+[my Keybase profile](https://keybase.io/TheMatjaz).
 
 Happy e-mailing!
 
 [Edited on 2016-02-07 to update to my new public key and Keybase]
-
-_Cover by [XKCD](http://xkcd.com/1269/), the best webcomic._
