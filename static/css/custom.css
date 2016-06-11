@@ -17,6 +17,10 @@ img {
   border: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 header,
 footer {
   margin: 4rem 0;
@@ -58,10 +62,6 @@ main {
   font-size: 2.7rem;
 }
 
-.entry-title a {
-  text-decoration: none;
-}
-
 .entry-meta {
   display: inline-block;
   margin-bottom: 2rem;
@@ -85,11 +85,6 @@ main {
 .pages-links {
   font-size: 2rem;
   margin: 2% 0 0 0;
-}
-
-.pages-links a,
-.footer-link a {
-  text-decoration: none;
 }
 
 .footer-link {
