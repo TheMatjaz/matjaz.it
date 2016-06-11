@@ -150,34 +150,34 @@ Social Links from the Decode theme by MachoThemes
 /* Fallback Images for browsers that don't support Inline SVG */
 .no-inlinesvg {
 	.TwitterLink {
-		background-image: url('images/Twitter.png');
+		background-image: url('images/contact-icons/Twitter.png');
 	}
 	.GithubLink {
-		background-image: url('images/GitHub.png');
+		background-image: url('images/contact-icons/GitHub.png');
 	}
 	.BitbucketLink {
-		background-image: url('images/Bitbucket.png');
+		background-image: url('images/contact-icons/Bitbucket.png');
 	}
   	.LinkedInLink {
-		background-image: url('images/LinkedIn.png');
+		background-image: url('images/contact-icons/LinkedIn.png');
 	}
 	.SlideShareLink {
-		background-image: url('images/SlideShare.png');
+		background-image: url('images/contact-icons/SlideShare.png');
 	}
 	.SkypeLink {
-		background-image: url('images/Skype.png');
+		background-image: url('images/contact-icons/Skype.png');
 	}
    	.StackOverflowLink {
-		background-image: url('images/StackOverflow.png');
+		background-image: url('images/contact-icons/StackOverflow.png');
 	}
 	.RSSLink {
-		background-image: url('images/RSS.png');
+		background-image: url('images/contact-icons/RSS.png');
 	}
 	.EmailLink {
-		background-image: url('images/Email.png');
+		background-image: url('images/contact-icons/Email.png');
 	}
 	.WebsiteLink {
-		background-image: url('images/Website.png');
+		background-image: url('images/contact-icons/Website.png');
 	}
 }
 

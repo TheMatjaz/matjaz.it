@@ -12,124 +12,124 @@ weight       = 0
 +++
 
 
-Standing desks are becoming more and more popular in the last years. Don't know what a standing desk is? It's a desk of a certain height so you could work while standing instead of sitting. Why? Because sitting is lethal. Standing keeps you more engaged in your work, more dynamic, less lazy and has some health benefits like better posture, but too much standing may hurt and be unhealthy. So the best thing may be the _aurea mediocritas_, a path in the middle. There are [many many many posts on Lifehacker about standing desks](http://lifehacker.com/tag/standing-desk), just check them out for more details. I may suggest you [this one](http://lifehacker.com/5735528/why-and-how-i-switched-to-a-standing-desk).
+Standing desks are becoming more and more popular in the last years. Don't know
+what a standing desk is? It's a desk of a certain height so you could work while
+standing instead of sitting. Why? Because sitting is lethal. Standing keeps you
+more engaged in your work, more dynamic, less lazy and has some health benefits
+like better posture, but too much standing may hurt and be unhealthy. So the
+best thing may be the _aurea mediocritas_, a path in the middle. There are
+[many many many posts on Lifehacker about standing desks](http://lifehacker.com/tag/standing-desk),
+just check them out for more details. I may suggest you
+[this one](http://lifehacker.com/5735528/why-and-how-i-switched-to-a-standing-desk).
 
-Usually the standing desk is intended for computers, since it may not be so easy to write on paper when standing. At least my handwriting is already bad when sitting, so I'm not even trying it when standing.
-
-So I wanted to give this standing desk craze but **I wanted a modular desk**, where I could stand or sit whenever I wanted to. Since **I already had a normal sitting desk**, I made an extension to made it a standing one and I spent 8 € since I already own some tools, glue and other stuff.
-
-
-### Bought parts
-
-
-I went to Ikea to buy [this side table](http://www.ikea.com/gb/en/catalog/products/20011413/#/40104270), called _Lack_. It's product code is 401.042.70 You can use that in the search bar in their web page to find it. I chose the "Birch effect" texture, but this is up to you. It looks like this (image by Ikea):
-
-[![Lack](http://www.ikea.com/gb/en/images/products/lack-side-table__0258026_PE401998_S4.JPG)](http://www.ikea.com/gb/en/images/products/lack-side-table__0258026_PE401998_S4.JPG)
-
-It's sold with the screws to fix the legs on the bigger part. It's cost was 8 € so I gave it a try.
+Usually the standing desk is intended for computers, since it may not be so easy
+to write on paper when standing. At least my handwriting is already bad when
+sitting, so I'm not even trying it when standing.
 
 
-### Used tools
+## A modular desk
+
+I wanted to give this standing desk a try without spending too much and without
+leaving my desk, so I created **a modular desk**, where I could stand or sit
+whenever I wanted to. It's an extention of my sitting desk to use it as a
+standing one if I wanted to, by placing a raised part on the desk. I spent only
+8 € since I already own some tools, glue and other stuff.
 
 
+## Final result
+
+Its weight is **3.5 kg** once cut, so it's very easy to place on the desk or
+remove when using the desk while sitting. Some A4 paper for scale.
+
+![Final_result](/images/standing-desk/Final_result.jpg)
 
 
+## Parts
 
-	
-  1. Vinyl glue for wood
+I went to Ikea to buy
+[this side table](http://www.ikea.com/gb/en/catalog/products/20011413/#/40104270),
+called _Lack_. It's product code is `401.042.70`. You can use that in the search
+bar in their web page to find it. I chose the _Birch effect_ texture, but this
+is up to you.
 
-	
-  2. Circular saw
-
-	
-  3. Hand saw for metal or any other more precise hand saw
-
-	
-  4. Four pieces of wood or plywood
-
-	
-  5. Sandpaper 180
-
-	
-  6. Four pieces of rubber
-
-	
-  7. Mastic
-
-	
-  8. Stick-on floor protector(s)
-
-	
-  9. Four clamps
-
-	
-  10. Level, a long one
+It's sold with the screws to fix the legs on the bigger part. It's cost was 8 €
+so I gave it a try.
 
 
+## Tools
+
+1. Vinyl glue for wood
+2. Circular saw
+3. Hand saw for metal or any other more precise hand saw
+4. Four pieces of wood or plywood
+5. Sandpaper between 120 and 200
+6. Four pieces of rubber
+7. Mastic
+8. Stick-on floor protector(s)
+9. Four clamps
+10. Level, a long one
 
 
-### Procedure
+## Procedure
 
+I took some measures since I had to cut the legs to adapt it to my
+height. **When placed on my desk my forearms had to be horizontal**, when typing
+on my computer placed on the _Lack_. So I cut the legs at the correct
+height. They are hollow.
 
-I took some measures since I had to cut the legs to adapt it to my height. **When placed on my desk my forearms had to be horizontal**, when typing on my computer placed on the Lack. So I cut the legs at the correct height. They are hollow. The now on the right is upside-down.
+![Legs](/images/standing-desk/Legs.jpg)
 
-[![Legs](http://www.matjaz.it/wp-content/uploads/2014/05/Legs-600x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Legs.jpg)
+Cut some pieces of plywood and scratch them with the sandpaper so they can
+hardly fit the inner part of the legs. Use a lot of vinilic glue and of course let it dry for a few hours.
 
-I have many pieces of plywood from other projects, as you can see.
+![Leg_fill](/images/standing-desk/Leg_fill.jpg)
 
-[![Wood](http://www.matjaz.it/wp-content/uploads/2014/05/Wood-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Wood.jpg)
+After that cut some rubber squares to fit the bottom of theleg and used the
+sandpaper to make it look more "stylish" (rounded edges and corners). The rubber
+will provide a good grip with the surface of the sitting desk and will prevent
+scratching. An alternative may be using stick-on floor protectors but your _Lack_
+may lacking (no pun intended) grip.
 
-Vinilic glue for wood made me feel like I'm in primary school again.
+![Cut_rubber](/images/standing-desk/Cut_rubber.jpg)
 
-[![Vinavil](http://www.matjaz.it/wp-content/uploads/2014/05/Vinavil-600x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Vinavil.jpg)
+Place the rubber with mastic and apply some pressure for a couple of hours with a clamp or a weight.
 
-Sandpaper. I used 180, but pretty much anything between 120 and 200 should be ok, if you don't want to ruin the look of the plywood.
+![Leg_pressure](/images/standing-desk/Leg_pressure.jpg)
 
-[![Sandpaper](http://www.matjaz.it/wp-content/uploads/2014/05/Sandpaper-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Sandpaper.jpg)
+The legs are done.
 
-Cut and scratch the pieces of plywood so they can hardly fit the inner part of the legs. With a lot of glue, of course and a couple of hours to let it dry.
-[![Leg_fill](http://www.matjaz.it/wp-content/uploads/2014/05/Leg_fill-600x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Leg_fill.jpg)
+![Legs_result](/images/standing-desk/Legs_result.jpg)
 
-After that I cut some rubber in the shape of the leg and used the sandpaper to make it look more "stylish". The rubber will provide a good grip with the desk and will prevent scratching. An alternative may be using stick-on floor protectors but your Lack may lacking (no pun intended) of grip.
+Now take the upper part of the _Lack_. You can see the 4 little holes on the
+sides.
 
-[![Cut_rubber](http://www.matjaz.it/wp-content/uploads/2014/05/Cut_rubber-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Cut_rubber.jpg)
+![Table_upside-down](/images/standing-desk/Table_upside-down.jpg)
 
-Mastic and some pressure for a couple of hours.
+The Ikea screws have to be applied in the legs and then in the
+table.
 
-[![Leg_pressure](http://www.matjaz.it/wp-content/uploads/2014/05/Leg_pressure-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Leg_pressure.jpg)
+![Screw_leg_and_table](/images/standing-desk/Screw_leg_and_table.jpg)
 
-Legs finished!
+![Legs_applied](/images/standing-desk/Legs_applied.jpg)
 
-[![Legs_result](http://www.matjaz.it/wp-content/uploads/2014/05/Legs_result-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Legs_result.jpg)
+Aaaand it looks cool, but it's not yet the end. We need to verify if it's
+horizontal. Some levelling is needed or the table will be unstable. Place the
+_Lack_ upside down and be sure it's on a horizontal surface.
 
-Now take the upper part of the Lack. You can see the 4 little holes on the sides.
+![Levelling](/images/standing-desk/Levelling.jpg)
 
-[![Table_upside-down](http://www.matjaz.it/wp-content/uploads/2014/05/Table_upside-down-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Table_upside-down.jpg)
+After that verify that every leg is at the same height with every leg. If not,
+scratch the rubber with the sandpaper of the taller legs.
 
-[![Screws](http://www.matjaz.it/wp-content/uploads/2014/05/Screws-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Screws.jpg)
+![Levelling_legs](/images/standing-desk/Levelling_legs.jpg)
 
-The Ikea screws have to be applied in the legs and then in the table.[![Apply_screws](http://www.matjaz.it/wp-content/uploads/2014/05/Apply_screws-600x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Apply_screws.jpg) [![Screw_leg_and_table](http://www.matjaz.it/wp-content/uploads/2014/05/Screw_leg_and_table-600x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Screw_leg_and_table.jpg)
+Since only one of the legs was incorrect and I was tired of scratching it, I put
+a stick-on floor protector on another leg. Now the leg with the protector was to
+tall, so I scratched the protector. It's not a very clean solution, but it
+worked.
 
-Aaaand it looks cool, but it's not yet the end.
+![Stick](/images/standing-desk/Stick.jpg)
 
-[![Legs_applied](http://www.matjaz.it/wp-content/uploads/2014/05/Legs_applied-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Legs_applied.jpg)
+![Cut_sticker](/images/standing-desk/Cut_sticker.jpg)
 
-Some levelling is needed or the table will be unstable. Place the Lack upside down and be sure it's on a horizontal surface. I used newspapers.
-
-[![Levelling](http://www.matjaz.it/wp-content/uploads/2014/05/Levelling-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Levelling.jpg)
-
-After that verify that every leg is at the same height with every leg. If not, scratch the rubber with the sandpaper of the taller legs.
-
-[![Levelling_legs](http://www.matjaz.it/wp-content/uploads/2014/05/Levelling_legs-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Levelling_legs.jpg)
-
-Since only one of the legs was incorrect and I was tired of scratching it, I put a stick-on floor protector on another leg. Now the leg with the protector was to tall, so I scratched the protector. It's not a very clean solution, but it worked.
-
-[![Stick](http://www.matjaz.it/wp-content/uploads/2014/05/Stick-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Stick.jpg) [![Cut_sticker](http://www.matjaz.it/wp-content/uploads/2014/05/Cut_sticker-800x600.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Cut_sticker.jpg)
-
-
-### Final result
-
-
-Its weight is **3.5 kg** once cut, so it's very easy to place on the desk or remove when using the desk while sitting. An A4 piece of paper for scale.
-
-[![Final_result](http://www.matjaz.it/wp-content/uploads/2014/05/Final_result-749x800.jpg)](http://www.matjaz.it/wp-content/uploads/2014/05/Final_result.jpg)
+Hope it helped!
