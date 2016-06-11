@@ -3,7 +3,7 @@
 	<main role="main">
 		<article itemscope itemtype="http://schema.org/BlogPosting">
 			<h1 class="single-title" itemprop="headline">{{ .Title }}</h1>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time></span>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time>,  ~{{ .ReadingTime }} minute to read</span>
 			<section itemprop="entry-text">
 				{{ .Content }}
 			</section>
