@@ -93,6 +93,7 @@ main {
 }
 
 .entry-taxonomies {
+  margin: 4% 0 0 0;
   display: inline-block;
   color: #888;
 }
