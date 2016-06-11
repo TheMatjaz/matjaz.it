@@ -92,7 +92,10 @@ main {
   color: #888    
 }
 
-
+.entry-taxonomies {
+  display: inline-block;
+  color: #888;
+}
 
 /*--------------------------------------------------------------
 Social Links from the Decode theme by MachoThemes

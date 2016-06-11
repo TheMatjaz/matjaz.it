@@ -7,6 +7,11 @@
 			<section itemprop="entry-text">
 				{{ .Content }}
 			</section>
+            <hr>
+            <div class="entry-taxonomies">
+              <strong>Categories</strong>: {{ range $index, $category := .Params.categories }}{{ if $index }} // {{ end }}<a href="/categories/{{ $category | urlize }}">{{ $category }}</a>{{ end }}<br>
+              <strong>Tags</strong>: {{ range $index, $tag := .Params.tags }}{{ if $index }} // {{ end }}<a href="/tags/{{ $tag | urlize }}">{{ $tag }}</a>{{ end }}
+            </div>
 		</article>
 	</main>
 
