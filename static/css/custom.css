@@ -21,6 +21,22 @@ a {
   text-decoration: none;
 }
 
+ul,
+ol {
+    padding-left: 3em;
+}
+
+ol {
+    list-style: decimal outside;
+}
+
+ul {
+    list-style: disc outside;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
 header,
 footer {
   margin: 4rem 0;
