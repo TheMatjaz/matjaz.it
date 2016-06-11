@@ -37,6 +37,13 @@ ul {
 li {
     margin-bottom: 0.3rem;
 }
+
+blockquote {
+    font-style: italic;
+    border-left: 0.3em solid #1EAEDB;
+    padding-left: 1em;
+}
+
 header,
 footer {
   margin: 4rem 0;
