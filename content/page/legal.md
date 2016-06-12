@@ -20,7 +20,7 @@ and where is explicitly stated otherwise.
 
 #### Website logo
 
-The [matjaz.it logo](/images/matjaz_it_logo.png) is copyrighted property of the
+The [matjaz.it logo](/images/logos/matjaz_it_logo.png) is copyrighted property of the
 website owner. 2012 - All rights reserved. The logo may not be used, except by prior
 explicit authorisation.
 
