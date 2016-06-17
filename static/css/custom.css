@@ -125,82 +125,87 @@ main {
 Social Links from the Decode theme by MachoThemes
 --------------------------------------------------------------*/
 .contact-links {
-	display: block;
-	margin: 3% 0 0 0;
+  display: block;
+  margin: 3% 0 0 0;
 }
 
 .contact-links-container {
-	text-align: center;
-	margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .contact-link {
-	transition: opacity 0.4s ease-out;
-	border: none;
-	margin: 0 1%;
-	.no-touch &:hover {
-		opacity: 0.6;
-	}
-	.no-touch &:active {
-		opacity: 0.8;
-	}
-	&:first-child {
-		margin-left: 0;
-	}
-	&:last-child {
-		margin-right: 0;
-	}
-	svg,
-	img {
-		overflow: visible;
-		width: 2.25em;
-		height: 2.25em;
-	}
-	.no-inlinesvg & svg {
-		display: none;
-	}
-	.no-inlinesvg & {
-		display: inline-block;
-		width: 50px;
-		height: 50px;
-		margin: 0 0.5%;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 50px;
-	}
+  transition: opacity 0.4s ease-out;
+  border: none;
+  margin: 0 1%;
+}
+
+.no-touch .contact-link:hover {
+  opacity: 0.6;
+}
+
+.no-touch .contact-link:active {
+  opacity: 0.8;
+}
+
+.contact-link:first-child {
+  margin-left: 0;
+}
+
+.contact-link:last-child {
+  margin-right: 0;
+}
+
+.contact-link svg,
+.contact-link img {
+  overflow: visible;
+  width: 2.25em;
+  height: 2.25em;
+}
+
+.no-inlinesvg .contact-link svg {
+  display: none;
+}
+
+.no-inlinesvg .contact-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
 }
 
 /* Fallback Images for browsers that don't support Inline SVG */
-.no-inlinesvg {
-	.TwitterLink {
-		background-image: url('images/contact-icons/Twitter.png');
-	}
-	.GithubLink {
-		background-image: url('images/contact-icons/GitHub.png');
-	}
-	.BitbucketLink {
-		background-image: url('images/contact-icons/Bitbucket.png');
-	}
-  	.LinkedInLink {
-		background-image: url('images/contact-icons/LinkedIn.png');
-	}
-	.SlideShareLink {
-		background-image: url('images/contact-icons/SlideShare.png');
-	}
-	.SkypeLink {
-		background-image: url('images/contact-icons/Skype.png');
-	}
-   	.StackOverflowLink {
-		background-image: url('images/contact-icons/StackOverflow.png');
-	}
-	.RSSLink {
-		background-image: url('images/contact-icons/RSS.png');
-	}
-	.EmailLink {
-		background-image: url('images/contact-icons/Email.png');
-	}
-	.WebsiteLink {
-		background-image: url('images/contact-icons/Website.png');
-	}
-}
 
+.no-inlinesvg .TwitterLink {
+  background-image: url('images/contact-icons/Twitter.png');
+}
+.no-inlinesvg .GithubLink {
+  background-image: url('images/contact-icons/GitHub.png');
+}
+.no-inlinesvg .BitbucketLink {
+  background-image: url('images/contact-icons/Bitbucket.png');
+}
+.no-inlinesvg .LinkedInLink {
+  background-image: url('images/contact-icons/LinkedIn.png');
+}
+.no-inlinesvg .SlideShareLink {
+  background-image: url('images/contact-icons/SlideShare.png');
+}
+.no-inlinesvg .SkypeLink {
+  background-image: url('images/contact-icons/Skype.png');
+}
+.no-inlinesvg .StackOverflowLink {
+  background-image: url('images/contact-icons/StackOverflow.png');
+}
+.no-inlinesvg .RSSLink {
+  background-image: url('images/contact-icons/RSS.png');
+}
+.no-inlinesvg .EmailLink {
+  background-image: url('images/contact-icons/Email.png');
+}
+.no-inlinesvg .WebsiteLink {
+  background-image: url('images/contact-icons/Website.png');
+}
