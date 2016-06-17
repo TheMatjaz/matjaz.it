@@ -4,6 +4,7 @@ categories   = ["Blog"]
 date         = "2016-02-07T15:13:20+00:00"
 description  = "This is how I made my blog a little bit better and nicer"
 draft        = false
+highlight    = true
 slug         = "improving-my-wordpress-blog-look-and-speed"
 tags         = ["Blog", "Performance", "Wordpress"]
 title        = "Improving my Wordpress blog look and speed"

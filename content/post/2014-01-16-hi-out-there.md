@@ -4,6 +4,7 @@ categories   = ["Blog"]
 date         = "2014-01-16T18:20:45+00:00"
 description  = "The first post of this blog"
 draft        = false
+highlight    = false
 slug         = "hi-out-there"
 tags         = ["Blog", "Domain", "First post", "Hello World!", "Start"]
 title        = "Hi, out there!"

@@ -4,6 +4,7 @@ categories   = ["Computer", "Life Hacks"]
 date         = "2014-05-19T08:32:08+00:00"
 description  = "My tutorial on creating a very basic extension of your desk"
 draft        = false
+highlight    = false
 slug         = "diy-standing-desk-for-8-euro"
 tags         = ["Computer", "Lifehack", "Desk", "Standing Desk", "Wood", "Maker"]
 title        = "DIY Standing desk for 8 € (and some tools)"

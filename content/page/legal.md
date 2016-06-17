@@ -4,6 +4,7 @@ date = "2016-06-06T21:32:44+02:00"
 description = "Legal notice, copyright, terms of service and privacy all in one page"
 draft = false
 hidefromhome = true
+highlight = false
 slug = "legal-notice"
 title = "Legal notice: copyright, privacy and disclaimer"
 type = "page"

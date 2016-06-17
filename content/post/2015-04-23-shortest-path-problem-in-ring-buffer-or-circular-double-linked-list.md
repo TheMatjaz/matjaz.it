@@ -4,6 +4,7 @@ categories   = ["Software"]
 date         = "2015-04-23T08:43:42+00:00"
 description  = "A simple algorithm with C implementation to find the shortest path on a clock-like ring"
 draft        = false
+highlight    = true
 slug         = "shortest-path-problem-in-ring-buffer-or-circular-double-linked-list"
 tags         = ["Algorithm", "C", "List", "Ring", "Software"]
 title        = "Shortest path problem in ring buffer or circular double linked list"

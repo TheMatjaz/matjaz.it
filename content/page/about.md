@@ -4,6 +4,7 @@ date = "2014-01-16T19:39:19+00:00"
 description = "Short description of this blog and my story"
 draft = false
 hidefromhome = true
+highlight = false
 slug = "about"
 title = "About this blog and me"
 type = "page"

@@ -4,6 +4,7 @@ categories   = ["Blog"]
 date         = "2015-11-02T20:29:37+00:00"
 description  = "A post linked on Facebook to warn all my 'friends' over there"
 draft        = false
+highlight    = false
 slug         = "i-m-leaving-facebook"
 tags         = ["Contact", "E-mail", "Facebook", "Social", "Time saving"]
 title        = "I'm leaving Facebook"

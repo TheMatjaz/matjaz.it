@@ -4,6 +4,7 @@ categories   = ["Software"]
 date         = "2016-02-05T08:49:53+00:00"
 description  = "Short description and link to my C library Numerus"
 draft        = false
+highlight    = false
 slug         = "numerus-v2-0-0-released"
 tags         = ["Development", "Software", "GitHub", "Numerus", "Roman numerals", "Library", "C"]
 title        = "Numerus v2.0.0 released"
