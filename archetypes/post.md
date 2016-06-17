@@ -9,5 +9,6 @@ tags         = []
 title        = ""
 type         = "post"
 weight       = 0
+highlight    = false
 +++
 
