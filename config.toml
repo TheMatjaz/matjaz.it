@@ -1,0 +1,33 @@
+baseURL = "http://matjaz.it/"
+canonifyURLs = true ## Transform all URLs to absolute using baseURL
+copyright = "Creative Commons Attribution 4.0 International License"
+editor = "e"
+enableEmoji = false
+enableRobotsTXT = true
+languageCode = "en-us"
+log = true
+logFile = "hugo.log"
+metaDataFormat = "toml"
+title = "Thinking in a digital life"
+verbose = true
+verboseLog = true
+
+[author]
+    name = "Matjaž"
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+[params]
+    logo      = "/images/logos/matjaz_it_logo.png"
+    icon      = "/images/logos/matjaz_it_logo_small.png"
+    twitter   = "https://twitter.com/TheMatjaz"
+    github    = "https://github.com/TheMatjaz"
+    email     = "blog@matjaz.it"
+    keybase   = "https://keybase.io/TheMatjaz"
+    cc        = "<a rel='license' href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 license</a>"
