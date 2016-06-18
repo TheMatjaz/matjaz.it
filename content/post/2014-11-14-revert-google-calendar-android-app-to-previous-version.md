@@ -23,9 +23,12 @@ weight       = 0
 The update of the Google Calendar app for Android as for today doesn't simply
 fit my needs and I decided to return to the earlier version of the app.
 
-A before and after comparison:
-
-![Before and after](/images/calendar/Comparison.png)
+{{< figure 
+    src="/images/calendar/Comparison.png" 
+    link="/images/calendar/Comparison.png"
+    alt="Before and after" 
+    title="Before and after"
+>}}
 
 
 ## I don't like the new Calendar because
@@ -65,12 +68,22 @@ The steps are really simple. Open the apps menu, find the Calendar app and drag
 it to the top of the screen on the _App info_ icon. This will open the
 properties of the app.
 
-![App info](/images/calendar/Open_app_info.png)
+{{< figure 
+    src="/images/calendar/Open_app_info.png" 
+    link="/images/calendar/Open_app_info.png"
+    alt="Open app info" 
+    title="Open app info"
+>}}
 
 In the _App info_ screen press the _Uninstall upgrades_ button and confirm
 twice.
 
-![Uninstall](/images/calendar/Uninstall_app_updates.png)
+{{< figure 
+    src="/images/calendar/Uninstall_app_updates.png" 
+    link="/images/calendar/Uninstall_app_updates.png"
+    alt="Uninstall app updates" 
+    title="Uninstall app updates"
+>}}
 
 The upgrades are gone! You may already see the old calendar and check the
 version number. Wait for a minute or two so the app downloads your calendar
