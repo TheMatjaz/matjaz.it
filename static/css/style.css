@@ -919,10 +919,10 @@ body {
   background-color: #FCFCFC;
 }
 
-h1 { font-size: 2.5rem; }
+h1 { font-size: 2.6rem; }
 h2 { font-size: 2.3rem; }
-h3 { font-size: 1.9rem; }
-h4,
+h3 { font-size: 2.0rem; }
+h4 { font-size: 1.7rem; }
 h5,
 h6 { font-size: 1.5rem; }
 
@@ -1035,6 +1035,11 @@ main {
   margin: 4% 0 0 0;
   display: inline-block;
   color: #888;
+}
+
+figcaption h4 {
+    font-weight: bolder;
+    margin-top: 1rem;
 }
 
 /*--------------------------------------------------------------
