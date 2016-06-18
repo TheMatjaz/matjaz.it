@@ -4,6 +4,7 @@ date         = "2014-05-19T09:44:44+00:00"
 description  = "Contact, RSS, social and PGP"
 draft        = false
 hidefromhome = true
+highlight    = false
 slug         = "contact"
 title        = "Contact & GPG"
 type         = "page"

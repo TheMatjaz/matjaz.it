@@ -4,6 +4,7 @@ categories   = ["Privacy and Security"]
 date         = "2014-05-31T21:55:46+00:00"
 description  = "Securely deleting all hidden data from your Android phone"
 draft        = false
+highlight    = false
 slug         = "how-to-erase-your-android-before-selling-it"
 tags         = ["Android", "Security", "Privacy", "Delete", "Data", "Wipe"]
 title        = "How to securely and truly erase your Android before selling it"

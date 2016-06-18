@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /listing/
+Sitemap: {{ .Site.BaseURL }}sitemap.xml

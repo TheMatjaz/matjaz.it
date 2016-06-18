@@ -4,6 +4,7 @@ categories   = ["Software"]
 date         = "2015-04-23T08:43:42+00:00"
 description  = "A simple algorithm with C implementation to find the shortest path on a clock-like ring"
 draft        = false
+highlight    = true
 slug         = "shortest-path-problem-in-ring-buffer-or-circular-double-linked-list"
 tags         = ["Algorithm", "C", "List", "Ring", "Software"]
 title        = "Shortest path problem in ring buffer or circular double linked list"
@@ -49,9 +50,15 @@ about a computer?
    of the ring) and the **circumference** of the ring (which is the number of
    ring parts) are known _a priori._
 
-![Circular ring](/images/ring-distance/Circular_buffer.png)
-
-**Image 1**: circular ring-like buffer. [Source: Wikipedia](https://en.wikipedia.org/wiki/File:Circular_buffer.svg)
+{{< figure 
+    src="/images/ring-distance/thumbnails/Circular_buffer.png" 
+    link="/images/ring-distance/Circular_buffer.png"
+    alt="Circular ring" 
+    title="Image 1"
+    caption="Circular ring-like buffer."
+    attr="Source: Wikipedia"
+    attrlink="https://en.wikipedia.org/wiki/File:Circular_buffer.svg"
+>}}
 
 
 ## Algorithm in C
@@ -167,9 +174,15 @@ called. On a structure like this, we are allowed to move in two directions,
 _left_ or _right_ as on the _Image 1_, usually referred as _next_ and
 _previous_.
 
-![Double linked list](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
-
-**Image 2**: Bidirectional (double) linked list. [Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
+{{< figure 
+    src="/images/ring-distance/thumbnails/Doubly-linked-list.png" 
+    link="/images/ring-distance/Doubly-linked-list.png"
+    alt="Circular ring" 
+    title="Image 2"
+    caption="Bidirectional (double) linked list."
+    attr="Source: Wikipedia"
+    attrlink="https://commons.wikimedia.org/wiki/File:Doubly-linked-list.svg"
+>}}
 
 If you add the circularity on this list (the last connects to the first and vice
 versa), you'll get a _circular double linked list_ like on _Image 3_. On this
@@ -177,9 +190,15 @@ structure we may move still in two opposite directions, but it's better to call
 them _clockwise_ and _counterclockwise_ since _left_ and _right_ have no sense
 on a circle (no pun intended).
 
-![Circular Double Linked List](/images/ring-distance/Circular-Double-Linked-List.png)
-
-**Image 3**: Circular Double Linked List. [Source .svg image](/images/ring-distance/Circular-Double-Linked-List.svg) based upon [this](https://en.wikipedia.org/wiki/File:Circularly-linked-list.svg).
+{{< figure 
+    src="/images/ring-distance/thumbnails/Circular-Double-Linked-List.png" 
+    link="/images/ring-distance/Circular-Double-Linked-List.svg"
+    alt="Circular ring" 
+    title="Image 3"
+    caption="Bidirectional (double) linked list. Click on the image for .svg file."
+    attr="Based on an image from Wikipedia"
+    attrlink="https://en.wikipedia.org/wiki/File:Circularly-linked-list.svg"
+>}}
 
 Now we have the structure to represent **a ring with finite positions**
 (hypotheses 1 and 2, check!). On this kind of structures we are able to reach
@@ -194,9 +213,15 @@ use (since they give no information). To improve that, each block on the list
 may point to a data block. _Example:_ each number on the clock points to its
 string description, so _12_ points to _"Noon"_.
 
-![Sequentially Sorted Circular Double Linked List](/images/ring-distance/Sequentially-Sorted-Circular-Double-Linked-List.png)
-
-**Image 4**: Sequentially Sorted Circular Double Linked List. [Source .svg file](/images/ring-distance/Sequentially-Sorted-Circular-Double-Linked-List.png) based upon [this](https://en.wikipedia.org/wiki/File:Doubly-linked-list.svg).
+{{< figure 
+    src="/images/ring-distance/thumbnails/Sequentially-Sorted-Circular-Double-Linked-List.png" 
+    link="/images/ring-distance/Sequentially-Sorted-Circular-Double-Linked-List.svg"
+    alt="Sequentially Sorted Circular Double Linked List" 
+    title="Image 4"
+    caption="Sequentially Sorted Circular Double Linked List. Click on the image for .svg file."
+    attr="Based on an image from Wikipedia"
+    attrlink="https://en.wikipedia.org/wiki/File:Doubly-linked-list.svg"
+>}}
 
 This is one of the possible abstract structures that satisfies the hypotheses.
 

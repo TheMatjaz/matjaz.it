@@ -4,6 +4,7 @@ date = "2016-06-06T21:32:44+02:00"
 description = "Legal notice, copyright, terms of service and privacy all in one page"
 draft = false
 hidefromhome = true
+highlight = false
 slug = "legal-notice"
 title = "Legal notice: copyright, privacy and disclaimer"
 type = "page"
@@ -20,7 +21,7 @@ and where is explicitly stated otherwise.
 
 #### Website logo
 
-The [matjaz.it logo](/images/matjaz_it_logo.png) is copyrighted property of the
+The [matjaz.it logo](/images/logos/matjaz_it_logo.png) is copyrighted property of the
 website owner. 2012 - All rights reserved. The logo may not be used, except by prior
 explicit authorisation.
 

@@ -8,5 +8,6 @@ slug         = ""
 title        = ""
 type         = "page"
 weight       = 0
+highlight    = false
 +++
 

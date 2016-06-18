@@ -4,6 +4,7 @@ categories   = ["Privacy and Security"]
 date         = "2016-02-12T15:35:32+00:00"
 description  = "My tutorial on creating a PGP keypair with GnuPG and using Keybase"
 draft        = false
+highlight    = false
 slug         = "creating-a-strong-new-pgp-keypair-and-post-it-on-keybase"
 tags         = ["GnuPG", "PGP", "Keybase", "Privacy", "Security", "E-mail"]
 title        = "Creating a strong new PGP keypair and post it on Keybase"

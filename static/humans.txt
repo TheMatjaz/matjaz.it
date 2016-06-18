@@ -1,0 +1,12 @@
+/* TEAM */
+    Owner and author:    Matjaž
+    Contact:             http://matjaz.it/contact/
+    Twitter:             @TheMatjaz
+
+/* SITE */
+    Last update:         2016-06-12
+    Language:            English
+    Software:            Hugo, Emacs, Git
+    Website source code: https://github.com/TheMatjaz/matjaz.it
+    Content license:     mostly CC BY 4.0 and BSD 3-clause.
+                         See http://matjaz.it/legal-notice/

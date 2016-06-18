@@ -4,6 +4,7 @@ categories   = ["Computer", "Life Hacks"]
 date         = "2014-04-26T10:35:28+00:00"
 description  = "List of nice tech tips by TED to be faster on your computer"
 draft        = false
+highlight    = false
 slug         = "cool-time-saving-tech-tips-everybody-should-know"
 tags         = ["Browser", "Computer", "Lifehack", "Shortcut", "TED", "Time-saving", "Tip", "Trick"]
 title        = "Cool time-saving tech tips everybody should know"

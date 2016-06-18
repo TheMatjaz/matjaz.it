@@ -17,6 +17,33 @@ img {
   border: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+    padding-left: 3em;
+}
+
+ol {
+    list-style: decimal outside;
+}
+
+ul {
+    list-style: disc outside;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 0.3em solid #1EAEDB;
+    padding-left: 1em;
+}
+
 header,
 footer {
   margin: 4rem 0;
@@ -58,10 +85,6 @@ main {
   font-size: 2.7rem;
 }
 
-.entry-title a {
-  text-decoration: none;
-}
-
 .entry-meta {
   display: inline-block;
   margin-bottom: 2rem;
@@ -87,16 +110,16 @@ main {
   margin: 2% 0 0 0;
 }
 
-.pages-links a,
-.footer-link a {
-  text-decoration: none;
-}
-
 .footer-link {
   margin: 1.2% 0 0 0;
+  color: #888    
 }
 
-
+.entry-taxonomies {
+  margin: 4% 0 0 0;
+  display: inline-block;
+  color: #888;
+}
 
 /*--------------------------------------------------------------
 Social Links from the Decode theme by MachoThemes
