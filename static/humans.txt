@@ -4,7 +4,7 @@
     Twitter:             @TheMatjaz
 
 /* SITE */
-    Last update:         2016-06-12
+    Last update:         2016-06-18
     Language:            English
     Software:            Hugo, Emacs, Git
     Website source code: https://github.com/TheMatjaz/matjaz.it

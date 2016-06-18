@@ -15,13 +15,15 @@ notable exceptions are:
 - no `Deprecated` and `Security` group changes: same reason as previous point.
 
 
-[Unreleased]
-------------
+
+2016-06-18
+----------
 
 This is the first version of my blog made with Hugo so it has a lot of changes
 compared to my previous Wordpress-based one. Some changes are in the code (e.g.:
 the RSS feed is different), some are in the content (e.g.: the blog has now a
 footer).
+
 
 ### Added
 
@@ -33,6 +35,7 @@ footer).
 - This Changelog, the Readme and the License of the project.
 - A contact page link in the footer
 - A legal notice page for the Copyright, Privacy and Disclaimer
+- A [humans.txt](http://matjaz.it/humans.txt) file
 
 
 ### Changed
@@ -46,6 +49,18 @@ footer).
 - The [robots.txt](http://matjaz.it/robots.txt) file is much simplier.
 - Simplified the 404 error page.
 - Customized footer content and date format for each post.
+- The images in the content have now a title and caption where needed, using 
+  the `<figure>` tag
+
+
+##### Speedup
+
+- Loaded images are now thumbnails of the full-sized images available when
+  clicking on the image
+- CSS files are unified into one minified file for faster website loading
+- Highlighting CSS and JavaScript are loaded only when a post requires it and 
+  not on any page, including the home page
+- The home page loads only the post titles to make it super fast and simple
 
 
 ### Removed
@@ -53,7 +68,7 @@ footer).
 - My second published post
 - Some uneccessary images from the
   [Standing desk for 8 € tutorial](http://matjaz.it/diy-standing-desk-for-8-euro/)
-
+- All _featured images_ which were kind of needed in Wordpress
 
 ### Fixed
 
