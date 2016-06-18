@@ -51,7 +51,7 @@ about a computer?
    ring parts) are known _a priori._
 
 {{< figure 
-    src="/images/ring-distance/Circular_buffer.png" 
+    src="/images/ring-distance/thumbnails/Circular_buffer.png" 
     link="/images/ring-distance/Circular_buffer.png"
     alt="Circular ring" 
     title="Image 1"
@@ -175,8 +175,8 @@ _left_ or _right_ as on the _Image 1_, usually referred as _next_ and
 _previous_.
 
 {{< figure 
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png" 
-    link="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png"
+    src="/images/ring-distance/thumbnails/Doubly-linked-list.png" 
+    link="/images/ring-distance/Doubly-linked-list.png"
     alt="Circular ring" 
     title="Image 2"
     caption="Bidirectional (double) linked list."
@@ -191,7 +191,7 @@ them _clockwise_ and _counterclockwise_ since _left_ and _right_ have no sense
 on a circle (no pun intended).
 
 {{< figure 
-    src="/images/ring-distance/Circular-Double-Linked-List.png" 
+    src="/images/ring-distance/thumbnails/Circular-Double-Linked-List.png" 
     link="/images/ring-distance/Circular-Double-Linked-List.svg"
     alt="Circular ring" 
     title="Image 3"
@@ -214,7 +214,7 @@ may point to a data block. _Example:_ each number on the clock points to its
 string description, so _12_ points to _"Noon"_.
 
 {{< figure 
-    src="/images/ring-distance/Sequentially-Sorted-Circular-Double-Linked-List.png" 
+    src="/images/ring-distance/thumbnails/Sequentially-Sorted-Circular-Double-Linked-List.png" 
     link="/images/ring-distance/Sequentially-Sorted-Circular-Double-Linked-List.svg"
     alt="Sequentially Sorted Circular Double Linked List" 
     title="Image 4"

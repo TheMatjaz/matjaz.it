@@ -43,7 +43,7 @@ Its weight is **3.5 kg** once cut, so it's very easy to place on the desk or
 remove when using the desk while sitting. Some A4 paper for scale.
 
 {{< figure 
-    src="/images/standing-desk/Final_result.jpg" 
+    src="/images/standing-desk/thumbnails/Final_result.jpg" 
     link="/images/standing-desk/Final_result.jpg"
     alt="Final result" 
     title="My sitting desk with the standing module"
@@ -93,7 +93,7 @@ Cut some pieces of plywood and scratch them with the sandpaper so they can
 hardly fit the inner part of the legs. Use a lot of vinilic glue and of course let it dry for a few hours.
 
 {{< figure 
-    src="/images/standing-desk/Leg_fill.jpg" 
+    src="/images/standing-desk/thumbnails/Leg_fill.jpg" 
     link="/images/standing-desk/Leg_fill.jpg"
     alt="Leg fill" 
 >}}
@@ -105,7 +105,7 @@ scratching. An alternative may be using stick-on floor protectors but your _Lack
 may lacking (no pun intended) grip.
 
 {{< figure 
-    src="/images/standing-desk/Cut_rubber.jpg" 
+    src="/images/standing-desk/thumbnails/Cut_rubber.jpg" 
     link="/images/standing-desk/Cut_rubber.jpg"
     alt="Cut rubber" 
 >}}
@@ -113,7 +113,7 @@ may lacking (no pun intended) grip.
 Place the rubber with mastic and apply some pressure for a couple of hours with a clamp or a weight.
 
 {{< figure 
-    src="/images/standing-desk/Leg_pressure.jpg" 
+    src="/images/standing-desk/thumbnails/Leg_pressure.jpg" 
     link="/images/standing-desk/Leg_pressure.jpg"
     alt="Leg pressure" 
 >}}
@@ -121,7 +121,7 @@ Place the rubber with mastic and apply some pressure for a couple of hours with 
 The legs are done.
 
 {{< figure 
-    src="/images/standing-desk/Legs_result.jpg" 
+    src="/images/standing-desk/thumbnails/Legs_result.jpg" 
     link="/images/standing-desk/Legs_result.jpg"
     alt="Legs result" 
 >}}
@@ -130,7 +130,7 @@ Now take the upper part of the _Lack_. You can see the 4 little holes on the
 sides.
 
 {{< figure 
-    src="/images/standing-desk/Table_upside-down.jpg" 
+    src="/images/standing-desk/thumbnails/Table_upside-down.jpg" 
     link="/images/standing-desk/Table_upside-down.jpg"
     alt="Table upside down" 
 >}}
@@ -139,13 +139,13 @@ The Ikea screws have to be applied in the legs and then in the
 table.
 
 {{< figure 
-    src="/images/standing-desk/Screw_leg_and_table.jpg" 
+    src="/images/standing-desk/thumbnails/Screw_leg_and_table.jpg" 
     link="/images/standing-desk/Screw_leg_and_table.jpg"
     alt="Screw leg and table" 
 >}}
 
 {{< figure 
-    src="/images/standing-desk/Legs_applied.jpg" 
+    src="/images/standing-desk/thumbnails/Legs_applied.jpg" 
     link="/images/standing-desk/Legs_applied.jpg"
     alt="Legs applied" 
 >}}
@@ -155,7 +155,7 @@ horizontal. Some levelling is needed or the table will be unstable. Place the
 _Lack_ upside down and be sure it's on a horizontal surface.
 
 {{< figure 
-    src="/images/standing-desk/Levelling.jpg" 
+    src="/images/standing-desk/thumbnails/Levelling.jpg" 
     link="/images/standing-desk/Levelling.jpg"
     alt="Levelling" 
 >}}
@@ -164,7 +164,7 @@ After that verify that every leg is at the same height with every leg. If not,
 scratch the rubber with the sandpaper of the taller legs.
 
 {{< figure 
-    src="/images/standing-desk/Levelling_legs.jpg" 
+    src="/images/standing-desk/thumbnails/Levelling_legs.jpg" 
     link="/images/standing-desk/Levelling_legs.jpg"
     alt="Levelling legs" 
 >}}
@@ -175,13 +175,13 @@ tall, so I scratched the protector. It's not a very clean solution, but it
 worked.
 
 {{< figure 
-    src="/images/standing-desk/Stick.jpg" 
+    src="/images/standing-desk/thumbnails/Stick.jpg" 
     link="/images/standing-desk/Stick.jpg"
     alt="Stick" 
 >}}
 
 {{< figure 
-    src="/images/standing-desk/Cut_sticker.jpg" 
+    src="/images/standing-desk/thumbnails/Cut_sticker.jpg" 
     link="/images/standing-desk/Cut_sticker.jpg"
     alt="Cut sticker" 
 >}}

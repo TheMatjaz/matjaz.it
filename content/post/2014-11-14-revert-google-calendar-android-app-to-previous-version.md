@@ -24,7 +24,7 @@ The update of the Google Calendar app for Android as for today doesn't simply
 fit my needs and I decided to return to the earlier version of the app.
 
 {{< figure 
-    src="/images/calendar/Comparison.png" 
+    src="/images/calendar/thumbnails/Comparison.png" 
     link="/images/calendar/Comparison.png"
     alt="Before and after" 
     title="Before and after"
@@ -69,7 +69,7 @@ it to the top of the screen on the _App info_ icon. This will open the
 properties of the app.
 
 {{< figure 
-    src="/images/calendar/Open_app_info.png" 
+    src="/images/calendar/thumbnails/Open_app_info.png" 
     link="/images/calendar/Open_app_info.png"
     alt="Open app info" 
     title="Open app info"
@@ -79,7 +79,7 @@ In the _App info_ screen press the _Uninstall upgrades_ button and confirm
 twice.
 
 {{< figure 
-    src="/images/calendar/Uninstall_app_updates.png" 
+    src="/images/calendar/thumbnails/Uninstall_app_updates.png" 
     link="/images/calendar/Uninstall_app_updates.png"
     alt="Uninstall app updates" 
     title="Uninstall app updates"
