@@ -25,6 +25,7 @@ verboseLog = true
     priority = 0.5
 [params]
     logo      = "/images/logos/matjaz_it_logo.png"
+    logohr    = "/images/logos/matjaz_it_logo@2x.png"
     twitter   = "https://twitter.com/TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
