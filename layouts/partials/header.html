@@ -7,8 +7,6 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="/css/style.min.css">
 {{ if eq .Params.highlight true }}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">{{ end }}
-<link rel="shortcut icon" href="{{ .Site.Params.icon }}">
-<link rel="apple-touch-icon" href="{{ .Site.Params.icon }}">
 {{ if .Site.RSSLink }}<link rel="feed" href="{{ .Site.RSSLink }}"  type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
 <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>
