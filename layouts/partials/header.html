@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
+<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="author" content="{{ .Site.Author.name }}"/>
+<meta name="keywords" content="{{ .Site.Params.keywords }}"/>
+<meta name="description" content="{{ .Site.Params.description }}"/>
 {{ .Hugo.Generator }}
+<link rel="license" href="{{ .Site.Params.licenseURL }}"/>
+{{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>{{ end }}
+<!-- Real Favicon Generator -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -20,13 +27,11 @@
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0fa0ce">
-<meta name="apple-mobile-web-app-title" content="matjaz.it">
-<meta name="application-name" content="matjaz.it">
-<meta name="msapplication-TileColor" content="#0fa0ce">
-<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-<meta name="theme-color" content="#ffffff">
-{{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
-<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="apple-mobile-web-app-title" content="matjaz.it"/>
+<meta name="application-name" content="matjaz.it"/>
+<meta name="msapplication-TileColor" content="#0fa0ce"/>
+<meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
+<meta name="theme-color" content="#ffffff"/>
 </head>
 <body>
 

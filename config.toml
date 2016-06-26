@@ -31,3 +31,6 @@ verboseLog = true
     email     = "blog@matjaz.it"
     keybase   = "https://keybase.io/TheMatjaz"
     cc        = "<a rel='license' href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 license</a>"
+    keywords    = "Matjaž, Guštin, blog, software, sysadmin, database, security, privacy"
+    description = "Software, privacy and system administration"
+    licenseURL  = "/legal-notice/"
