@@ -1132,3 +1132,48 @@ Social Links from the Decode theme by MachoThemes
 .no-inlinesvg .WebsiteLink {
   background-image: url('images/contact-icons/Website.png');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************
+      GOOGLE FONTS
+******************************************************************************/
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/Roboto-regular/Roboto-regular.eot');
+  src: url('fonts/Roboto-regular/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+       local('Roboto'),
+       local('Roboto-regular'),
+       url('fonts/Roboto-regular/Roboto-regular.woff2') format('woff2'),
+       url('fonts/Roboto-regular/Roboto-regular.woff') format('woff'),
+       url('fonts/Roboto-regular/Roboto-regular.ttf') format('truetype'),
+       url('fonts/Roboto-regular/Roboto-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot');
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot?#iefix') format('embedded-opentype'),
+       local('Inconsolata'),
+       local('Inconsolata-regular'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
+}
+
