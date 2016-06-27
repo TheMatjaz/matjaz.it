@@ -1,5 +1,5 @@
 +++
-aliases = ["copyright", "notice", "terms", "privacy", "legal"]
+aliases = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
 date = "2016-06-06T21:32:44+02:00"
 description = "Legal notice, copyright, terms of service and privacy all in one page"
 draft = false
