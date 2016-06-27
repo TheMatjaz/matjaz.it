@@ -73,12 +73,4 @@ based on the transcript of the talk:
 10. When giving a talk with **slides** on your computer (like PowerPoint,
     Keynote, LibreOffice, OpenOffice or a PDF file), hit the **letter** `B`
     to **Black out the screen** so the audience will pay attention to you and
-    not to the presentation. `W` to un-blank it again_.
-
-
-And if you want more, just watch the whole presentation:
-
-<iframe
-src="https://embed-ssl.ted.com/talks/lang/en/david_pogue_10_top_time_saving_tech_tips.html"
-width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen
-mozallowfullscreen allowFullScreen></iframe>
+    not to the presentation. `W` to un-blank it again.
