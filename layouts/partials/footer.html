@@ -1,7 +1,7 @@
 
 	<footer role="contentinfo">
 		<div class="hr"></div>
-		<div class="footer-link"><a href="/contact/">Contact</a> - <a href="/legal-notice/">Legal notice and copyright</a></div>
+		<div class="footer-link"><a href="/contact/">Contact</a> &mdash; <a href="/sitemap/">Site map</a> &mdash; <a href="/legal-notice/">Legal notice and copyright</a></div>
 		<div class="footer-link"><a href="{{ .Site.Params.logo }}">Logo image</a> © 2012. Where unspecified: code is <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29">BSD 3-clause licensed</a>, other content is under the {{ .Site.Params.cc | safeHTML }}. Made with <a href="https://gohugo.io/">Hugo</a>. Theme based on <a href="https://themes.gohugo.io/hugo-zen/">Hugo Zen</a> and <a href="https://www.machothemes.com/themes/decode/">Decode</a>. Source on <a href="https://github.com/TheMatjaz/matjaz.it">GitHub</a>.</div>
 	</footer>
 
@@ -15,26 +15,9 @@
 	ga('create', '{{ . }}', 'auto');
 	ga('send', 'pageview');
 </script>{{ end }}
-<noscript id="deferred-styles">
-  <link rel="stylesheet" type="text/css" href="/css/style.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700" >
-</noscript>
-<script>
-  var loadDeferredStyles = function() {
-    var addStylesNode = document.getElementById("deferred-styles");
-    var replacement = document.createElement("div");
-    replacement.innerHTML = addStylesNode.textContent;
-    document.body.appendChild(replacement)
-    addStylesNode.parentElement.removeChild(addStylesNode);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-  else window.addEventListener('load', loadDeferredStyles);
-</script>
-
-{{ if eq .Params.highlight true }}<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.min.css" >
+{{ if eq .Params.highlight true }}
+<script src="/css/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 {{ end }}
 
