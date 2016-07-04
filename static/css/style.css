@@ -1044,6 +1044,18 @@ main {
   margin-top: 3.5rem;
 }
 
+.gray {
+  color: #888;
+}
+
+.blue {
+  color: #1EAEDB;
+}
+
+.black {
+  color: #222;
+}
+
 .hr {
   height: 1px;
   margin: 2rem 0;
