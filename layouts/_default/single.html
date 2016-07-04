@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 	<main role="main">
-		<article itemscope itemtype="http://schema.org/BlogPosting">
+		<article itemscope itemtype="https://schema.org/BlogPosting">
 			<h1 class="single-title" itemprop="headline">{{ .Title }}</h1>
 			<div class="entry-meta"><span class="entry-time"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time>,  ~<span itemprop="timeRequired">{{ .ReadingTime }} {{ if eq .ReadingTime 1 }}minute{{ else }}minutes{{ end}}</span> to read</span></div>
 			<section itemprop="entry-text">
