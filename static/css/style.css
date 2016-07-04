@@ -1019,20 +1019,29 @@ main {
   font-size: 3.4rem;
 }
 
-.entry-title {
-  margin-bottom: 0;
-}
-
 .single-title {
   margin-bottom: 0;
   font-size: 2.9rem;
 }
 
 .entry-meta {
+  margin-bottom: 3.5rem;
+  color: #888;
+}
+
+.home-entry-description-text {
+  color: #222;
+}
+
+.entry-time {
   display: inline-block;
-  margin-bottom: 2rem;
   font-size: 1.7rem;
   color: #888;
+}
+
+.entry-title {
+  margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
 }
 
 .hr {
