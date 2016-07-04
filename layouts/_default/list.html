@@ -1,11 +1,19 @@
 {{ partial "header.html" . }}
 
 	<main role="main">
-		<h1 class="list-title">{{ .Title }}</h1>
+		<h1 class="list-title">{{ with .Data.Singular }}{{ humanize . }}{{ end }}: {{ .Title }}</h1>
 {{ range .Data.Pages }}
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time></span>
+		<article itemscope itemtype="https://schema.org/Blog">
+		  <h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></h2>
+          <div class="entry-meta">
+              <div class="home-entry-time">
+                <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006"  }}</time></div>
+              {{ if eq .Type "post" }}
+              <div class="home-entry-categories">
+                Posted in: {{ range $index, $category := .Params.categories }}{{ if $index }} // {{ end }}<a href="/categories/{{ $category | urlize }}">{{ $category }}</a>{{ end }}</div>
+              {{ end }}
+              <div class="home-entry-description" itemprop="description">About: <span class="home-entry-description-text">{{ trim .Description "." }}.</span></div>
+          </div>
 		</article>
 {{ end }}
 	</main>
