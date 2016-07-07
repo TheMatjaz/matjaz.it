@@ -1,12 +1,12 @@
 +++
 aliases      = []
-categories   = ["Computer", "Life Hack"]
+categories   = ["Computer", "Life hacks"]
 date         = "2014-10-15T05:44:53+00:00"
 description  = "Cleaning up the things I touch the most"
 draft        = false
 highlight    = false
 slug         = "your-phone-is-infected-not-only-computer-viruses-also-real-bacteria"
-tags         = ["Computer", "Life Hack", "Bacteria", "Smartphone", "Keyboard"]
+tags         = ["Computer", "Lifehack", "Bacteria", "Smartphone", "Keyboard"]
 title        = "Your phone is infected: not only computer viruses, also real bacteria"
 type         = "post"
 weight       = 0
