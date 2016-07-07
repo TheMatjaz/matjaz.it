@@ -49,3 +49,41 @@ ExpiresByType application/x-javascript "access plus 1 month"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresDefault "access 1 month"
 </IfModule>
+
+
+## 301-Redirections of page name aliases instead of HTML meta redirects
+## --------------------------------------------------------
+# About page
+RedirectMatch 301 /about-me/?        http://matjaz.it/about/
+RedirectMatch 301 /about-this-blog/? http://matjaz.it/about/
+RedirectMatch 301 /info/?            http://matjaz.it/about/
+
+# Contact page
+RedirectMatch 301 /gpg/?             http://matjaz.it/contact/
+RedirectMatch 301 /pgp/?             http://matjaz.it/contact/
+RedirectMatch 301 /contact-me/?      http://matjaz.it/contact/
+
+# E-mail signature to Keybase profile
+RedirectMatch 301 /siggpg/?          https://keybase.io/TheMatjaz
+
+# Legal notice page
+RedirectMatch 301 /copyright/?       http://matjaz.it/legal-notice/
+RedirectMatch 301 /notice/?          http://matjaz.it/legal-notice/
+RedirectMatch 301 /terms/?           http://matjaz.it/legal-notice/
+RedirectMatch 301 /privacy/?         http://matjaz.it/legal-notice/
+RedirectMatch 301 /policy/?          http://matjaz.it/legal-notice/
+RedirectMatch 301 /legal/?           http://matjaz.it/legal-notice/
+RedirectMatch 301 /tos/?             http://matjaz.it/legal-notice/
+RedirectMatch 301 /license/?         http://matjaz.it/legal-notice/
+RedirectMatch 301 /disclaimer/?      http://matjaz.it/legal-notice/
+
+# Site map for humans
+RedirectMatch 301 /sitemap.html?     http://matjaz.it/sitemap/
+
+# Software page
+RedirectMatch 301 /sw/?              http://matjaz.it/software/
+RedirectMatch 301 /numerus/?         http://matjaz.it/software/
+
+# First post
+RedirectMatch 301 /first/?           http://matjaz.it/hi-out-there/
+
