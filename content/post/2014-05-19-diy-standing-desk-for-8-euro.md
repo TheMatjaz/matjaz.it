@@ -84,7 +84,7 @@ on my computer placed on the _Lack_. So I cut the legs at the correct
 height. They are hollow.
 
 {{< figure 
-    src="/images/standing-desk/Legs.jpg" 
+    src="/images/standing-desk/thumbnails/Legs.jpg" 
     link="/images/standing-desk/Legs.jpg"
     alt="Legs" 
 >}}
