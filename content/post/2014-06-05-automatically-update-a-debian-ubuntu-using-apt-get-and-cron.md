@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Sysadmin"]
 date         = "2014-06-05T19:09:29+00:00"
-description  = "Apt-get commands in cron"
+description  = "Using cron to run apt-get update and upgrade commands. Use with care"
 draft        = false
 highlight    = true
 slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"

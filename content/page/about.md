@@ -1,7 +1,7 @@
 +++
 aliases = ["about-me", "about-this-blog", "info"]
 date = "2014-01-16T19:39:19+00:00"
-description = "Short description of this blog and my story"
+description = "Are you wondering who is the writer of this blog and why does this blog even exist?"
 draft = false
 hidefromhome = true
 highlight = false

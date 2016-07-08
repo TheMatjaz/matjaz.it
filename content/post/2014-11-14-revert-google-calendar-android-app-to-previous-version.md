@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2014-11-14T14:21:28+00:00"
-description  = "The Google Calendar App has bad design: here is how you switch to the old version"
+description  = "The Android Google Calendar App has just been updated but it has bad design: here is how you switch to the old version"
 draft        = false
 highlight    = false
 slug         = "revert-google-calendar-android-app-to-previous-version"

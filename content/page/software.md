@@ -1,7 +1,7 @@
 +++
 aliases      = ["sw", "numerus"]
 date         = "2016-02-05 08:35:12+00:00"
-description  = "List of software I made"
+description  = "A list of the software I made"
 draft        = false
 hidefromhome = true
 highlight    = false
