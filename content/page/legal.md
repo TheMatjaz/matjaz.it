@@ -1,7 +1,7 @@
 +++
 aliases = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
 date = "2016-06-06T21:32:44+02:00"
-description = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply"
+description = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply."
 draft = false
 hidefromhome = true
 highlight = false

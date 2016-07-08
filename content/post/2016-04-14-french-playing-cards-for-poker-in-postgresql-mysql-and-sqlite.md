@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2016-04-14T17:21:49+00:00"
-description  = "Implementing a deck of Poker cards in a SQL database: my solution for it is just a simple table of cards with a lot of columns in it"
+description  = "Implementing a deck of Poker cards in a SQL database: my solution for it is just a simple table of cards with a lot of columns in it."
 draft        = false
 highlight    = false
 slug         = "french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite"

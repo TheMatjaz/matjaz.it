@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Computer", "Life Hacks"]
 date         = "2014-04-26T10:35:28+00:00"
-description  = "Extracted from the David Pogue's TED Talk, a list of 10 nice tech tips for anyone to be faster on your computer. They are easy and simple as any tip should be"
+description  = "Extracted from the David Pogue's TED Talk, a list of 10 nice tech tips for anyone to be faster on your computer. They are easy and simple as any tip should be."
 draft        = false
 highlight    = false
 slug         = "cool-time-saving-tech-tips-everybody-should-know"

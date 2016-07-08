@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Blog"]
 date         = "2014-11-11T11:39:26+00:00"
-description  = "My blog switches to a new Wordpress theme and is moved new hosting service"
+description  = "My blog switches to a new Wordpress theme and is moved new hosting service."
 draft        = false
 highlight    = false
 slug         = "hosting-change-and-new-theme"
