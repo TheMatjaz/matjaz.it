@@ -1126,62 +1126,11 @@ Social Links from the Decode theme by MachoThemes
   margin-right: 0;
 }
 
-.contact-link svg,
-.contact-link img {
+.contact-link svg {
   overflow: visible;
   width: 2.7em;
   height: 2.7em;
 }
-
-.no-inlinesvg .contact-link svg {
-  display: none;
-}
-
-.no-inlinesvg .contact-link {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 0.5%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50px;
-}
-
-/* Fallback Images for browsers that don't support Inline SVG */
-
-.no-inlinesvg .TwitterLink {
-  background-image: url('images/contact-icons/Twitter.png');
-}
-.no-inlinesvg .GithubLink {
-  background-image: url('images/contact-icons/GitHub.png');
-}
-.no-inlinesvg .BitbucketLink {
-  background-image: url('images/contact-icons/Bitbucket.png');
-}
-.no-inlinesvg .LinkedInLink {
-  background-image: url('images/contact-icons/LinkedIn.png');
-}
-.no-inlinesvg .SlideShareLink {
-  background-image: url('images/contact-icons/SlideShare.png');
-}
-.no-inlinesvg .SkypeLink {
-  background-image: url('images/contact-icons/Skype.png');
-}
-.no-inlinesvg .StackOverflowLink {
-  background-image: url('images/contact-icons/StackOverflow.png');
-}
-.no-inlinesvg .RSSLink {
-  background-image: url('images/contact-icons/RSS.png');
-}
-.no-inlinesvg .EmailLink {
-  background-image: url('images/contact-icons/Email.png');
-}
-.no-inlinesvg .WebsiteLink {
-  background-image: url('images/contact-icons/Website.png');
-}
-
-
-
 
 
 
