@@ -32,6 +32,9 @@ Software tools used
 - [Git](https://git-scm.com/) (quite obviously) to manage the code and content
 - A text editor, currently [Emacs](https://www.emacswiki.org)
 - [My custom shell](https://github.com/TheMatjaz/dotfiles)
+- [Inkscape](https://www.inkscape.org/) to manipulate SVG images
+- [Exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) to manipulate JPG
+  metadata, like the copyright notice
 
 
 Web tools used
