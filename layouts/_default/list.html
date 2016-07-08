@@ -12,7 +12,7 @@
               <div class="home-entry-categories">
                 Posted in: {{ range $index, $category := .Params.categories }}{{ if $index }} // {{ end }}<a href="/categories/{{ $category | urlize }}">{{ $category }}</a>{{ end }}</div>
               {{ end }}
-              <div class="home-entry-description" itemprop="description">About: <span class="home-entry-description-text">{{ trim .Description "." }}.</span></div>
+              <div class="home-entry-description" itemprop="description">About: <span class="home-entry-description-text">{{ .Description }}</span></div>
           </div>
 		</article>
 {{ end }}

@@ -1,7 +1,7 @@
 +++
 aliases = []
 date = "2016-07-08T15:34:14+02:00"
-description = "The full text of the BSD 3-Clause License for the source code snippets published on matjaz.it"
+description = "The full text of the BSD 3-Clause License for the source code snippets published on matjaz.it."
 draft = false
 hidefromhome = true
 highlight = false

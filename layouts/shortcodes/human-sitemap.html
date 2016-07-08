@@ -1,4 +1,21 @@
 {{/*
-    Calls the partial file human-sitemap.html to generate a site map for humans.
+Generates a site map for humans where pages and posts are listed in alphabetical order.
 */}}
-{{ partial "human-sitemap.html" . }}
+<h2>Pages</h2>
+<ul>
+{{ range (where .Site.Pages.ByTitle ".Type" "page") }}
+    <li><article itemscope itemtype="http://schema.org/Blog">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </article></li>
+{{ end }}
+</ul>
+
+<h2>Blog posts</h2>
+<ul>
+{{ range (where .Site.Pages.ByTitle ".Type" "post") }}
+    <li><article itemscope itemtype="http://schema.org/Blog">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </article></li>
+{{ end }}
+</ul>
+
