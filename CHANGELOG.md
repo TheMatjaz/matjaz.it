@@ -140,7 +140,7 @@ footer).
   the `<figure>` tag thanks to the Hugo shortcode `{{< figure >}}`
 
 
-##### Speedup
+#### Speedup
 
 - Loaded images are now thumbnails of the full-sized images available when
   clicking on the image
@@ -156,6 +156,7 @@ footer).
 - Some uneccessary images from the
   [Standing desk for 8 € tutorial](http://matjaz.it/diy-standing-desk-for-8-euro/)
 - All _featured images_ which were kind of needed in Wordpress
+
 
 ### Fixed
 
