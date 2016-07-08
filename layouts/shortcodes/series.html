@@ -15,7 +15,7 @@ Call it by passing as unnamed parameter the tag name. If 0, 2 or more parameters
   <p>This is post is part of the series <strong><a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a></strong>. Other posts in the series:
   <ol>
   {{ range .Site.Pages.ByDate }}
-    {{ if in .Params.tags $tag }}
+    {{ if in (apply .Params.tags "urlize" ".") ($tag | urlize) }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a><span class="gray"> &ndash; <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006"  }}</time></span></li>
     {{ end }}
   {{ end }}
