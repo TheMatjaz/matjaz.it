@@ -2,7 +2,7 @@
 aliases      = ["diy-standing-desk-for-8-euros"]
 categories   = ["Computer", "Life Hacks"]
 date         = "2014-05-19T08:32:08+00:00"
-description  = "My tutorial on creating a very basic extension of your desk"
+description  = "I wanted to try a standing desk without loosing too much money if I didn't liked it afterwards. Using and modifying an 8 € Ikea side table, I was able to create a modular desk: both standing or sitting as needed."
 draft        = false
 highlight    = false
 slug         = "diy-standing-desk-for-8-euro"

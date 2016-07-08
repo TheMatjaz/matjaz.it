@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Computer", "Life hacks"]
 date         = "2014-10-15T05:44:53+00:00"
-description  = "Cleaning up the things I touch the most"
+description  = "Your phone is one of the things you touch the most during the day - after touching anything else. There are way too much bacteria on it. What else do you touch commonly but you never clean?"
 draft        = false
 highlight    = false
 slug         = "your-phone-is-infected-not-only-computer-viruses-also-real-bacteria"

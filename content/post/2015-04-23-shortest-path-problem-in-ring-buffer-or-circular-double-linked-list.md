@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2015-04-23T08:43:42+00:00"
-description  = "A simple algorithm with C implementation to find the shortest path on a clock-like ring"
+description  = "Think about an analogical clock and ignore the minute and second hand. Your hour hand is currently pointing to `11` and you want to move it to `3`. Do you turn the hand clockwise or counterclockwise? This is a simple algorithm with C implementation to find the shortest path on a clock-like ring."
 draft        = false
 highlight    = true
 slug         = "shortest-path-problem-in-ring-buffer-or-circular-double-linked-list"

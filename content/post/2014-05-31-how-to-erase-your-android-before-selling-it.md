@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Privacy and Security"]
 date         = "2014-05-31T21:55:46+00:00"
-description  = "Securely deleting all hidden data from your Android phone"
+description  = "The pictures you thought were deleted from your phone are still there and the buyer of your phone can see them. This is a simple tutorial to show you how to securely deleting all hidden data from your Android phone"
 draft        = false
 highlight    = false
 slug         = "how-to-erase-your-android-before-selling-it"

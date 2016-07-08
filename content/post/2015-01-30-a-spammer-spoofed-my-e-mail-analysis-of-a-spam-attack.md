@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Privacy and Security"]
 date         = "2015-01-30T12:47:05+00:00"
-description  = "Some math and thoughts about the hundreds of spam e-mails I recieved"
+description  = "My e-mail box was filled with answers to spam e-mails because somebody spoofed my e-mail address. I did some analysis of the data, tried to find out who answered the most and what the answers where about."
 draft        = false
 highlight    = true
 slug         = "a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack"

@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Computer"]
 date         = "2015-08-29T17:04:26+00:00"
-description  = "This is how I regularly cleanup my computer, from hardware to software"
+description  = "My checklist of things to perform periodically to cleanup my computer, from hardware to software. Especially for Macs but not necessary, most apply to any OS, just adapt them a bit."
 draft        = false
 highlight    = false
 slug         = "macbook-regular-maintenance"

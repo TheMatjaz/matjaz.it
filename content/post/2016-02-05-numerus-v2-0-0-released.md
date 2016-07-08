@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2016-02-05T08:49:53+00:00"
-description  = "Short description and link to my C library Numerus"
+description  = "Numerus is a library to convert from and to roman numerals. I rewrote it from Java to C, making it a lot better and faster"
 draft        = false
 highlight    = false
 slug         = "numerus-v2-0-0-released"

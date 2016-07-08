@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Life hacks"]
 date         = "2016-05-18T09:30:46+00:00"
-description  = "This is why I use a fountain pen"
+description  = "Why do I use a fountain pen? Well, I like it, I write smoothly and it can be erased easily in some cases. Curious?"
 draft        = false
 highlight    = false
 slug         = "a-syringe-of-blue-ink"
