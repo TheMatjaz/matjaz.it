@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Computer", "Life Hacks"]
 date         = "2014-04-26T10:35:28+00:00"
-description  = "List of nice tech tips by TED to be faster on your computer"
+description  = "Extracted from the David Pogue's TED Talk, a list of 10 nice tech tips for anyone to be faster on your computer. They are easy and simple as any tip should be."
 draft        = false
 highlight    = false
 slug         = "cool-time-saving-tech-tips-everybody-should-know"
@@ -19,8 +19,6 @@ liked it because it's simple, fast and effective: it's a list of many tips that
 will help you a lot, like how to save time when scrolling a web page or how to
 use Google as a calculator. Simple tech stuff everybody should know, but they
 don't, which irritates me more than it should. As the speaker says:
-
-
 
 > For some reason, there's no standard syllabus, there's no basic course. They
 > just sort of give you your computer and then kick you out of the nest. You're
@@ -73,12 +71,4 @@ based on the transcript of the talk:
 10. When giving a talk with **slides** on your computer (like PowerPoint,
     Keynote, LibreOffice, OpenOffice or a PDF file), hit the **letter** `B`
     to **Black out the screen** so the audience will pay attention to you and
-    not to the presentation. `W` to un-blank it again_.
-
-
-And if you want more, just watch the whole presentation:
-
-<iframe
-src="https://embed-ssl.ted.com/talks/lang/en/david_pogue_10_top_time_saving_tech_tips.html"
-width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen
-mozallowfullscreen allowFullScreen></iframe>
+    not to the presentation. `W` to un-blank it again.

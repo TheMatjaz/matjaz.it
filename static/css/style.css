@@ -22,6 +22,31 @@
 *   Copyright © MachoThemes
 *   GNU GPLv3
 *   https://github.com/MachoThemes/decode
+*
+* - Google Fonts: Roboto Regular
+*   Copyright © Christian Robertson
+*   Apache v2.0 License
+*   https://github.com/google/roboto/
+*   https://fonts.google.com/specimen/Roboto
+*   
+* - Google Fonts: Inconsolata Regular
+*   Copyright © Raph Levien
+*   Open Font License v1.1
+*   https://fonts.google.com/specimen/Inconsolata
+*   
+* - Highlight.js CSS code
+*   Copyright © 2006 Ivan Sagalaev
+*   BSD 3-clause License
+*   https://github.com/isagalaev/highlight.js
+*   https://highlightjs.org/
+*
+* - Base16 Atelier Forest Light Theme
+*   Copyright © 2013 Bram de Haan
+*   MIT License
+*   https://github.com/atelierbram/syntax-highlighting/
+*   Based on the Base16 color scheme by Chris Kempson
+*   https://github.com/chriskempson/base16
+*   https://chriskempson.github.io/base16/#atelierforest
 */
 
 
@@ -163,9 +188,10 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 300; }
+  margin-top: 4rem;
+  margin-bottom: 1.7rem;
+  font-weight: 300;
+}
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.07rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.05rem; }
 h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.04rem; }
@@ -343,7 +369,7 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
+  background: #F7F7F7;
   border: 1px solid #E1E1E1;
   border-radius: 4px; }
 pre > code {
@@ -704,7 +730,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: Inconsolata, monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -971,18 +997,19 @@ main {
 }
 
 .container {
-  width: 90%;
   max-width: 600px;
 }
 
-.header-logo img {
+.header-logo img,
+.header-logo svg {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 4px solid #E1E1E1;
 }
 
-.header-logo img:hover {
+.header-logo img:hover,
+.header-logo svg:hover {
   border-color: #F1F1F1;
 }
 
@@ -992,20 +1019,41 @@ main {
   font-size: 3.4rem;
 }
 
-.entry-title {
-  margin-bottom: 0;
-}
-
 .single-title {
   margin-bottom: 0;
   font-size: 2.9rem;
 }
 
 .entry-meta {
+  margin-bottom: 3.5rem;
+  color: #888;
+}
+
+.home-entry-description-text {
+  color: #222;
+}
+
+.entry-time {
   display: inline-block;
-  margin-bottom: 2rem;
   font-size: 1.7rem;
   color: #888;
+}
+
+.entry-title {
+  margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
+}
+
+.gray {
+  color: #888;
+}
+
+.blue {
+  color: #1EAEDB;
+}
+
+.black {
+  color: #222;
 }
 
 .hr {
@@ -1024,11 +1072,12 @@ main {
 .pages-links {
   font-size: 2rem;
   margin: 2% 0 0 0;
+  color: #888;
 }
 
 .footer-link {
   margin: 1.2% 0 0 0;
-  color: #888    
+  color: #888;
 }
 
 .entry-taxonomies {
@@ -1077,56 +1126,123 @@ Social Links from the Decode theme by MachoThemes
   margin-right: 0;
 }
 
-.contact-link svg,
-.contact-link img {
+.contact-link svg {
   overflow: visible;
   width: 2.7em;
   height: 2.7em;
 }
 
-.no-inlinesvg .contact-link svg {
-  display: none;
+
+
+
+
+
+
+
+
+/******************************************************************************
+      GOOGLE FONTS
+******************************************************************************/
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/Roboto-regular/Roboto-regular.eot');
+  src: url('fonts/Roboto-regular/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+       local('Roboto'),
+       local('Roboto-regular'),
+       url('fonts/Roboto-regular/Roboto-regular.woff2') format('woff2'),
+       url('fonts/Roboto-regular/Roboto-regular.woff') format('woff'),
+       url('fonts/Roboto-regular/Roboto-regular.ttf') format('truetype'),
+       url('fonts/Roboto-regular/Roboto-regular.svg#Roboto') format('svg');
 }
 
-.no-inlinesvg .contact-link {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 0.5%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50px;
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot');
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot?#iefix') format('embedded-opentype'),
+       local('Inconsolata'),
+       local('Inconsolata-regular'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
 }
 
-/* Fallback Images for browsers that don't support Inline SVG */
 
-.no-inlinesvg .TwitterLink {
-  background-image: url('images/contact-icons/Twitter.png');
+
+
+
+
+/******************************************************************************
+      HIGHLIGHT.JS theme Base16 Atelier Forest Light
+******************************************************************************/
+
+/* Atelier-Forest Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #766e6b;
 }
-.no-inlinesvg .GithubLink {
-  background-image: url('images/contact-icons/GitHub.png');
+
+/* Atelier-Forest Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #f22c40;
 }
-.no-inlinesvg .BitbucketLink {
-  background-image: url('images/contact-icons/Bitbucket.png');
+
+/* Atelier-Forest Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #df5320;
 }
-.no-inlinesvg .LinkedInLink {
-  background-image: url('images/contact-icons/LinkedIn.png');
+
+/* Atelier-Forest Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #7b9726;
 }
-.no-inlinesvg .SlideShareLink {
-  background-image: url('images/contact-icons/SlideShare.png');
+
+/* Atelier-Forest Blue */
+.hljs-title,
+.hljs-section {
+  color: #407ee7;
 }
-.no-inlinesvg .SkypeLink {
-  background-image: url('images/contact-icons/Skype.png');
+
+/* Atelier-Forest Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6666ea;
 }
-.no-inlinesvg .StackOverflowLink {
-  background-image: url('images/contact-icons/StackOverflow.png');
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #F7F7F7;
+  padding: 0.5em;
 }
-.no-inlinesvg .RSSLink {
-  background-image: url('images/contact-icons/RSS.png');
+
+.hljs-emphasis {
+  font-style: italic;
 }
-.no-inlinesvg .EmailLink {
-  background-image: url('images/contact-icons/Email.png');
-}
-.no-inlinesvg .WebsiteLink {
-  background-image: url('images/contact-icons/Website.png');
+
+.hljs-strong {
+  font-weight: bold;
 }

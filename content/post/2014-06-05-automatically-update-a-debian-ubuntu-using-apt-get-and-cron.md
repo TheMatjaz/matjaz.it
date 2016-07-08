@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Sysadmin"]
 date         = "2014-06-05T19:09:29+00:00"
-description  = "Apt-get commands in cron"
+description  = "Using cron to run apt-get update and upgrade commands. Use with care."
 draft        = false
 highlight    = true
 slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"
@@ -54,7 +54,7 @@ Of course you may change it as you like.
 #!/bin/bash
 #
 # apt-get updater script for cron automatization
-# This script is released under the MIT License.
+# This script is released under the BSD 3-Clause License.
 
 echo
 echo "############################"
@@ -77,7 +77,7 @@ exit 0
 #!/bin/bash
 #
 # apt-get update downloader script for cron automatization
-# This script is released under the MIT License.
+# This script is released under the BSD 3-Clause License.
 
 echo
 echo "############################"

@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Blog"]
 date         = "2016-02-07T15:13:20+00:00"
-description  = "This is how I made my blog a little bit better and nicer"
+description  = "Another improvement of my website: a Wordpress theme change to make it more minimal, some custom theme modifications and .htaccess tweaks to make it faster."
 draft        = false
 highlight    = true
 slug         = "improving-my-wordpress-blog-look-and-speed"

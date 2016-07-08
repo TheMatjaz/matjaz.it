@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Software"]
 date         = "2014-11-22T17:35:44+00:00"
-description  = "Cleaning Android cache on boot menu"
+description  = "Especially after an Android upgrade a cache cleanup on boot menu makes miracles and speeds up the whole phone. Here is how to perform it."
 draft        = false
 highlight    = false
 slug         = "speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop"

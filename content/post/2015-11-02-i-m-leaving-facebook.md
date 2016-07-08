@@ -2,7 +2,7 @@
 aliases      = []
 categories   = ["Blog"]
 date         = "2015-11-02T20:29:37+00:00"
-description  = "A post linked on Facebook to warn all my 'friends' over there"
+description  = "Goodbye Facebook. Some reasons why I'm leaving and some links on how to contact me on other channels."
 draft        = false
 highlight    = false
 slug         = "i-m-leaving-facebook"

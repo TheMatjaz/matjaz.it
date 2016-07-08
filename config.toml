@@ -13,7 +13,7 @@ verbose = true
 verboseLog = true
 
 [author]
-    name = "Matjaž"
+    name = "Matjaž Guštin"
 [permalinks]
     post = "/:slug/"
     page = "/:slug/"
@@ -25,9 +25,12 @@ verboseLog = true
     priority = 0.5
 [params]
     logo      = "/images/logos/matjaz_it_logo.png"
-    icon      = "/images/logos/matjaz_it_logo_small.png"
+    logohr    = "/images/logos/matjaz_it_logo@2x.png"
     twitter   = "https://twitter.com/TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
     keybase   = "https://keybase.io/TheMatjaz"
     cc        = "<a rel='license' href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 license</a>"
+    keywords    = "Matjaž, Guštin, blog, software, sysadmin, database, security, privacy, unix, linux"
+    description = "Software, privacy and system administration"
+    licenseURL  = "/legal-notice/"
