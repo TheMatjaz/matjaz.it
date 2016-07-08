@@ -26,6 +26,8 @@ home page.
 
 ### Added
 
+- New post on why to choose [Hugo](https://gohugo.io/) for your blog/website 
+  instead of Wordpress.
 - Favicons for every device, browser and shortcut icon thanks to the 
   [Real Favicon Generator](https://realfavicongenerator.net/).
 - KeyBase verification file (same as used in previous version of the blog).
@@ -37,6 +39,8 @@ home page.
 - Pages with list of [tags](http://matjaz.it/tags/) and 
   [categories](http://matjaz.it/categories/) sorted by number of posts
 - A [list](THANKS.md) of all software used to create the blog.
+- `series` shortcode to list the posts sharing a tag, useful for listing all
+  posts of a series
 
 
 ### Changed
