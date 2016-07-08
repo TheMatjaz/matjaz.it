@@ -64,7 +64,7 @@ about a computer?
 ## Algorithm in C
 
 All the following source code forms are subject to the terms of the
-[Mozilla Public License, v. 2.0](http://mozilla.org/MPL/2.0/).
+[BSD 3-Clause license](/bsd-3-clause-license/).
 
 
 ### Oriented arc
