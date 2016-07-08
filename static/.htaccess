@@ -51,6 +51,11 @@ ExpiresDefault "access 1 month"
 </IfModule>
 
 
+## 404 custom error page
+## --------------------------------------------------------
+ErrorDocument 404 /404.html
+
+
 ## 301-Redirections of page name aliases instead of HTML meta redirects
 ## --------------------------------------------------------
 # About page

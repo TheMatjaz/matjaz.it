@@ -39,7 +39,7 @@ reserved. The logo may not be used, except by prior explicit authorisation.
 
 Any source code published on [matjaz.it](/), except where is explicitly stated
 otherwise, is released under the
-**[BSD 3-clause License](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)**,
+**[BSD 3-clause License](/bsd-3-clause-license/)**,
 also known as _Revised BSD License_, _New BSD License_ or _Modified BSD
 License_.
 

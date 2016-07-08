@@ -54,7 +54,7 @@ Of course you may change it as you like.
 #!/bin/bash
 #
 # apt-get updater script for cron automatization
-# This script is released under the MIT License.
+# This script is released under the BSD 3-Clause License.
 
 echo
 echo "############################"
@@ -77,7 +77,7 @@ exit 0
 #!/bin/bash
 #
 # apt-get update downloader script for cron automatization
-# This script is released under the MIT License.
+# This script is released under the BSD 3-Clause License.
 
 echo
 echo "############################"
