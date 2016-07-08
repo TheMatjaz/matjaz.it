@@ -1,10 +1,10 @@
 Change Log
-==========
+===============================================================================
 
 All notable changes to the structure and content of the blog
 [matjaz.it](http://matjaz.it/) will be documented in this file.
 
-This changelog tries to adehe to the
+This changelog tries to adhere to the
 [Keep a Changelog](http://keepachangelog.com) format as much as possible. The
 notable exceptions are:
 
@@ -12,7 +12,9 @@ notable exceptions are:
   dates in ISO format since each version of the blog means a new post/page or a
   change of the content, not a new feature, bugfix or compatibility break, since
   the website is completely static.
-- no `Deprecated` and `Security` group changes: same reason as previous point.
+- no `Deprecated` and `Security` group changes for the same reason as in the 
+  previous point.
+
 
 
 
