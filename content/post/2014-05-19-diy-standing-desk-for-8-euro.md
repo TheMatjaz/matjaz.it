@@ -54,7 +54,7 @@ remove when using the desk while sitting. Some A4 paper for scale.
 
 I went to Ikea to buy
 [this side table](http://www.ikea.com/gb/en/catalog/products/20011413/#/40104270),
-called _Lack_. It's product code is `401.042.70`. You can use that in the search
+called _Lack_. It's product code is **401.042.70**. You can use that in the search
 bar in their web page to find it. I chose the _Birch effect_ texture, but this
 is up to you.
 

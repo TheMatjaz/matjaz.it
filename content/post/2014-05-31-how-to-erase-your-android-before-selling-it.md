@@ -82,7 +82,7 @@ Change the device lock PIN or gesture or whatever do you use to a **strong, long
 and unique** password (not PIN), if you haven't done it yet - don't worry, you
 will use it just once. By strong I mean as long and complex as you can: 16
 characters (maximum length for Android), small and capital letters, numbers and
-symbols. An example (but don't use this one) could be: `HeyAgnp490LOL2!`
+symbols. An example (but don't use this one) could be: **HeyAgnp490LOL2!**
 
 Go to **Settings -> Security -> Encrypt phone**. Enter the password you
 chose. This may also take some time, something between 10 and 40 minutes.
