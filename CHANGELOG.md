@@ -16,6 +16,51 @@ notable exceptions are:
   previous point.
 
 
+
+2016-07-10
+---------------------------------------
+
+Small fixes on the webserver, fonts and other stuff and the second post of the
+#HugoPowerUser series.
+
+
+### Added
+
+- New post on how to organize your Hugo content, second of the series
+  #HugoPowerUser.
+- HTTP 301-Redirection from old RSS feed URL to new one to avoid problems with
+  feed readers.
+- HTTP Reply headers with content language (en-US) and encoding (UTF-8).
+
+
+### Changed
+
+- Link to BSD license in the footer now points to the local BSD license page
+  instead of Wikipedia.
+- Improved `humans.txt` file and added the `<link>` tag to it in the HTML head.
+- Last post title uses the hashtag `#HugoPoweruser` and the tag `hugo power
+  user` is capitalized in `Hugo Power User`.
+  
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Added missing bold, italic, bold+italic font faces for Roboto and Inconsolata,
+  resulting in simulated boldness in the body text of post and pages (thanks to
+  [Lorenzo](https://twitter.com/j0ined/status/751757449191952384) for the heads
+  up!)
+- Header size for `Speedup` in this Changelog.
+- Added anchors in regexes for 301-Redirections to avoid redirection of URL with
+  the regex inside of them instead of the exact URL match.
+- Title with ` :` on `/page/` and `/post`/ URLs.
+- Added missing Gzip compression for Woff2 file types used for fonts.
+
+
+
 2016-07-08
 ---------------------------------------
 
