@@ -54,9 +54,10 @@ you break some CSS code somewhere, for instance. It also comes handy when more
 than one author writes for the same Hugo website, for backups (just `git push`
 somewhere) or publishing (same `git push` in some cases).
 
-The Git-Flow workflow is also great and highly recommended. A _feature_ may be
-just a new post, a _release_ is whatever you do before updating the website and
-pushing/rsyncing the changes.
+The [Git-Flow workflow](http://nvie.com/posts/a-successful-git-branching-model/)
+is also great and highly recommended. A _feature_ may be just a new post, a
+_release_ is whatever you do before updating the website and pushing/rsyncing
+the changes.
 
 - Choose a folder where to store the source files of the website.
 - Run `git init` in it.
@@ -147,7 +148,6 @@ For instance, creating a shortcode to list the pages looks something like this:
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
-
 ```
 
 
