@@ -58,6 +58,9 @@ ErrorDocument 404 /404.html
 
 ## 301-Redirections of page name aliases instead of HTML meta redirects
 ## --------------------------------------------------------
+# Old RSS feed to new
+RedirectMatch 301 ^/feed/?(index.xml)?$ http://matjaz.it/index.xml
+
 # About page
 RedirectMatch 301 /about-me/?        http://matjaz.it/about/
 RedirectMatch 301 /about-this-blog/? http://matjaz.it/about/
