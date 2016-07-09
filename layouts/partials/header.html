@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<link rel="author" href="/humans.txt"/>
 <meta name="author" content="{{ .Site.Author.name }}"/>
 <meta name="keywords" content="{{ .Site.Params.keywords }}"/>
 <meta name="description" content="{{ .Site.Params.description }}"/>
