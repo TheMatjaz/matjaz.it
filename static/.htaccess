@@ -8,6 +8,12 @@ RewriteCond %{HTTP_HOST} ^www\.gustin\.it$
 RewriteRule ^/?$ "http\:\/\/matjaz\.it" [R=301,L]
 
 
+## Set HTTP headers for Charset and Content language
+## --------------------------------------------------------
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+
+
 ## Enable gzip compression for common file types
 ## --------------------------------------------------------
 <ifModule mod_gzip.c>
