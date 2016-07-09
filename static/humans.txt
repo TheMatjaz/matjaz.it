@@ -1,5 +1,5 @@
 /* TEAM */
-    Owner and author:    Matjaž
+    Owner and author:    Matjaž Guštin
     Contact:             http://matjaz.it/contact/
     Twitter:             @TheMatjaz
 
