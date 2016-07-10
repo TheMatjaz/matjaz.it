@@ -6,8 +6,8 @@ description = "I tried Hugo before and had a great time. After some more tweakin
 draft = false
 highlight = false
 slug = "hugo-power-user-reasons-to-choose-hugo"
-tags = ["Hugo power user", "Blog", "Hugo", "Wordpress", "Design"]
-title = "Hugo power user: reasons to choose Hugo"
+tags = ["Hugo Power User", "Blog", "Hugo", "Wordpress", "Design"]
+title = "#HugoPowerUser: reasons to choose Hugo"
 type = "post"
 weight = 0
 
@@ -92,4 +92,4 @@ If those are not a problem for you, then use
 [Hugo](https://gohugo.io). Now. Go. Click that link!
 
 
-{{< series "Hugo power user" >}}
+{{< series "Hugo Power User" >}}

@@ -1,12 +1,16 @@
 /* TEAM */
-    Owner and author:    Matjaž
-    Contact:             http://matjaz.it/contact/
-    Twitter:             @TheMatjaz
+  Owner and author: Matjaž Guštin
+  Contact:          http://matjaz.it/contact/
+  Twitter:          @TheMatjaz
+
+/* THANKS */
+  Software used:    https://github.com/TheMatjaz/matjaz.it/blob/master/THANKS.md
 
 /* SITE */
-    Last update:         2016-06-18
-    Language:            English
-    Software:            Hugo, Emacs, Git
-    Website source code: https://github.com/TheMatjaz/matjaz.it
-    Content license:     mostly CC BY 4.0 and BSD 3-clause.
-                         See http://matjaz.it/legal-notice/
+  Language:         English
+  Standards:        HTML5, CSS3
+  Made with:        Hugo - https://gohugo.io/
+  Source code:      https://github.com/TheMatjaz/matjaz.it
+  Content license:  mostly CC BY 4.0 and BSD 3-Clause.
+                    See http://matjaz.it/legal-notice/
+

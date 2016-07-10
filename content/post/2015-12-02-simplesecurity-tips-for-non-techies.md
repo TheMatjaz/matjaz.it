@@ -78,6 +78,6 @@ a more curated version of them.
 - _avoid_ personal information in it (birthdays, names, ...)
 
 Again, use the **password manager** to store all the passwords and letting it
-generate random passwords like `8d&amp;d05Y&amp;]]aw09baIFg-:£'miPì^`.
+generate random passwords like **8d&amp;d05Y&amp;]]aw09baIFg-:£'miPì^**.
 
 Stay safe!
