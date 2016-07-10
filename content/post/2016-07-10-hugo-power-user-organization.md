@@ -14,7 +14,29 @@ weight = 0
 +++
 
 
-## Prelude: exporting from other CMS, we need Markdown
+Welcome to the second post of the series
+**[Hugo Power User](/tags/hugo-power-user/)**. Today we'll explore some ways to
+organize the content of your website, both local source files and once published
+on the website.
+
+
+## Note: this is not Hugo 101
+
+This post series are my notes on how to make your website and design experience
+better using Hugo **once you already know it a bit** ("power user", duh). I'm
+going to assume that you read parts of the
+[documentation](https://gohugo.io/overview/introduction/) and that you already
+know how to create a simple website using a standard theme, such as
+[Hyde](http://themes.gohugo.io/hyde/).
+
+We're going to work from this point on. Everything is mostly explained in the 
+docs, they are pretty OK once you wrap your mind around them.
+
+If you don't know much about Hugo, create a very simple and stupid website with
+it first. No need to publish it, just run it locally with `hugo server -w`.
+
+
+## Optional: exporting from other CMS, we need Markdown
 
 The Hugo Documentation has a [list of tools](https://gohugo.io/tools/) you may
 use to export and convert the content from your current blogging/website system
@@ -100,7 +122,7 @@ about this one, check
 
 Thinks about what your website will be about. Is it a blog? Then maybe you need
 something like _posts_. Is it a professional website? What about _pages_? Those
-are just _names_, they don't matter on their own, but their appearence on the
+are just _names_, they don't matter on their own, but their appearance on the
 website can be heavily customized.
 
 For my blog I use _posts_ and _pages_: the difference is that pages are more
