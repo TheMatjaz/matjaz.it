@@ -12,7 +12,7 @@ Call it by passing as unnamed parameter the tag name. If 0, 2 or more parameters
 {{ if len .Params | eq 1 }}
   {{ $tag := .Get 0 }}
   <hr/>
-  <p>This is post is part of the series <strong><a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a></strong>. Other posts in the series:
+  <p>This post is part of the series <strong><a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a></strong>. Check the other ones:
   <ol>
   {{ range .Site.Pages.ByDate }}
     {{ if in (apply .Params.tags "urlize" ".") ($tag | urlize) }}
