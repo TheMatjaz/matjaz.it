@@ -16,6 +16,35 @@ notable exceptions are:
   previous point.
 
 
+2016-07-13
+---------------------------------------
+
+New post of the #HugoPowerUser series, small web server fixes.
+
+
+### Added
+
+- New post on how to make your Hugo website better accessible and understandable
+  for search engines and browsers.
+- MIME type for Woff2 font files in webserver configuration.
+
+
+### Changed
+
+- All 301-Redirections are now case insensitive.
+- Switched Apache compression method from `mod_gzip` to `mod_deflate`.
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Website language code from `en-us` to `en-US`.
+
+
 
 2016-07-10
 ---------------------------------------
