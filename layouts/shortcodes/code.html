@@ -1,0 +1,17 @@
+{{/*
+  Wraps the code class around tags with correct Highlight.js CSS classes.
+
+  It is very userful for code blocks without highlighting which still require
+  the horizontal scrolling. For that case, just use "text" as a highlighting
+  class.
+
+  Usage example:
+  {{< code python >}}
+  def echo_hello_world():
+      print("Hello World!\n")
+  {{< /code >}}
+
+  https://github.com/ryansb/hugo-shortcodes/blob/master/code.html with MIT
+  license
+*/}}
+<pre><code class="hljs language-{{ .Get 0 }}">{{ trim .Inner "\r\n" }}</code></pre>

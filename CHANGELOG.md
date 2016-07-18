@@ -16,6 +16,40 @@ notable exceptions are:
   previous point.
 
 
+2016-07-19
+---------------------------------------
+
+New post of the #HugoPowerUser series, new shortcode, minor fixes on previous
+post and 2 pages.
+
+
+### Added
+
+- New post on how to make your Hugo website better understandable by humans,
+  the second part of the previous post.
+- Add `{{< code >}}` shortcode for code block with correct highlighting.
+
+
+### Changed
+
+- Suggestion about CTRL+F in human sitemap.
+- Link to sitemap in 404 error page.
+- Highlighting and content fixes in previous post _"#HugoPowerUser: make it web
+  friendly pt. 2"_: improved highlighting, regex and sitemap content.
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Permissions of font files.
+- Spellcheck of this changelog file.
+
+
+
 2016-07-13
 ---------------------------------------
 
@@ -26,7 +60,7 @@ New post of the #HugoPowerUser series, small web server fixes.
 
 - New post on how to make your Hugo website better accessible and understandable
   for search engines and browsers.
-- MIME type for Woff2 font files in webserver configuration.
+- MIME type for Woff2 font files in the web server configuration.
 
 
 ### Changed
@@ -49,7 +83,7 @@ Nothing.
 2016-07-10
 ---------------------------------------
 
-Small fixes on the webserver, fonts and other stuff and the second post of the
+Small fixes on the web server, fonts and other stuff and the second post of the
 #HugoPowerUser series.
 
 
@@ -108,7 +142,7 @@ home page.
 - HTML head meta tags for website description, keywords, author, license.
 - [Site map for humans](http://matjaz.it/sitemap/) as suggested by 
   [varvy.com](https://varvy.com/).
-- [Inconsolata](https://fonts.google.com/specimen/Inconsolata) is the monospace
+- [Inconsolata](https://fonts.google.com/specimen/Inconsolata) is the monospaced
   font whenever `<pre>` or `<code>` tags are used.
 - Pages with list of [tags](http://matjaz.it/tags/) and 
   [categories](http://matjaz.it/categories/) sorted by number of posts
@@ -207,7 +241,7 @@ footer).
   <http://matjaz.it/feed/>.
 - The website content I wrote is now under the
   [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-- The [robots.txt](http://matjaz.it/robots.txt) file is much simplier.
+- The [robots.txt](http://matjaz.it/robots.txt) file is much simpler.
 - Simplified the 404 error page.
 - Customized footer content and date format for each post.
 - The images in the content have now a title and caption where needed, using 
@@ -227,7 +261,7 @@ footer).
 ### Removed
 
 - My second published post
-- Some uneccessary images from the
+- Some unnecessary images from the
   [Standing desk for 8 € tutorial](http://matjaz.it/diy-standing-desk-for-8-euro/)
 - All _featured images_ which were kind of needed in Wordpress
 
