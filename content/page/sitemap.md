@@ -12,4 +12,6 @@ weight = 0
 
 +++
 
+Pssst! Use **CTRL+F** (**CMD+F** on Macs) to quickly search the titles.
+
 {{< human-sitemap >}}
