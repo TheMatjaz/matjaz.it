@@ -1,11 +1,18 @@
 # MATJAZ.IT .HTACCESS FILE
 # =============================================================================
 
+## Redirect www to non-www
+## --------------------------------------------------------
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
 ## Domain redirection from gustin.it to matjaz.it
 ## --------------------------------------------------------
-RewriteCond %{HTTP_HOST} ^gustin\.it$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.gustin\.it$
-RewriteRule ^/?$ "http\:\/\/matjaz\.it" [R=301,L]
+RewriteCond %{HTTP_HOST} !matjaz.it$ [NC]
+RewriteRule ^(.*)$ http://matjaz.it/$1 [R=302,L]
 
 
 ## Set HTTP headers for Charset and Content language
@@ -96,6 +103,7 @@ ErrorDocument 404 /404.html
 
 
 ## 301-Redirections of page name aliases instead of HTML meta redirects
+## and other manually set redirections
 ## --------------------------------------------------------
 # Old RSS feed to new
 RedirectMatch 301 (?i)^/feed/?(index.xml)?$ http://matjaz.it/index.xml
