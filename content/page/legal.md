@@ -13,16 +13,15 @@ weight = 0
 +++
 
 This notice governs the manner in which the owner and author Matjaž Guštin
-(furtherly refferred as "Website Owner") of the website _"Thinking in a digital
-life"_ hosted on [matjaz.it](/) ("This Website" or "Website") licenses any
-content published on it ("Content") and how the Website Owner collects, uses,
-maintains and discloses information collected from users ("User") of the
-Website.
+("Website Owner") of the website _"Thinking in a digital life"_ hosted on
+[matjaz.it](/) ("This Website" or "Website") licenses any content published on
+it ("Content") and how the Website Owner collects, uses, maintains and discloses
+information collected from users ("User") of the Website.
 
 
 ## Copyright and Creative Commons
 
-The Content on [matjaz.it](/) is **free and open even for commercial purpuses**
+The Content on [matjaz.it](/) is **free and open even for commercial purposes**
 upon providing credit to the Website Owner, except for the logo and where is
 explicitly stated otherwise.
 
@@ -32,7 +31,7 @@ explicitly stated otherwise.
 The _matjaz.it logo_, as seen in the
 [PNG format](/images/logos/matjaz_it_logo.png) or as inline-SVG in the website
 header, **is copyrighted property** of the Website Owner. All rights
-reserved. The logo may not be used, except by prior explicit authorisation.
+reserved. The logo may not be used, except by prior explicit authorization.
 
 
 ### Source code snippets

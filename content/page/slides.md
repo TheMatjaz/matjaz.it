@@ -15,7 +15,7 @@ weight = 0
 
 ## ELSA Summer Law School: Media Law
 
-- 27th July 2016
+- 27 July 2016
 - Event: [ELSA Trieste](http://www.elsatrieste.it/)'s
   [summer law school about Media law](http://lawschools.elsa.org/traineeship/trieste-media-law/)
 - Talk: **Computer Engineering Basics: the scary part made simple**:
@@ -27,7 +27,7 @@ weight = 0
 
 - 26 April to 24 May 2016
 - Event: [EESTEC LC Trieste](http://ts.eestec.it/)'s series of talks **in
-  italian** called [Informatica Pop](http://ts.eestec.it/informatica-pop/) about
+  Italian** called [Informatica Pop](http://ts.eestec.it/informatica-pop/) about
   good-to-know tricks and tips for any computer and smartphone user in a
   non-technical way.
 

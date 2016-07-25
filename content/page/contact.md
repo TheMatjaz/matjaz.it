@@ -22,7 +22,7 @@ weight       = 0
 
 ## Signal
 
-My favourite communication tool is **[Signal](https://whispersystems.org/)** by
+My favorite communication tool is **[Signal](https://whispersystems.org/)** by
 Open Whisper Systems. Phone number provided upon request.
 
 - [Fingerprint](/text/signal_fingerprint.txt)
