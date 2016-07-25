@@ -90,7 +90,7 @@ explains how to set up some OS X keyboard shortcuts to
 encrypt/decrypt/sign/verify a PGP text as easily as performing a copy-paste.
 
 
-## Setting `AES256` as the default symmetric encryption cypher for `gpg`
+## Setting `AES256` as the default symmetric encryption cipher for `gpg`
 
 It's as easy as adding the line `cipher-algo AES256` at the end of the `gpg`
 configuration file, which is in `~/.gnupg/gpg.conf`.

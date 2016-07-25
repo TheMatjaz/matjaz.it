@@ -91,7 +91,7 @@ save up to 90%.
 ## I like it
 
 At the end of the story it's a matter of personal taste and preference. I just
-like writing the fountain pens and you maybe prefer pencils and that's ok! Just
+like writing the fountain pens and you maybe prefer pencils and that's OK! Just
 use anything that makes you feel good and produces a good result at the same
 time.
 

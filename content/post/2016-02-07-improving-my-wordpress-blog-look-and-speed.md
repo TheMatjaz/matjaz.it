@@ -68,7 +68,7 @@ My AdBlock was hiding the social icons, because it was "afraid" of the word
 "social" in the code of the website. The issue was solved by renaming the
 "social-icon" into a "contact-icon", a solution
 [accepted](https://github.com/MachoThemes/decode/issues/51) by the theme
-develpers.
+developers.
 
 
 ## Improving the site speed
