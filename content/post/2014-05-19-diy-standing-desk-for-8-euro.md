@@ -32,7 +32,7 @@ sitting, so I'm not even trying it when standing.
 
 I wanted to give this standing desk a try without spending too much and without
 leaving my desk, so I created **a modular desk**, where I could stand or sit
-whenever I wanted to. It's an extention of my sitting desk to use it as a
+whenever I wanted to. It's an extension of my sitting desk to use it as a
 standing one if I wanted to, by placing a raised part on the desk. I spent only
 8 € since I already own some tools, glue and other stuff.
 
@@ -90,7 +90,7 @@ height. They are hollow.
 >}}
 
 Cut some pieces of plywood and scratch them with the sandpaper so they can
-hardly fit the inner part of the legs. Use a lot of vinilic glue and of course let it dry for a few hours.
+hardly fit the inner part of the legs. Use a lot of vinyl glue and of course let it dry for a few hours.
 
 {{< figure 
     src="/images/standing-desk/thumbnails/Leg_fill.jpg" 
@@ -98,7 +98,7 @@ hardly fit the inner part of the legs. Use a lot of vinilic glue and of course l
     alt="Leg fill" 
 >}}
 
-After that cut some rubber squares to fit the bottom of theleg and used the
+After that cut some rubber squares to fit the bottom of the leg and used the
 sandpaper to make it look more "stylish" (rounded edges and corners). The rubber
 will provide a good grip with the surface of the sitting desk and will prevent
 scratching. An alternative may be using stick-on floor protectors but your _Lack_
@@ -151,13 +151,13 @@ table.
 >}}
 
 Aaaand it looks cool, but it's not yet the end. We need to verify if it's
-horizontal. Some levelling is needed or the table will be unstable. Place the
+horizontal. Some leveling is needed or the table will be unstable. Place the
 _Lack_ upside down and be sure it's on a horizontal surface.
 
 {{< figure 
     src="/images/standing-desk/thumbnails/Levelling.jpg" 
     link="/images/standing-desk/Levelling.jpg"
-    alt="Levelling" 
+    alt="Leveling" 
 >}}
 
 After that verify that every leg is at the same height with every leg. If not,
@@ -166,7 +166,7 @@ scratch the rubber with the sandpaper of the taller legs.
 {{< figure 
     src="/images/standing-desk/thumbnails/Levelling_legs.jpg" 
     link="/images/standing-desk/Levelling_legs.jpg"
-    alt="Levelling legs" 
+    alt="Leveling legs" 
 >}}
 
 Since only one of the legs was incorrect and I was tired of scratching it, I put

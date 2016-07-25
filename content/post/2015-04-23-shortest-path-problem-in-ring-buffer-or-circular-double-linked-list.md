@@ -79,7 +79,7 @@ ring. Let's make it as a C struct:
 #include <stdlib.h>  /* Allows usage of abs() */
 
 struct oriented_arc_struct {
-    int lenght;
+    int length;
     bool clockwise;
 };
 

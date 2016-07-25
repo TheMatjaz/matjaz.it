@@ -55,7 +55,7 @@ about Lollipop since it may have the new version of Calendar installed by
 default.
 
 **Warning!** Your data may get deleted if you haven't done a sync with
-Google. Perform a sync first and everything should be ok.
+Google. Perform a sync first and everything should be OK.
 
 **Warning 2!** The rollback goes quite back in time so every update of the
 Calendar app between the release of your version of Android and the last

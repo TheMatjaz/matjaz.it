@@ -63,7 +63,7 @@ a more curated version of them.
 - Do not trust anybody unknown on the phone. Anybody can say he/she is the
   employee of your bank and needs your password/pin.
 - Never answer _"yes"_ during spam phone calls. They record it, edit the audio
-  track and make it figure like you accepted. If you have to, say _"ok"_, since
+  track and make it figure like you accepted. If you have to, say _"OK"_, since
   it should have no legal value (but IANAL).
 
 

@@ -46,7 +46,7 @@ I've backed up the files in the domain folder via FTPES, exported the database
 using the PhpMyAdmin panel and saved all my e-mails to a _mbox_ file. It took me
 waaay longer than writing this sentence, sadly. After the domain transition to
 the new servers, my hosting account on the old server got deleted and my old
-domain folder aswell. The strange fact was that my old MySql server account and
+domain folder as well. The strange fact was that my old MySql server account and
 my old e-mail accounts were not. So I simply performed an erase of every table,
 database, e-mail and e-mail account via PhpMyAdmin and webmail. Everything
 should disappear in a few weeks, when the last pieces of my old hosting account
@@ -55,7 +55,7 @@ will disappear.
 Then I reinstalled [Wordpress](https://wordpress.org) from the new hosting's
 control panel (which did it neatly for me, yay!), installed the plugins and
 themes that were used on the previous servers, uploaded back the
-_wp-content/uploads_ folder, reimported the old tables to MySql with the
+_wp-content/uploads_ folder, re-imported the old tables to MySql with the
 PhpMyAdmin import tool and changed the database settings in _wp-config.php_. It
 seems to work correctly.
 
@@ -63,7 +63,7 @@ seems to work correctly.
 ## New look
 
 I've also tried to change the theme: is called _Matheson_ and is very simple,
-minimalistic, neat and clear. Sadly it's quite expensive when it comes to the
+minimalist, neat and clear. Sadly it's quite expensive when it comes to the
 pro version. A good alternative was Automattic's theme Minnow, which I didn't
 choose due to the lack of images - and I'm unable to customize it.
 

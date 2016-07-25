@@ -30,7 +30,7 @@ overkill for simple home networks (yep... I've done that).
 
 **Note**: the version `A` of the script installs any update automatically. On
 complex systems this may lead to problems and incompatibilities. If not sure,
-use the version `B` which only donwloads the binaries to install, but does not
+use the version `B` which only downloads the binaries to install, but does not
 install them. Still **check if the code works well** for your use case.
 
 

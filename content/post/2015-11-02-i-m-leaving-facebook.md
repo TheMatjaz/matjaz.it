@@ -29,7 +29,7 @@ with me!
 For those who have also my phone number:
     
 - [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-  (ex TextSecure/RedPhone), my favourite communication method for its strong
+  (ex TextSecure/RedPhone), my favorite communication method for its strong
   security
 - WhatsApp (kind of forced to have it)
 - Well, you know, phone calls and SMS

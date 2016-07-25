@@ -61,7 +61,7 @@ Android backups. If you need them, Google is your friend.
 ## Flag files as deleted
 
 **Delete every file, picture, contact, whatever** you don't want to be seen from
-your device the way you usally do it. You may also remove some apps in case of
+your device the way you usually do it. You may also remove some apps in case of
 extra paranoia.
 
 

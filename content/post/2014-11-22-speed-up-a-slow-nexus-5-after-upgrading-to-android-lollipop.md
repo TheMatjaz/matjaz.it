@@ -15,7 +15,7 @@ weight       = 0
 
 Right after upgrading my phone from Android Kitkat 4.4.4 to Lollipop 5.0 I had a
 disappointed face for the whole day because of the new design and the extreme UI
-lag, which is prett unusual for a fast smartphone.
+lag, which is pretty unusual for a fast smartphone.
 
 I already complained (yes, I really like to do that!) about
 [the design of the new Google Calendar App](/revert-google-calendar-android-app-to-previous-version/),

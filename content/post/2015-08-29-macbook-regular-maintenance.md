@@ -33,18 +33,18 @@ your vendor, including Macs.
 1. Check for unused files and remove them or move them to another machine or
    disk
 1. Perform a backup of all the e-mails in your e-mail client. Export
-   your mailbox with Apple Mail or, if Thunderbird user, consider the addon
+   your mailbox with Apple Mail or, if Thunderbird user, consider the add-on
    [ImportExportTools](https://addons.mozilla.org/en-US/thunderbird/addon/importexporttools/).
 1. Vacuum Apple Mail database to improve it's performance by running this
    command in a terminal: `sqlite3 ~/Library/Mail/V2/MailData/Envelope\ Index
    vacuum;`
-1. Update the packages with your favourite package manager; if you use Homebrew:
+1. Update the packages with your favorite package manager; if you use Homebrew:
    `brew update; brew upgrade; brew cleanup`
 1. Update the software installed with any market or store; AppStore updates
 1. Perform a disk integrity check. Run _verify disk_ with _disk
     utility.app_
 1. Still using _disk utility.app,_ verify and correct the disk permissions
-1. Perform a full-system scan with your favourite antivirus
+1. Perform a full-system scan with your favorite antivirus
 1. Recalibrate the battery of your laptop; follow
    [this guide](http://support.apple.com/kb/ht1490) for MacBooks (see below for
    short version)
