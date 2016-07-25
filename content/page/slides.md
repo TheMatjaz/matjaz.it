@@ -1,5 +1,5 @@
 +++
-aliases = ["talks", "presentation", "presentations", "powerpoint"]
+aliases = ["slide", "talk", "talks", "presentation", "presentations", "powerpoint", "powerpoints"]
 date = "2016-06-09T23:02:19+02:00"
 description = "The slides I used in my talks are here for anybody who needs to check them again."
 draft = false

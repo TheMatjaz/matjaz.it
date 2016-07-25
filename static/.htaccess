@@ -128,3 +128,8 @@ RedirectMatch 301 (?i)^/numerus/?$         http://matjaz.it/software/
 # First post
 RedirectMatch 301 (?i)^/first/?$           http://matjaz.it/hi-out-there/
 
+# Talks and slides page
+RedirectMatch 301 (?i)^/slide/?$           http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/talks?/?$          http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/presentations?/?$  http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/powerpoints?/?$    http://matjaz.it/slides/
