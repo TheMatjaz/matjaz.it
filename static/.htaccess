@@ -139,3 +139,7 @@ RedirectMatch 301 (?i)^/slide/?$           http://matjaz.it/slides/
 RedirectMatch 301 (?i)^/talks?/?$          http://matjaz.it/slides/
 RedirectMatch 301 (?i)^/presentations?/?$  http://matjaz.it/slides/
 RedirectMatch 301 (?i)^/powerpoints?/?$    http://matjaz.it/slides/
+
+# Taxonomies singular to plural
+RedirectMatch 301 (?i)^/category/?(.*)$    http://matjaz.it/categories/$1
+RedirectMatch 301 (?i)^/(tag|tag/(.*))$    http://matjaz.it/tags/$2
