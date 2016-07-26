@@ -5,6 +5,7 @@ description  = "A list of the software I made."
 draft        = false
 hidefromhome = true
 highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
 slug         = "software"
 title        = "Software"
 type         = "page"

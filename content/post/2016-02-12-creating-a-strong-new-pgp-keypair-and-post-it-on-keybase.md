@@ -5,6 +5,7 @@ date         = "2016-02-12T15:35:32+00:00"
 description  = "My tutorial on creating a nice, strong, clean OpenPGP keypair with GnuPG and using Keybase to upload it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:07:23+02:00"
 slug         = "creating-a-strong-new-pgp-keypair-and-post-it-on-keybase"
 tags         = ["GnuPG", "PGP", "Keybase", "Privacy", "Security", "E-mail"]
 title        = "Creating a strong new PGP keypair and post it on Keybase"

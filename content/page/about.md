@@ -1,14 +1,16 @@
+
 +++
-aliases = ["about-me", "about-this-blog", "info"]
-date = "2014-01-16T19:39:19+00:00"
-description = "Are you wondering who is the writer of this blog and why does this blog even exist?"
-draft = false
+aliases      = ["about-me", "about-this-blog", "info"]
+date         = "2014-01-16T19:39:19+00:00"
+description  = "Are you wondering who is the writer of this blog and why does this blog even exist?"
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "about"
-title = "About this blog and me"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
+slug         = "about"
+title        = "About this blog and me"
+type         = "page"
+weight       = 0
 +++
 
 

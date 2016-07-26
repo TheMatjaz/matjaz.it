@@ -1,15 +1,16 @@
-a+++
-aliases = []
-categories = ["Blog"]
-date = "2016-07-13T01:30:51+00:00"
-description = "Hugo and its themes by default don't always offer the best settings to make your website friendly for search engines to index or for browsers to understand or for humans to wrap their heads around. Let's make a checklist of technical but easy things to change for the first group: make it machine-friendly."
-draft = false
-highlight = true
-slug = "hugo-power-user-make-it-web-friendly-1"
-tags = ["Hugo power user", "Hugo", "Blog", "Standard"]
-title = "#HugoPowerUser: make it web friendly pt. 1"
-type = "post"
-weight = 0
++++
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-07-13T01:30:51+00:00"
+description  = "Hugo and its themes by default don't always offer the best settings to make your website friendly for search engines to index or for browsers to understand or for humans to wrap their heads around. Let's make a checklist of technical but easy things to change for the first group: make it machine-friendly."
+draft        = false
+highlight    = true
+lastmod      = "2016-07-26T01:07:23+02:00"
+slug         = "hugo-power-user-make-it-web-friendly-1"
+tags         = ["Hugo power user", "Hugo", "Blog", "Standard"]
+title        = "#HugoPowerUser: make it web friendly pt. 1"
+type         = "post"
+weight       = 0
 
 +++
 

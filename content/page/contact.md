@@ -5,6 +5,7 @@ description  = "Contact information of the blog author along with the PGP public
 draft        = false
 hidefromhome = true
 highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
 slug         = "contact"
 title        = "Contact & GnuPG"
 type         = "page"

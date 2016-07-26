@@ -5,6 +5,7 @@ date         = "2014-11-22T17:35:44+00:00"
 description  = "Especially after an Android upgrade a cache cleanup on boot menu makes miracles and speeds up the whole phone. Here is how to perform it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop"
 tags         = ["Android", "Smartphone", "Cache", "Wipe", "Trick"]
 title        = "Speed up a slow Nexus 5 after upgrading to Android Lollipop"

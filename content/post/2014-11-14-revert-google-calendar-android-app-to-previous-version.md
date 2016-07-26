@@ -5,6 +5,7 @@ date         = "2014-11-14T14:21:28+00:00"
 description  = "The Android Google Calendar App has just been updated but it has bad design: here is how you switch to the old version."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "revert-google-calendar-android-app-to-previous-version"
 tags         = ["Android", "Smartphone", "Google", "Calendar"]
 title        = "Revert Google Calendar Android app to previous version"

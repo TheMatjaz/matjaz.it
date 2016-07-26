@@ -5,6 +5,7 @@ date         = "2016-02-07T15:13:20+00:00"
 description  = "Another improvement of my website: a Wordpress theme change to make it more minimal, some custom theme modifications and .htaccess tweaks to make it faster."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-26T01:07:23+02:00"
 slug         = "improving-my-wordpress-blog-look-and-speed"
 tags         = ["Blog", "Performance", "Wordpress"]
 title        = "Improving my Wordpress blog look and speed"

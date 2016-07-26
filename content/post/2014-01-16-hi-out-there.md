@@ -5,6 +5,7 @@ date         = "2014-01-16T18:20:45+00:00"
 description  = "The first post of this blog, an introduction of it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "hi-out-there"
 tags         = ["Blog", "Domain", "First post", "Hello World!", "Start"]
 title        = "Hi, out there!"
