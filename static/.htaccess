@@ -77,7 +77,7 @@ AddType application/font-woff2 .woff2
     Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 
-# 3 MONTHS - images don't change except in stange cases
+# 3 MONTHS - images don't change except in strange cases
 <FilesMatch "\.(png|svg|ico|jpg|jpeg|gif|pdf)$">
     Header set Cache-Control "max-age=7884000, public"
 </FilesMatch>
@@ -89,6 +89,11 @@ AddType application/font-woff2 .woff2
 # 2 WEEKS - possible to be changed
 <FilesMatch "\.(css|txt|js)$">
     Header set Cache-Control "max-age=1209600, public"
+</FilesMatch>
+
+# 10 MINUTES - just keep shortly to speed up navigation through pages
+<FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=600, public"
 </FilesMatch>
 
 # NEVER CACHE - notice the extra directives
