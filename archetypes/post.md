@@ -4,6 +4,7 @@ categories   = []
 date         = ""
 description  = ""
 draft        = true
+lastmod      = ""
 slug         = ""
 tags         = []
 title        = ""

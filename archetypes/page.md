@@ -4,6 +4,7 @@ date         = ""
 description  = ""
 draft        = true
 hidefromhome = true
+lastmod      = ""
 slug         = ""
 title        = ""
 type         = "page"
