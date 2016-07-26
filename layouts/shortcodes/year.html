@@ -1,4 +1,7 @@
 {{/*
-    Prints the current year. Beware that it is the year of the Hugo compilation.
+    Prints the current year, useful for copyright notices.
+
+    Be aware that it is the year when the `hugo` command has been run to 
+    generate that file. It does not change dynamically for each page load.
 */}}
 {{ .Page.Now.Year }}
