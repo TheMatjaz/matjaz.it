@@ -26,6 +26,8 @@ weight       = 0
 My favorite communication tool is **[Signal](https://whispersystems.org/)** by
 Open Whisper Systems. Phone number provided upon request.
 
-- [Fingerprint](/text/signal_fingerprint.txt)
+- [Fingerprint](/text/signal_fingerprint.txt) as verified on 
+  [Twitter](https://twitter.com/TheMatjaz/status/757999117696106500)
 - [GnuPG signed fingerprint](/text/signal_fingerprint.asc)
-- [QR code](/images/qr-code/signal_fingerprint.png)
+- [QR code](/images/qr-code/signal_fingerprint.png) as verified on 
+  [Twitter](https://twitter.com/TheMatjaz/status/757999266258358272)
