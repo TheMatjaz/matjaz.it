@@ -5,6 +5,7 @@ date         = "2016-04-02T12:03:33+00:00"
 description  = "A friend had problems with MySQL because it was not using an existing index for a query. A huge number of queries were rebuild into one which was 4000x faster than each of the previous ones."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-08T13:58:39+02:00"
 slug         = "optimizing-a-very-simple-mysql-query-use-where-instead-of-limit"
 tags         = ["Software", "MySQL", "Database", "Query"]
 title        = "Optimizing a very simple MySQL query: use WHERE instead of LIMIT"

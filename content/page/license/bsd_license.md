@@ -1,14 +1,15 @@
 +++
-aliases = []
-date = "2016-07-08T15:34:14+02:00"
-description = "The full text of the BSD 3-Clause License for the source code snippets published on matjaz.it."
-draft = false
+aliases      = []
+date         = "2016-07-08T15:34:14+02:00"
+description  = "The full text of the BSD 3-Clause License for the source code snippets published on matjaz.it."
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "bsd-3-clause-license"
-title = "BSD 3-Clause License"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-08T18:03:09+02:00"
+slug         = "bsd-3-clause-license"
+title        = "BSD 3-Clause License"
+type         = "page"
+weight       = 0
 
 +++
 

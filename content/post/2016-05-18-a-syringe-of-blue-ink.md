@@ -5,6 +5,7 @@ date         = "2016-05-18T09:30:46+00:00"
 description  = "Why do I use a fountain pen? Well, I like it, I write smoothly and it can be erased easily in some cases. Curious?"
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:07:23+02:00"
 slug         = "a-syringe-of-blue-ink"
 tags         = ["Lifehack", "Fountain pen", "Trick", "Writing"]
 title        = "A syringe of blue ink"

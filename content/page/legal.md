@@ -1,14 +1,15 @@
 +++
-aliases = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
-date = "2016-06-06T21:32:44+02:00"
-description = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply."
-draft = false
+aliases      = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
+date         = "2016-06-06T21:32:44+02:00"
+description  = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply."
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "legal-notice"
-title = "Legal notice: copyright, privacy and disclaimer"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
+slug         = "legal-notice"
+title        = "Legal notice: copyright, privacy and disclaimer"
+type         = "page"
+weight       = 0
 
 +++
 

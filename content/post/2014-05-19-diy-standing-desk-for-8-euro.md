@@ -5,6 +5,7 @@ date         = "2014-05-19T08:32:08+00:00"
 description  = "I wanted to try a standing desk without loosing too much money if I didn't liked it afterwards. Using and modifying an 8 € Ikea side table, I was able to create a modular desk: both standing or sitting as needed."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "diy-standing-desk-for-8-euro"
 tags         = ["Computer", "Lifehack", "Desk", "Standing Desk", "Wood", "Maker"]
 title        = "DIY Standing desk for 8 € (and some tools)"

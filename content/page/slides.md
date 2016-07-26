@@ -1,14 +1,15 @@
 +++
-aliases = ["slide", "talk", "talks", "presentation", "presentations", "powerpoint", "powerpoints"]
-date = "2016-06-09T23:02:19+02:00"
-description = "The slides I used in my talks are here for anybody who needs to check them again."
-draft = false
+aliases      = ["slide", "talk", "talks", "presentation", "presentations", "powerpoint", "powerpoints"]
+date         = "2016-06-09T23:02:19+02:00"
+description  = "The slides I used in my talks are here for anybody who needs to check them again."
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "slides"
-title = "Talks and slides"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
+slug         = "slides"
+title        = "Talks and slides"
+type         = "page"
+weight       = 0
 
 +++
 

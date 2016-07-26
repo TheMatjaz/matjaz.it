@@ -1,15 +1,16 @@
 +++
-aliases = []
-categories = ["Blog"]
-date = "2016-07-10T20:10:37+02:00"
-description = "Today we dive into how to organize the Hugo folder and the structure of the content you are going to publish on the web after a potential export from the previous CMS."
-draft = false
-highlight = true
-slug = "hugo-power-user-organization"
-tags = ["Hugo Power User", "Hugo", "Blog", "Git", "Wordpress"]
-title = "#HugoPowerUser: content organization"
-type = "post"
-weight = 0
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-07-10T20:10:37+02:00"
+description  = "Today we dive into how to organize the Hugo folder and the structure of the content you are going to publish on the web after a potential export from the previous CMS."
+draft        = false
+highlight    = true
+lastmod      = "2016-07-10T20:10:11+02:00"
+slug         = "hugo-power-user-organization"
+tags         = ["Hugo Power User", "Hugo", "Blog", "Git", "Wordpress"]
+title        = "#HugoPowerUser: content organization"
+type         = "post"
+weight       = 0
 
 +++
 

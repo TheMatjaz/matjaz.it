@@ -5,6 +5,7 @@ date         = "2015-11-30T20:51:48+00:00"
 description  = "Wget is amazing but how to make it work smoothly on unstable connections? I use a shell alias to make it retry the download infinite times until it's done."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-08T18:03:09+02:00"
 slug         = "wget-retry-until-completed-alias"
 tags         = ["Wget", "Shell", "Linux", "Download", "Software", "Connection"]
 title        = "Wget retry-until-completed alias"

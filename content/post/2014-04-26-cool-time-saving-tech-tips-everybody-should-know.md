@@ -5,6 +5,7 @@ date         = "2014-04-26T10:35:28+00:00"
 description  = "Extracted from the David Pogue's TED Talk, a list of 10 nice tech tips for anyone to be faster on your computer. They are easy and simple as any tip should be."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-08T18:03:09+02:00"
 slug         = "cool-time-saving-tech-tips-everybody-should-know"
 tags         = ["Browser", "Computer", "Lifehack", "Shortcut", "TED", "Time-saving", "Tip", "Trick"]
 title        = "Cool time-saving tech tips everybody should know"

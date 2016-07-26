@@ -5,6 +5,7 @@ date         = "2014-06-05T19:09:29+00:00"
 description  = "Using cron to run apt-get update and upgrade commands. Use with care."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"
 tags         = ["apt-get", "cron", "Linux", "automatic", "Raspberry Pi", "Update"]
 title        = "Automatically update a Debian/Ubuntu using apt-get and cron"

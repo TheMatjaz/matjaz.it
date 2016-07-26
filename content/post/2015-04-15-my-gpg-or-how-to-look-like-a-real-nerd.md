@@ -5,6 +5,7 @@ date         = "2015-04-15T06:23:41+00:00"
 description  = "I made a OpenPGP keypair. Get my public key in this post."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-08T13:58:58+02:00"
 slug         = "my-gpg-or-how-to-look-like-a-real-nerd"
 tags         = ["E-mail", "Security", "Privacy", "GnuPG", "PGP"]
 title        = "My GPG or 'How to look like a real nerd'"

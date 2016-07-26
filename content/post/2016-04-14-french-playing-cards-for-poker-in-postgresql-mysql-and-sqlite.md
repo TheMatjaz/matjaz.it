@@ -5,6 +5,7 @@ date         = "2016-04-14T17:21:49+00:00"
 description  = "Implementing a deck of Poker cards in a SQL database: my solution for it is just a simple table of cards with a lot of columns in it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-08T18:03:09+02:00"
 slug         = "french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite"
 tags         = ["Software", "Development", "Database", "SQL", "MySQL", "PostgreSQL", "SQLite", "Poker"]
 title        = "French playing cards for Poker in PostgreSQL, MySQL and SQLite"

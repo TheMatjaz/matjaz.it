@@ -1,15 +1,16 @@
 +++
-aliases = []
-categories = ["Blog"]
-date = "2016-07-09T09:22:24+02:00"
-description = "I tried Hugo before and had a great time. After some more tweaking I moved my blog from Wordpress to Hugo for a variety of reasons. Some are security, speed, customizability and content control. Here I start a series about my steps on empowering my blog the static way."
-draft = false
-highlight = false
-slug = "hugo-power-user-reasons-to-choose-hugo"
-tags = ["Hugo Power User", "Blog", "Hugo", "Wordpress", "Design"]
-title = "#HugoPowerUser: reasons to choose Hugo"
-type = "post"
-weight = 0
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-07-09T09:22:24+02:00"
+description  = "I tried Hugo before and had a great time. After some more tweaking I moved my blog from Wordpress to Hugo for a variety of reasons. Some are security, speed, customizability and content control. Here I start a series about my steps on empowering my blog the static way."
+draft        = false
+highlight    = false
+lastmod      = "2016-07-26T01:07:23+02:00"
+slug         = "hugo-power-user-reasons-to-choose-hugo"
+tags         = ["Hugo Power User", "Blog", "Hugo", "Wordpress", "Design"]
+title        = "#HugoPowerUser: reasons to choose Hugo"
+type         = "post"
+weight       = 0
 
 +++
 

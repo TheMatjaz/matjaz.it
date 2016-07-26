@@ -5,6 +5,7 @@ date         = "2014-10-15T05:44:53+00:00"
 description  = "Your phone is one of the things you touch the most during the day - after touching anything else. There are way too much bacteria on it. What else do you touch commonly but you never clean?"
 draft        = false
 highlight    = false
+lastmod      = "2016-07-08T13:58:58+02:00"
 slug         = "your-phone-is-infected-not-only-computer-viruses-also-real-bacteria"
 tags         = ["Computer", "Lifehack", "Bacteria", "Smartphone", "Keyboard"]
 title        = "Your phone is infected: not only computer viruses, also real bacteria"
