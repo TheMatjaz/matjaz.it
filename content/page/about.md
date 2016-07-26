@@ -1,14 +1,16 @@
+
 +++
-aliases = ["about-me", "about-this-blog", "info"]
-date = "2014-01-16T19:39:19+00:00"
-description = "Are you wondering who is the writer of this blog and why does this blog even exist?"
-draft = false
+aliases      = ["about-me", "about-this-blog", "info"]
+date         = "2014-01-16T19:39:19+00:00"
+description  = "Are you wondering who is the writer of this blog and why does this blog even exist?"
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "about"
-title = "About this blog and me"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
+slug         = "about"
+title        = "About this blog and me"
+type         = "page"
+weight       = 0
 +++
 
 
@@ -41,12 +43,12 @@ Feel free to use the content of the website upon providing me credit! Check
 the [legal notice](/legal-notice/) for more information.
 
 
-## Wait, why are you writing in english? It's not your mother-tongue...
+## Wait, why are you writing in English? It's not your mother-tongue...
 
 Correct, it's actually the 4th language I've learned and since I'm not an expert
 please correct me, if you find some errors. I'd appreciate it, since I'm a
-grammar-nazi as well. I've chosen english[*] because it's universal, since I
-know many people of different mother-tongues. Also by writing in english I can
+grammar-nazi as well. I've chosen English[*] because it's universal, since I
+know many people of different mother-tongues. Also by writing in English I can
 hope somebody else in the world will find what I write useful or at least
 fascinating.
 

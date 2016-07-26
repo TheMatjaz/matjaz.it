@@ -5,6 +5,7 @@ date         = "2016-02-12T15:35:32+00:00"
 description  = "My tutorial on creating a nice, strong, clean OpenPGP keypair with GnuPG and using Keybase to upload it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:07:23+02:00"
 slug         = "creating-a-strong-new-pgp-keypair-and-post-it-on-keybase"
 tags         = ["GnuPG", "PGP", "Keybase", "Privacy", "Security", "E-mail"]
 title        = "Creating a strong new PGP keypair and post it on Keybase"
@@ -90,7 +91,7 @@ explains how to set up some OS X keyboard shortcuts to
 encrypt/decrypt/sign/verify a PGP text as easily as performing a copy-paste.
 
 
-## Setting `AES256` as the default symmetric encryption cypher for `gpg`
+## Setting `AES256` as the default symmetric encryption cipher for `gpg`
 
 It's as easy as adding the line `cipher-algo AES256` at the end of the `gpg`
 configuration file, which is in `~/.gnupg/gpg.conf`.

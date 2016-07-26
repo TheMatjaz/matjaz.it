@@ -5,6 +5,7 @@ date         = "2014-06-05T19:09:29+00:00"
 description  = "Using cron to run apt-get update and upgrade commands. Use with care."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "automatically-update-a-debian-ubuntu-using-apt-get-and-cron"
 tags         = ["apt-get", "cron", "Linux", "automatic", "Raspberry Pi", "Update"]
 title        = "Automatically update a Debian/Ubuntu using apt-get and cron"
@@ -30,7 +31,7 @@ overkill for simple home networks (yep... I've done that).
 
 **Note**: the version `A` of the script installs any update automatically. On
 complex systems this may lead to problems and incompatibilities. If not sure,
-use the version `B` which only donwloads the binaries to install, but does not
+use the version `B` which only downloads the binaries to install, but does not
 install them. Still **check if the code works well** for your use case.
 
 

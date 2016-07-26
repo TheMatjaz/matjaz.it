@@ -5,6 +5,7 @@ date         = "2014-11-14T14:21:28+00:00"
 description  = "The Android Google Calendar App has just been updated but it has bad design: here is how you switch to the old version."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "revert-google-calendar-android-app-to-previous-version"
 tags         = ["Android", "Smartphone", "Google", "Calendar"]
 title        = "Revert Google Calendar Android app to previous version"
@@ -55,7 +56,7 @@ about Lollipop since it may have the new version of Calendar installed by
 default.
 
 **Warning!** Your data may get deleted if you haven't done a sync with
-Google. Perform a sync first and everything should be ok.
+Google. Perform a sync first and everything should be OK.
 
 **Warning 2!** The rollback goes quite back in time so every update of the
 Calendar app between the release of your version of Android and the last

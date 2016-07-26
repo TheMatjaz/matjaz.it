@@ -1,15 +1,16 @@
 +++
-aliases = []
-categories = ["Blog"]
-date = "2016-07-09T09:22:24+02:00"
-description = "I tried Hugo before and had a great time. After some more tweaking I moved my blog from Wordpress to Hugo for a variety of reasons. Some are security, speed, customizability and content control. Here I start a series about my steps on empowering my blog the static way."
-draft = false
-highlight = false
-slug = "hugo-power-user-reasons-to-choose-hugo"
-tags = ["Hugo Power User", "Blog", "Hugo", "Wordpress", "Design"]
-title = "#HugoPowerUser: reasons to choose Hugo"
-type = "post"
-weight = 0
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-07-09T09:22:24+02:00"
+description  = "I tried Hugo before and had a great time. After some more tweaking I moved my blog from Wordpress to Hugo for a variety of reasons. Some are security, speed, customizability and content control. Here I start a series about my steps on empowering my blog the static way."
+draft        = false
+highlight    = false
+lastmod      = "2016-07-26T01:07:23+02:00"
+slug         = "hugo-power-user-reasons-to-choose-hugo"
+tags         = ["Hugo Power User", "Blog", "Hugo", "Wordpress", "Design"]
+title        = "#HugoPowerUser: reasons to choose Hugo"
+type         = "post"
+weight       = 0
 
 +++
 
@@ -36,7 +37,7 @@ becomes tedious. If you are a beginner, consider the (free) hosting on
 [wordpress.com](https://wordpress.com).
 
 Whenever I wanted to tweak something specific, for instance add an HTML line in
-the header I had two choises: install a plugin that does it or learn how to
+the header I had two choices: install a plugin that does it or learn how to
 become a Wordpress developer. After too many plugins changing the content and
 database their way, the nested changes were just to much for my hosting to
 handle while the quality of the resulting HTML just fell.
@@ -71,7 +72,7 @@ My reasons for a static website:
   even a local git-remote to an USB key. There is absolutely **no need for
   exports, database dumps, www-folder backups** and so on.
 
-> Basically: once the website is up, there is no managment of it anymore, except
+> Basically: once the website is up, there is no management of it anymore, except
 > for content changes.
 
 
@@ -85,7 +86,7 @@ The cons, for any non-tech-savvy user could be:
   generate and refresh the website locally blazingly fast.
 - Using Git is not _that_ user friendly and many people complain about that. Of
   course using Git is not required although it's a mayor advantage.
-- The theme needs to be customized manually (footer, header, CSS parts). Againg
+- The theme needs to be customized manually (footer, header, CSS parts). Again
   an expert can help for this part.
 
 If those are not a problem for you, then use

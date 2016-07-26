@@ -1,15 +1,16 @@
 +++
-aliases = []
-categories = ["Blog"]
-date = "2016-07-19T08:10:00+00:00"
-description = "There are some things any website may easily have to make visitors feel more at home. Is your favicon all right on all devices? Do you have a human readable sitemap? What about some classic pages like the About page, the Legal notice/Privacy page? The second pare of the checklist of technical but easy things to change, this time to make the website human-friendly."
-draft = false
-highlight = true
-slug = "hugo-power-user-make-it-web-friendly-2"
-tags = ["Hugo power user", "Hugo", "Blog", "Standard"]
-title = "#HugoPowerUser: make it web friendly pt. 2"
-type = "post"
-weight = 0
+aliases      = []
+categories   = ["Blog"]
+date         = "2016-07-19T08:10:00+00:00"
+description  = "There are some things any website may easily have to make visitors feel more at home. Is your favicon all right on all devices? Do you have a human readable sitemap? What about some classic pages like the About page, the Legal notice/Privacy page? The second pare of the checklist of technical but easy things to change, this time to make the website human-friendly."
+draft        = false
+highlight    = true
+lastmod      = "2016-07-26T01:07:23+02:00"
+slug         = "hugo-power-user-make-it-web-friendly-2"
+tags         = ["Hugo power user", "Hugo", "Blog", "Standard"]
+title        = "#HugoPowerUser: make it web friendly pt. 2"
+type         = "post"
+weight       = 0
 
 +++
 

@@ -5,6 +5,7 @@ date         = "2014-05-31T21:55:46+00:00"
 description  = "The pictures you thought were deleted from your phone are still there and the buyer of your phone can see them. This is a simple tutorial to show you how to securely deleting all hidden data from your Android phone."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "how-to-erase-your-android-before-selling-it"
 tags         = ["Android", "Security", "Privacy", "Delete", "Data", "Wipe"]
 title        = "How to securely and truly erase your Android before selling it"
@@ -61,7 +62,7 @@ Android backups. If you need them, Google is your friend.
 ## Flag files as deleted
 
 **Delete every file, picture, contact, whatever** you don't want to be seen from
-your device the way you usally do it. You may also remove some apps in case of
+your device the way you usually do it. You may also remove some apps in case of
 extra paranoia.
 
 

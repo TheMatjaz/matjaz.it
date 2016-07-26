@@ -5,6 +5,7 @@ date         = "2015-04-23T08:43:42+00:00"
 description  = "Think about an analogical clock and ignore the minute and second hand. Your hour hand is currently pointing to `11` and you want to move it to `3`. Do you turn the hand clockwise or counterclockwise? This is a simple algorithm with C implementation to find the shortest path on a clock-like ring."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "shortest-path-problem-in-ring-buffer-or-circular-double-linked-list"
 tags         = ["Algorithm", "C", "List", "Ring", "Software"]
 title        = "Shortest path problem in ring buffer or circular double linked list"
@@ -79,7 +80,7 @@ ring. Let's make it as a C struct:
 #include <stdlib.h>  /* Allows usage of abs() */
 
 struct oriented_arc_struct {
-    int lenght;
+    int length;
     bool clockwise;
 };
 

@@ -1,11 +1,18 @@
 # MATJAZ.IT .HTACCESS FILE
 # =============================================================================
 
+## Redirect www to non-www
+## --------------------------------------------------------
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
 ## Domain redirection from gustin.it to matjaz.it
 ## --------------------------------------------------------
-RewriteCond %{HTTP_HOST} ^gustin\.it$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.gustin\.it$
-RewriteRule ^/?$ "http\:\/\/matjaz\.it" [R=301,L]
+RewriteCond %{HTTP_HOST} !matjaz.it$ [NC]
+RewriteRule ^(.*)$ http://matjaz.it/$1 [R=302,L]
 
 
 ## Set HTTP headers for Charset and Content language
@@ -65,23 +72,34 @@ AddType application/font-woff2 .woff2
 
 ## Set browser cache time to live
 ## --------------------------------------------------------
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresByType text/css "access 1 month"
-    ExpiresByType text/html "access 1 month"
-    ExpiresByType image/gif "access 1 year"
-    ExpiresByType image/png "access 1 year"
-    ExpiresByType image/jpg "access 1 year"
-    ExpiresByType image/jpeg "access 1 year"
-    ExpiresByType text/plain "access plus 1 month"
-    ExpiresByType image/svg+xml "access 1 year"
-    ExpiresByType image/x-icon "access 1 year"
-    ExpiresByType application/pdf "access 1 month"
-    ExpiresByType application/javascript "access 1 month"
-    ExpiresByType application/x-javascript "access plus 1 month"
-    ExpiresByType text/x-javascript "access 1 month"
-    ExpiresDefault "access 1 month"
-</IfModule>
+# 1 YEAR - fonts
+<FilesMatch "\.(woff2|woff|eot|ttf)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# 3 MONTHS - images don't change except in strange cases
+<FilesMatch "\.(png|svg|ico|jpg|jpeg|gif|pdf)$">
+    Header set Cache-Control "max-age=7884000, public"
+</FilesMatch>
+<FilesMatch "^manifest\.json$">
+    # Manifest file used for Favicons by RealFaviconGenerator
+    Header set Cache-Control "max-age=7884000, public"
+</FilesMatch>
+
+# 2 WEEKS - possible to be changed
+<FilesMatch "\.(css|txt|js)$">
+    Header set Cache-Control "max-age=1209600, public"
+</FilesMatch>
+
+# 10 MINUTES - just keep shortly to speed up navigation through pages
+<FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=600, public"
+</FilesMatch>
+
+# NEVER CACHE - notice the extra directives
+<FilesMatch "\.(php|py|cgi|pl)$">
+    Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
+</FilesMatch>
 
 
 ## 404 custom error page
@@ -90,6 +108,7 @@ ErrorDocument 404 /404.html
 
 
 ## 301-Redirections of page name aliases instead of HTML meta redirects
+## and other manually set redirections
 ## --------------------------------------------------------
 # Old RSS feed to new
 RedirectMatch 301 (?i)^/feed/?(index.xml)?$ http://matjaz.it/index.xml
@@ -128,3 +147,12 @@ RedirectMatch 301 (?i)^/numerus/?$         http://matjaz.it/software/
 # First post
 RedirectMatch 301 (?i)^/first/?$           http://matjaz.it/hi-out-there/
 
+# Talks and slides page
+RedirectMatch 301 (?i)^/slide/?$           http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/talks?/?$          http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/presentations?/?$  http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/powerpoints?/?$    http://matjaz.it/slides/
+
+# Taxonomies singular to plural
+RedirectMatch 301 (?i)^/category/?(.*)$    http://matjaz.it/categories/$1
+RedirectMatch 301 (?i)^/(tag|tag/(.*))$    http://matjaz.it/tags/$2

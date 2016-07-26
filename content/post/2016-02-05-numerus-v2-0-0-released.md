@@ -5,6 +5,7 @@ date         = "2016-02-05T08:49:53+00:00"
 description  = "Numerus is a library to convert from and to roman numerals. I rewrote it from Java to C, making it a lot better and faster."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-08T18:03:09+02:00"
 slug         = "numerus-v2-0-0-released"
 tags         = ["Development", "Software", "GitHub", "Numerus", "Roman numerals", "Library", "C"]
 title        = "Numerus v2.0.0 released"

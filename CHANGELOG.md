@@ -16,6 +16,49 @@ notable exceptions are:
   previous point.
 
 
+2016-07-27
+---------------------------------------
+
+My slides are online on a page, there is a new post of the #HugoPowerUser series
+and my Signal fingerprint is available.
+
+
+### Added
+
+- New post on how to make your Hugo website even faster by configuring the
+  web server and minifying the content.
+- Slides/talks page with my presentations and link on the home page.
+- Contact page now has Signal fingerprint as clear text, GPG signed text and QR
+  code and the link to my pgp public key on the pgp.mit.edu keyserver.
+- Last modification date, if any, of a post next to the publishing date in the
+  home page, in post listings and in the post itself.
+ 
+
+### Changed
+
+- Improved the legal notice page, removing redundancy and clarifying how the
+  website is privacy oriented.
+- Added HTML meta keywords without carons.
+- Taxonomies URLs with singular taxonomies get 301-redirected to the plural
+  ones.
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Run spellchecker `ispell` on all previous posts and pages, fixing typos.
+- Redirections from `gustin.it` and `www.` domains now work correctly,
+  transferring the whole path.
+- Improved browser caching times.
+- Fixed browser returning cached version of a page instead of checking for a new
+  one for too long periods.
+
+
+
 2016-07-19
 ---------------------------------------
 

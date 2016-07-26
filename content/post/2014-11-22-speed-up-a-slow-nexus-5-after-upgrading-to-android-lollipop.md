@@ -5,6 +5,7 @@ date         = "2014-11-22T17:35:44+00:00"
 description  = "Especially after an Android upgrade a cache cleanup on boot menu makes miracles and speeds up the whole phone. Here is how to perform it."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "speed-up-a-slow-nexus-5-after-upgrading-to-android-lollipop"
 tags         = ["Android", "Smartphone", "Cache", "Wipe", "Trick"]
 title        = "Speed up a slow Nexus 5 after upgrading to Android Lollipop"
@@ -15,7 +16,7 @@ weight       = 0
 
 Right after upgrading my phone from Android Kitkat 4.4.4 to Lollipop 5.0 I had a
 disappointed face for the whole day because of the new design and the extreme UI
-lag, which is prett unusual for a fast smartphone.
+lag, which is pretty unusual for a fast smartphone.
 
 I already complained (yes, I really like to do that!) about
 [the design of the new Google Calendar App](/revert-google-calendar-android-app-to-previous-version/),

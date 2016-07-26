@@ -35,7 +35,7 @@ What happened to me is called **_spoofing_**. Let me cite the almighty [Wikiped
 
 > Email spoofing is the creation of email messages with a forged sender
 > address. [...] Spam and phishing emails typically use such spoofing to mislead
-> the recipient about th origin of the message.
+> the recipient about the origin of the message.
 
 In other words one or more spammers used their accounts and their e-mail servers
 to send an awful lot of virus-containing e-mails and wrote on them that the
@@ -60,7 +60,7 @@ fake the sender identity as somebody the receiver knows from scams.
 
 ## Why was my inbox full?
 
-So ok, the spammer sends an e-mail and on it is written, that I am sender. But
+So OK, the spammer sends an e-mail and on it is written, that I am sender. But
 since the real sender was not my account, I had no spam e-mails in my _Sent_
 folder. **My account was untouched, I just had 823 new e-mails in the inbox.**
 
@@ -82,7 +82,7 @@ small changes each time, like the signature or the list of products, but the
 template was one of the two:
 
 - _"Thank you for your purchase"_ with a transaction code and a list of bought
-  prducts or
+  products or
 - _"We confirm we received the products you returned"_ with same other data as
   above.
 
@@ -129,7 +129,7 @@ Actually... No. Just pay some attention to those details:
 - it was really nothing more than in the example. Pure text! No images, no
   **logos**, no professional **signatures**. No professional reseller would ever
   send an e-mail like this.
-- I don't even know for **which company does mr. Tom Colombo work for**! Just
+- I don't even know for **which company does Mr. Tom Colombo work for**! Just
   his phone number. Isn't this strange?
 - high total amount to **make you anxious** and stop your rational thinking (at
   least a little)
@@ -166,7 +166,7 @@ account **received 823 e-mails**. Analyzing them I got the following data:
 - 191 refused executable attachment for security reasons: executable or `.cab`
   attachments are refused _a priori_, even before the antivirus scanned them
 - 61 mailbox/recipient not found: wrong address
-- 19 malware found: the server's antivirus or antispam found malicious content
+- 19 malware found: the server's antivirus or anti-spam found malicious content
 - 13 mailbox unavailable: not sure if is the same as wrong address, I'm putting
   it here
 
@@ -243,7 +243,7 @@ thanked me** (real me, not the fake address) for the warning. Only 4! I was
 really disappointed, that people are so rude.
 
 
-## The sad part: leveraging people's naïvety
+## The sad part: leveraging people's naivety
 
 Think about this example:
 
@@ -298,4 +298,4 @@ spam, but **some thought the e-mail was legit**. Please be aware of what you
 read in your inbox!
 
 > Some crimes, small or big can not be stopped, but still the human
-> stupidity/naïvety is astonishing. _Memento pensare!_
+> stupidity/naivety is astonishing. _Memento pensare!_

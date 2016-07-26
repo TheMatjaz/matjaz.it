@@ -1,38 +1,33 @@
 +++
-aliases = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
-date = "2016-06-06T21:32:44+02:00"
-description = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply."
-draft = false
+aliases      = ["copyright", "notice", "terms", "privacy", "legal", "tos", "policy", "license", "disclaimer"]
+date         = "2016-06-06T21:32:44+02:00"
+description  = "Legal notice, copyright, creative commons, privacy policy, terms of service and disclaimers all in one page explained simply."
+draft        = false
 hidefromhome = true
-highlight = false
-slug = "legal-notice"
-title = "Legal notice: copyright, privacy and disclaimer"
-type = "page"
-weight = 0
+highlight    = false
+lastmod      = "2016-07-26T22:53:32+02:00"
+slug         = "legal-notice"
+title        = "Legal notice: content license, privacy and disclaimers"
+type         = "page"
+weight       = 0
 
 +++
 
 This notice governs the manner in which the owner and author Matjaž Guštin
-(furtherly refferred as "Website Owner") of the website _"Thinking in a digital
-life"_ hosted on [matjaz.it](/) ("This Website" or "Website") licenses any
-content published on it ("Content") and how the Website Owner collects, uses,
-maintains and discloses information collected from users ("User") of the
-Website.
+("Website Owner") of the website _"Thinking in a digital life"_ hosted on
+[matjaz.it](/) ("This Website" or "Website") licenses any content published on
+it ("Content") and how the Website Owner collects, uses, maintains and discloses
+information collected from users ("User") of the Website.
 
 
-## Copyright and Creative Commons
-
-The Content on [matjaz.it](/) is **free and open even for commercial purpuses**
-upon providing credit to the Website Owner, except for the logo and where is
-explicitly stated otherwise.
-
+## Content license
 
 ### Website logo
 
 The _matjaz.it logo_, as seen in the
 [PNG format](/images/logos/matjaz_it_logo.png) or as inline-SVG in the website
 header, **is copyrighted property** of the Website Owner. All rights
-reserved. The logo may not be used, except by prior explicit authorisation.
+reserved. The logo may not be used, except by prior explicit authorization.
 
 
 ### Source code snippets
@@ -46,28 +41,27 @@ License_.
 
 ### Text, images and other content
 
-All remaining Content, except for where is explicitly stated otherwise, is
+All remaining Content, except where is explicitly stated otherwise, is
 published under the terms and conditions of the
 **[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)**
 also known as _CC BY 4.0_.
 
 
-### Exceptions
-
-This does not apply to any content with explicitly reserved reproduction rights:
-`©` or `(c)` or `(C)` followed by the right owner or for content not created by
-the Website Owner. Reproduction of the latter requires prior authorization from
-the original author.
-
-
 ## Privacy and personal data
 
-The Website Owner is committed to user privacy. For this reason This Website
-**does not use cookies, advertisement, Google Analytics, Google Fonts** or
-similar tracking tools.
+The Website Owner is committed to user privacy. For this reason This Website:
+
+- **does not use cookies**
+- **does not advertise**
+- **does not track users for website metrics** with analytics tools such as 
+  Google Analytics
+- self-hosts as many resources as possible such as Javascript, CSS and font 
+  files
+- does not use Content Delivery Networks (CDN)
+- does not need Javascript to be used
 
 For each page visited the information your browser sends to the web server
-hosting This Website is logged for statistical purposes. This information
+hosting This Website may be logged for statistical purposes. This information
 includes your IP address, ISP, user agent, visited URL and other parts of the
 HTTP request header. The Website Owner is committed **not to disclose** this
 data to **any third party** and to use it exclusively to evaluate and improve

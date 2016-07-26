@@ -5,6 +5,7 @@ description  = "A list of the software I made."
 draft        = false
 hidefromhome = true
 highlight    = false
+lastmod      = "2016-07-26T00:46:26+02:00"
 slug         = "software"
 title        = "Software"
 type         = "page"
@@ -39,7 +40,7 @@ including objects to represent roman numerals and their values.
 
 Yet another **dotfiles repository** but now with **one git-branch per OS** each
 with its own installer and updater scripts. Dotfiles are configuration files on
-Unix-like OS for user customizations for text editors, shells, aliases and so on
+Unix-like OS for user customization for text editors, shells, aliases and so on
 saved in the home directory as `.filename`.
 
 

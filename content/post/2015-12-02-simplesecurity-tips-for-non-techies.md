@@ -5,6 +5,7 @@ date         = "2015-12-02T15:47:19+00:00"
 description  = "My #simplesecurity rants on Twitter about Information security and privacy everyone could do - all in one place."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "simplesecurity-tips-for-non-techies"
 tags         = ["Encryption", "Password", "Security", "Privacy", "Tip"]
 title        = "#SimpleSecurity tips for non-techies"
@@ -63,7 +64,7 @@ a more curated version of them.
 - Do not trust anybody unknown on the phone. Anybody can say he/she is the
   employee of your bank and needs your password/pin.
 - Never answer _"yes"_ during spam phone calls. They record it, edit the audio
-  track and make it figure like you accepted. If you have to, say _"ok"_, since
+  track and make it figure like you accepted. If you have to, say _"OK"_, since
   it should have no legal value (but IANAL).
 
 

@@ -5,6 +5,7 @@ date         = "2016-02-07T15:13:20+00:00"
 description  = "Another improvement of my website: a Wordpress theme change to make it more minimal, some custom theme modifications and .htaccess tweaks to make it faster."
 draft        = false
 highlight    = true
+lastmod      = "2016-07-26T01:07:23+02:00"
 slug         = "improving-my-wordpress-blog-look-and-speed"
 tags         = ["Blog", "Performance", "Wordpress"]
 title        = "Improving my Wordpress blog look and speed"
@@ -68,7 +69,7 @@ My AdBlock was hiding the social icons, because it was "afraid" of the word
 "social" in the code of the website. The issue was solved by renaming the
 "social-icon" into a "contact-icon", a solution
 [accepted](https://github.com/MachoThemes/decode/issues/51) by the theme
-develpers.
+developers.
 
 
 ## Improving the site speed

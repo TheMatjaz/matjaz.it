@@ -5,6 +5,7 @@ date         = "2015-11-02T20:29:37+00:00"
 description  = "Goodbye Facebook. Some reasons why I'm leaving and some links on how to contact me on other channels."
 draft        = false
 highlight    = false
+lastmod      = "2016-07-26T01:00:41+02:00"
 slug         = "i-m-leaving-facebook"
 tags         = ["Contact", "E-mail", "Facebook", "Social", "Time saving"]
 title        = "I'm leaving Facebook"
@@ -29,7 +30,7 @@ with me!
 For those who have also my phone number:
     
 - [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-  (ex TextSecure/RedPhone), my favourite communication method for its strong
+  (ex TextSecure/RedPhone), my favorite communication method for its strong
   security
 - WhatsApp (kind of forced to have it)
 - Well, you know, phone calls and SMS
