@@ -5,9 +5,9 @@ description  = "Legal notice, copyright, creative commons, privacy policy, terms
 draft        = false
 hidefromhome = true
 highlight    = false
-lastmod      = "2016-07-26T00:46:26+02:00"
+lastmod      = "2016-07-26T22:53:32+0200"
 slug         = "legal-notice"
-title        = "Legal notice: copyright, privacy and disclaimer"
+title        = "Legal notice: content license, privacy and disclaimers"
 type         = "page"
 weight       = 0
 
@@ -20,12 +20,7 @@ it ("Content") and how the Website Owner collects, uses, maintains and discloses
 information collected from users ("User") of the Website.
 
 
-## Copyright and Creative Commons
-
-The Content on [matjaz.it](/) is **free and open even for commercial purposes**
-upon providing credit to the Website Owner, except for the logo and where is
-explicitly stated otherwise.
-
+## Content license
 
 ### Website logo
 
@@ -46,28 +41,27 @@ License_.
 
 ### Text, images and other content
 
-All remaining Content, except for where is explicitly stated otherwise, is
+All remaining Content, except where is explicitly stated otherwise, is
 published under the terms and conditions of the
 **[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)**
 also known as _CC BY 4.0_.
 
 
-### Exceptions
-
-This does not apply to any content with explicitly reserved reproduction rights:
-`©` or `(c)` or `(C)` followed by the right owner or for content not created by
-the Website Owner. Reproduction of the latter requires prior authorization from
-the original author.
-
-
 ## Privacy and personal data
 
-The Website Owner is committed to user privacy. For this reason This Website
-**does not use cookies, advertisement, Google Analytics, Google Fonts** or
-similar tracking tools.
+The Website Owner is committed to user privacy. For this reason This Website:
+
+- **does not use cookies**
+- **does not advertise**
+- **does not track users for website metrics** with analytics tools such as 
+  Google Analytics
+- self-hosts as many resources as possible such as Javascript, CSS and font 
+  files
+- does not use Content Delivery Networks (CDN)
+- does not need Javascript to be used
 
 For each page visited the information your browser sends to the web server
-hosting This Website is logged for statistical purposes. This information
+hosting This Website may be logged for statistical purposes. This information
 includes your IP address, ISP, user agent, visited URL and other parts of the
 HTTP request header. The Website Owner is committed **not to disclose** this
 data to **any third party** and to use it exclusively to evaluate and improve
