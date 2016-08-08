@@ -139,6 +139,12 @@ critical point of view that helps creating a better blog: **it's about the
 content, nothing more nothing less**. Why should I develop and administrate more
 stuff my users are not visiting my website for?
 
+A simple example: nobody needs featured images of the posts on the home page,
+where visitors are still trying to figure out what the website is about and what
+article to read. Show them just in the post's webpage. In my case, I removed all
+of them completely, since they were mostly meaningless. In case I need a
+picture, it will be part of the post body, not a featured one.
+
 
 ## Don't exaggerate!
 
