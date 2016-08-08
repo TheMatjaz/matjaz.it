@@ -16,6 +16,35 @@ notable exceptions are:
   previous point.
 
 
+
+2016-08-08
+---------------------------------------
+
+A new blog post about why I chose my new blog Hugo theme in a minimalist style.
+
+
+### Added
+
+- New post on why a minimalist-looking blog may be a good choice for your
+  visitors. The guidelines from my experience.
+  
+
+### Changed
+
+Nothing.
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+Nothing.
+
+
+
 2016-07-27
 ---------------------------------------
 
