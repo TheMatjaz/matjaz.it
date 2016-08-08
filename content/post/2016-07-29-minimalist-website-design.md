@@ -2,8 +2,8 @@
 aliases      = []
 categories   = ["Blog"]
 date         = "2016-07-29T11:40:43+02:00"
-description  = ""
-draft        = true
+description  = "The #HugoPowerUser series explains a few tricks I learned by converting my blog to Hugo. At the same time I minimized my whole website, cleaning up the theme, removing images, simplifying the home page: I think minimalism works best for a blog where content is much more important than the appearance of the website. Wanna hear why?"
+draft        = false
 highlight    = false
 lastmod      = "2016-07-29T11:40:43+02:00"
 slug         = "minimalist-blog-design"
