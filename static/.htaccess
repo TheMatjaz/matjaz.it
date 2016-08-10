@@ -18,6 +18,7 @@ RewriteRule ^(.*)$ http://matjaz.it/$1 [R=302,L]
 ## Set HTTP headers for Charset and Content language
 ## --------------------------------------------------------
 AddDefaultCharset UTF-8
+AddCharset utf-8 .html .css .js .txt .xml .json .asc
 DefaultLanguage en-US
 
 
