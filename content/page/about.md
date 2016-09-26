@@ -6,7 +6,7 @@ description  = "Are you wondering who is the writer of this blog and why does th
 draft        = false
 hidefromhome = true
 highlight    = false
-lastmod      = "2016-07-26T00:46:26+02:00"
+lastmod      = "2016-09-26T20:08:10+02:00"
 slug         = "about"
 title        = "About this blog and me"
 type         = "page"
@@ -14,19 +14,13 @@ weight       = 0
 +++
 
 
-
-
-
 ## Who are you?
-
-Our extremely trained public relations team. Nah, just kidding, it's just me, a
-normal person (I hope).
 
 My name is Matjaž Guštin. I'm a geek, an IT fanatic and have many things in my
 mind I'd like to say - so this blog could be the best way. Some may describe me
 as a loquacious stubborn workaholic that may bore you, some others as a person
 that likes to bring some happiness and help around. I don't know if those
-descriptions are accurate, what do you think?
+descriptions are accurate; I'll leave the judgement to you.
 
 Also [my Twitter](https://twitter.com/TheMatjaz) is a collection of some
 neuronal activity of mine, check it out!
