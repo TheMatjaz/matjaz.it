@@ -248,7 +248,7 @@ switch to Hugo, the feed subscription to my website broke. I fixed it adding a
 
 ```nginx
 # Redirect Wordpress RSS feed URL to Hugo RSS feed URL
-RedirectMatch 301 (?i)^/feed/?(index.xml)?$ http://matjaz.it/index.xml
+RedirectMatch 301 (?i)^/feed/?(index.xml)?$ https://matjaz.it/index.xml
 ```
 
 

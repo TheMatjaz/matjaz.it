@@ -21,7 +21,7 @@ weight       = 0
 Gather my contact information, while you can, if you bother to stay in touch
 with me!
     
-- First of all, check my [Contact](http://matjaz.it/contact/) page. Write me an
+- First of all, check my [Contact](/contact/) page. Write me an
   e-mail (possibly encrypted with PGP/GnuPG).
 - I'll be active on [Twitter](https://twitter.com/TheMatjaz/)
 - I also exist on Skype.

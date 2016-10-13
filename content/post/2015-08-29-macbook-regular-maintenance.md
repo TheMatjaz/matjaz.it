@@ -55,7 +55,7 @@ your vendor, including Macs.
 1. Add a log entry in
     [CoconutBattery.app](http://www.coconut-flavour.com/coconutbattery/)
 1. Clean the computer screen with a clean cloth
-1. [Clean the keyboard, touchpad, laptop case, charger, mouse and other peripherals with alcohol](http://matjaz.it/your-phone-is-infected-not-only-computer-viruses-also-real-bacteria/)
+1. [Clean the keyboard, touchpad, laptop case, charger, mouse and other peripherals with alcohol](/your-phone-is-infected-not-only-computer-viruses-also-real-bacteria/)
 1. Perform a reboot
 
 

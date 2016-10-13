@@ -2,7 +2,7 @@ Change Log
 ================================================================================
 
 All notable changes to the structure and content of the blog
-[matjaz.it](http://matjaz.it/) will be documented in this file.
+[matjaz.it](https://matjaz.it/) will be documented in this file.
 
 This changelog tries to adhere to the
 [Keep a Changelog](http://keepachangelog.com) format as much as possible. The
@@ -14,6 +14,45 @@ notable exceptions are:
   the website is completely static.
 - no `Deprecated` and `Security` group changes for the same reason as in the 
   previous point.
+
+
+
+2016-10-13
+---------------------------------------
+
+The website is now served over a secure HTTPS connection and the webserver
+sends security headers.
+
+
+### Added
+
+- New [keybase.io](https://keybase.io/) verification file replacing the
+  previous, since it worked for HTTP only.
+
+
+### Changed
+
+- The whole website is now available over HTTPS.
+- HTTP requests are 301-redirected to an HTTPS URL. This means that no plaintext
+  pure-HTTP connection is used to transfer the website content.
+- Added 5 security headers including HSTS and CSP as indicated on 
+  [securityheaders.io](https://securityheaders.io/).
+- All links in this changelog, readme, humans.txt files are now stated with
+  `https://matjaz.it` instead of `http://matjaz.it`.
+- Minimal adaptation of the Hugo configuration file for the multilingual support
+  in Hugo.
+
+
+### Removed
+
+- Unused CSS in `layouts/partials`.
+
+
+### Fixed
+
+- Small change in the tone in the [About](https://matjaz.it/about/) page.
+- Replaced 3 absolute URLs to relative ones. Hugo uses the `BaseURL` (now with
+  HTTPS) to generate the absolute URLs anyway.
 
 
 
@@ -212,12 +251,12 @@ home page.
   [Real Favicon Generator](https://realfavicongenerator.net/).
 - KeyBase verification file (same as used in previous version of the blog).
 - HTML head meta tags for website description, keywords, author, license.
-- [Site map for humans](http://matjaz.it/sitemap/) as suggested by 
+- [Site map for humans](https://matjaz.it/sitemap/) as suggested by 
   [varvy.com](https://varvy.com/).
 - [Inconsolata](https://fonts.google.com/specimen/Inconsolata) is the monospaced
   font whenever `<pre>` or `<code>` tags are used.
-- Pages with list of [tags](http://matjaz.it/tags/) and 
-  [categories](http://matjaz.it/categories/) sorted by number of posts
+- Pages with list of [tags](https://matjaz.it/tags/) and 
+  [categories](https://matjaz.it/categories/) sorted by number of posts
 - A [list](THANKS.md) of all software used to create the blog.
 - `series` shortcode to list the posts sharing a tag, useful for listing all
   posts of a series
@@ -229,7 +268,7 @@ home page.
   [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
   so the _ShareAlike_ part is removed and anyone is more free to use it.
 - The source code parts and snippets published on the website are licensed 
-  under the [BSD 3-Clause License](http://matjaz.it/bsd-3-clause-license/).
+  under the [BSD 3-Clause License](https://matjaz.it/bsd-3-clause-license/).
 - Enabled highlighting in 
   [The spam analysis post](matjaz.it/a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack/) 
   otherwise the verbatim text was too wide for the content column and not
@@ -269,13 +308,13 @@ home page.
 ### Removed
 
 - Embedded TED talk since uses cookies
-- Website background from [About](http://matjaz.it/about/) page
+- Website background from [About](https://matjaz.it/about/) page
 
 
 ### Fixed
 
 - RSS Feed `<link>` tag contained a wrong attribute
-- Reordered and improved [Legal notice](http://matjaz.it/legal-notice/) page
+- Reordered and improved [Legal notice](https://matjaz.it/legal-notice/) page
 - Singular and plural of the word `minute` in the reading time subtitle
 - Content column is a little bit wider (no more limitation at 90%) so it's more
   readable on portrait smartphones
@@ -302,18 +341,18 @@ footer).
 - This Changelog, the Readme and the License of the project.
 - A contact page link in the footer
 - A legal notice page for the Copyright, Privacy and Disclaimer
-- A [humans.txt](http://matjaz.it/humans.txt) file
+- A [humans.txt](https://matjaz.it/humans.txt) file
 
 
 ### Changed
 
 - The home page now lists just the titles of the posts instead of the full
   content for the sake of simplicity and less bandwidth.
-- The RSS feed has a new link: <http://matjaz.it/index.xml> instead of
-  <http://matjaz.it/feed/>.
+- The RSS feed has a new link: <https://matjaz.it/index.xml> instead of
+  <https://matjaz.it/feed/>.
 - The website content I wrote is now under the
   [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-- The [robots.txt](http://matjaz.it/robots.txt) file is much simpler.
+- The [robots.txt](https://matjaz.it/robots.txt) file is much simpler.
 - Simplified the 404 error page.
 - Customized footer content and date format for each post.
 - The images in the content have now a title and caption where needed, using 
@@ -334,7 +373,7 @@ footer).
 
 - My second published post
 - Some unnecessary images from the
-  [Standing desk for 8 € tutorial](http://matjaz.it/diy-standing-desk-for-8-euro/)
+  [Standing desk for 8 € tutorial](https://matjaz.it/diy-standing-desk-for-8-euro/)
 - All _featured images_ which were kind of needed in Wordpress
 
 
