@@ -79,7 +79,7 @@ by adding:
 
 ```nginx
 # Site map for humans
-RedirectMatch 301 (?i)^/sitemap.html? http://matjaz.it/sitemap/
+RedirectMatch 301 (?i)^/sitemap.html? https://matjaz.it/sitemap/
 ```
 
 
