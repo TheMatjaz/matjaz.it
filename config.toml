@@ -1,4 +1,4 @@
-baseURL = "http://matjaz.it/"
+baseURL = "https://matjaz.it/"
 canonifyURLs = true ## Transform all URLs to absolute using baseURL
 copyright = "Creative Commons Attribution 4.0 International License"
 editor = "e"
