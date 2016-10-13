@@ -1,6 +1,8 @@
 baseURL = "https://matjaz.it/"
 canonifyURLs = true ## Transform all URLs to absolute using baseURL
 copyright = "Creative Commons Attribution 4.0 International License"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = false # does not put english into /en, but in /
 editor = "e"
 enableEmoji = false
 enableRobotsTXT = true
@@ -12,6 +14,9 @@ title = "Thinking in a digital life"
 verbose = true
 verboseLog = true
 
+[Languages]
+    [Languages.en]
+        weight = 1
 [author]
     name = "Matjaž Guštin"
 [permalinks]
