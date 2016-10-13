@@ -44,7 +44,7 @@ Unix-like OS for user customization for text editors, shells, aliases and so on
 saved in the home directory as `.filename`.
 
 
-## [SQL Playcard](http://matjaz.it/french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite/)
+## [SQL Playcard](/french-playing-cards-for-poker-in-postgresql-mysql-and-sqlite/)
 
 A simple SQL script to represent and store **standard french playing cards**
 (those used in Poker) **for a few RDBMS**.

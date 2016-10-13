@@ -1,6 +1,6 @@
 /* TEAM */
   Owner and author: Matjaž Guštin
-  Contact:          http://matjaz.it/contact/
+  Contact:          https://matjaz.it/contact/
   Twitter:          @TheMatjaz
 
 /* THANKS */
@@ -12,5 +12,5 @@
   Made with:        Hugo - https://gohugo.io/
   Source code:      https://github.com/TheMatjaz/matjaz.it
   Content license:  mostly CC BY 4.0 and BSD 3-Clause.
-                    See http://matjaz.it/legal-notice/
+                    See https://matjaz.it/legal-notice/
 

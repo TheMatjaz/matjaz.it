@@ -1,18 +1,40 @@
 # MATJAZ.IT .HTACCESS FILE
 # =============================================================================
 
-## Redirect www to non-www
+## Domain redirection from gustin.it to matjaz.it over HTTPS
+## --------------------------------------------------------
+RewriteCond %{HTTP_HOST} !matjaz.it$ [NC]
+RewriteRule ^(.*)$ https://matjaz.it/$1 [R=302,L]
+
+
+## Redirect www to non-www URL (plain domain) over HTTPS
 ## --------------------------------------------------------
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^(.*)$ https://matjaz.it/$1 [R=301,L]
 
 
-## Domain redirection from gustin.it to matjaz.it
+## Redirect HTTP request to HTTPS
 ## --------------------------------------------------------
-RewriteCond %{HTTP_HOST} !matjaz.it$ [NC]
-RewriteRule ^(.*)$ http://matjaz.it/$1 [R=302,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+## Security headers: HSTS, CSP etc.
+## --------------------------------------------------------
+<ifModule mod_headers.c>
+    # Make browsers remember that this website prefers HTTPS over HTTP
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+    # Allowed domains to load scripts, style sheets, images etc.
+    Header set Content-Security-Policy "default-src https://matjaz.it:443"
+    # Don't allow the website to be iframed
+    Header always set X-Frame-Options "DENY"
+    # Disable MIME type sniffing, which can e.g. make IE execute an innocent looking .img URL as a javascript.
+    Header always set X-Content-Type-Options nosniff
+    # Enable the built in reflective XSS protection in some browsers
+    Header always set X-Xss-Protection "1; mode=block"
+</ifModule>
 
 
 ## Set HTTP headers for Charset and Content language
@@ -112,48 +134,48 @@ ErrorDocument 404 /404.html
 ## and other manually set redirections
 ## --------------------------------------------------------
 # Old RSS feed to new
-RedirectMatch 301 (?i)^/feed/?(index.xml)?$ http://matjaz.it/index.xml
+RedirectMatch 301 (?i)^/feed/?(index.xml)?$ https://matjaz.it/index.xml
 
 # About page
-RedirectMatch 301 (?i)^/about-me/?$        http://matjaz.it/about/
-RedirectMatch 301 (?i)^/about-this-blog/?$ http://matjaz.it/about/
-RedirectMatch 301 (?i)^/info/?$            http://matjaz.it/about/
+RedirectMatch 301 (?i)^/about-me/?$        https://matjaz.it/about/
+RedirectMatch 301 (?i)^/about-this-blog/?$ https://matjaz.it/about/
+RedirectMatch 301 (?i)^/info/?$            https://matjaz.it/about/
 
 # Contact page
-RedirectMatch 301 (?i)^/gpg/?$             http://matjaz.it/contact/
-RedirectMatch 301 (?i)^/pgp/?$             http://matjaz.it/contact/
-RedirectMatch 301 (?i)^/contact-me/?$      http://matjaz.it/contact/
+RedirectMatch 301 (?i)^/gpg/?$             https://matjaz.it/contact/
+RedirectMatch 301 (?i)^/pgp/?$             https://matjaz.it/contact/
+RedirectMatch 301 (?i)^/contact-me/?$      https://matjaz.it/contact/
 
 # E-mail signature to Keybase profile
 RedirectMatch 301 (?i)^/siggpg/?$          https://keybase.io/TheMatjaz
 
 # Legal notice page
-RedirectMatch 301 (?i)^/copyright/?$       http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/notice/?$          http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/terms/?$           http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/privacy/?$         http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/policy/?$          http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/legal/?$           http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/tos/?$             http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/license/?$         http://matjaz.it/legal-notice/
-RedirectMatch 301 (?i)^/disclaimer/?$      http://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/copyright/?$       https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/notice/?$          https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/terms/?$           https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/privacy/?$         https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/policy/?$          https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/legal/?$           https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/tos/?$             https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/license/?$         https://matjaz.it/legal-notice/
+RedirectMatch 301 (?i)^/disclaimer/?$      https://matjaz.it/legal-notice/
 
 # Site map for humans
-RedirectMatch 301 (?i)^/sitemap.html?      http://matjaz.it/sitemap/
+RedirectMatch 301 (?i)^/sitemap.html?      https://matjaz.it/sitemap/
 
 # Software page
-RedirectMatch 301 (?i)^/sw/?$              http://matjaz.it/software/
-RedirectMatch 301 (?i)^/numerus/?$         http://matjaz.it/software/
+RedirectMatch 301 (?i)^/sw/?$              https://matjaz.it/software/
+RedirectMatch 301 (?i)^/numerus/?$         https://matjaz.it/software/
 
 # First post
-RedirectMatch 301 (?i)^/first/?$           http://matjaz.it/hi-out-there/
+RedirectMatch 301 (?i)^/first/?$           https://matjaz.it/hi-out-there/
 
 # Talks and slides page
-RedirectMatch 301 (?i)^/slide/?$           http://matjaz.it/slides/
-RedirectMatch 301 (?i)^/talks?/?$          http://matjaz.it/slides/
-RedirectMatch 301 (?i)^/presentations?/?$  http://matjaz.it/slides/
-RedirectMatch 301 (?i)^/powerpoints?/?$    http://matjaz.it/slides/
+RedirectMatch 301 (?i)^/slide/?$           https://matjaz.it/slides/
+RedirectMatch 301 (?i)^/talks?/?$          https://matjaz.it/slides/
+RedirectMatch 301 (?i)^/presentations?/?$  https://matjaz.it/slides/
+RedirectMatch 301 (?i)^/powerpoints?/?$    https://matjaz.it/slides/
 
 # Taxonomies singular to plural
-RedirectMatch 301 (?i)^/category/?(.*)$    http://matjaz.it/categories/$1
-RedirectMatch 301 (?i)^/(tag|tag/(.*))$    http://matjaz.it/tags/$2
+RedirectMatch 301 (?i)^/category/?(.*)$    https://matjaz.it/categories/$1
+RedirectMatch 301 (?i)^/(tag|tag/(.*))$    https://matjaz.it/tags/$2
