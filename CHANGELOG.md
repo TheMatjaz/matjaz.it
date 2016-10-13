@@ -17,6 +17,45 @@ notable exceptions are:
 
 
 
+2016-10-13
+---------------------------------------
+
+The website is now served over a secure HTTPS connection and the webserver
+sends security headers.
+
+
+### Added
+
+- New [keybase.io](https://keybase.io/) verification file replacing the
+  previous, since it worked for HTTP only.
+
+
+### Changed
+
+- The whole website is now available over HTTPS.
+- HTTP requests are 301-redirected to an HTTPS URL. This means that no plaintext
+  pure-HTTP connection is used to transfer the website content.
+- Added 5 security headers including HSTS and CSP as indicated on 
+  [securityheaders.io](https://securityheaders.io/).
+- All links in this changelog, readme, humans.txt files are now stated with
+  `https://matjaz.it` instead of `http://matjaz.it`.
+- Minimal adaptation of the Hugo configuration file for the multilingual support
+  in Hugo.
+
+
+### Removed
+
+- Unused CSS in `layouts/partials`.
+
+
+### Fixed
+
+- Small change in the tone in the [About](https://matjaz.it/about/) page.
+- Replaced 3 absolute URLs to relative ones. Hugo uses the `BaseURL` (now with
+  HTTPS) to generate the absolute URLs anyway.
+
+
+
 2016-08-08
 ---------------------------------------
 
