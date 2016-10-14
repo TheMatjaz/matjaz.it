@@ -19,6 +19,7 @@ verboseLog = true
         weight = 1
 [author]
     name = "Matjaž Guštin"
+    email = "blog@matjaz.it"
 [permalinks]
     post = "/:slug/"
     page = "/:slug/"
