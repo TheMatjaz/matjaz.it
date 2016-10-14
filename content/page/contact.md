@@ -15,7 +15,7 @@ weight       = 0
 
 - [@TheMatjaz](https://twitter.com/TheMatjaz)
 - [GitHub](https://github.com/TheMatjaz)
-- [Follow this blog (RSS feed)](/index.xml)
+- <a href="/index.xml" type="application/rss+xml">Follow this blog (RSS feed)</a>
 - [blog@matjaz.it](mailto:blog@matjaz.it)
 - [PGP/GnuPG public key on KeyBase](https://keybase.io/TheMatjaz)
 - [PGP/GnuPG public key on MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x438406FCCE32DC1E)
