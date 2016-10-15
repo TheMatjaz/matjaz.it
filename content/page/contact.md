@@ -21,7 +21,7 @@ weight       = 0
 - [PGP/GnuPG public key on MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x438406FCCE32DC1E)
 
 
-## Signal
+## Signal {#signal}
 
 My favorite communication tool is **[Signal](https://whispersystems.org/)** by
 Open Whisper Systems. Phone number provided upon request.
