@@ -3,14 +3,14 @@
 
 ## Domain redirection from gustin.it to matjaz.it over HTTPS
 ## --------------------------------------------------------
+RewriteEngine On
+RewriteBase /
 RewriteCond %{HTTP_HOST} !matjaz.it$ [NC]
 RewriteRule ^(.*)$ https://matjaz.it/$1 [R=302,L]
 
 
 ## Redirect www to non-www URL (plain domain) over HTTPS
 ## --------------------------------------------------------
-RewriteEngine On
-RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://matjaz.it/$1 [R=301,L]
 
