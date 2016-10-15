@@ -131,7 +131,7 @@ ErrorDocument 404 /404.html
 
 
 ## 301-Redirections of page name aliases instead of HTML meta redirects
-## and other manually set redirections
+## and other manually set redirections
 ## --------------------------------------------------------
 # Old RSS feed to new
 RedirectMatch 301 (?i)^/feed/?(index.xml)?$ https://matjaz.it/index.xml
@@ -178,4 +178,4 @@ RedirectMatch 301 (?i)^/powerpoints?/?$    https://matjaz.it/slides/
 
 # Taxonomies singular to plural
 RedirectMatch 301 (?i)^/category/?(.*)$    https://matjaz.it/categories/$1
-RedirectMatch 301 (?i)^/(tag|tag/(.*))$    https://matjaz.it/tags/$2
+RedirectMatch 301 (?i)^/tag/?(.*)$         https://matjaz.it/tags/$1
