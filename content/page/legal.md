@@ -72,10 +72,6 @@ purpose of collection or further processing. Adequate security measures have
 been taken to safeguard your information against possible misuse or unauthorized
 access as much as it is feasible.
 
-In any moment the User has the right to access the collected data about him/her
-and request the complete removal of it from the logs. For any query or
-complaint, please [contact](/contact/) the Website Owner.
-
 The Website Owner has the discretion to update this privacy policy at any
 time. The User is encouraged to frequently check this page for any changes.
 
