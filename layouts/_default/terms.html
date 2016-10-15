@@ -6,7 +6,7 @@
       {{ $data := .Data }}
       <ul style="list-style-type: none">
         {{ range $key, $value := .Data.Terms.ByCount }}
-        <li><strong>[{{ $value.Count }}] <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a></strong></li>
+        <li><strong>[{{ $value.Count }}] <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}/">{{ $value.Name }}</a></strong></li>
         {{ end }}
       </ul>
 	</main>

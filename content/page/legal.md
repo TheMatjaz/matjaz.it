@@ -61,20 +61,17 @@ The Website Owner is committed to user privacy. For this reason This Website:
 - does not need Javascript to be used
 
 For each page visited the information your browser sends to the web server
-hosting This Website may be logged for statistical purposes. This information
-includes your IP address, ISP, user agent, visited URL and other parts of the
-HTTP request header. The Website Owner is committed **not to disclose** this
-data to **any third party** and to use it exclusively to evaluate and improve
+hosting This Website may be logged for statistical or other purposes. This
+information includes your IP address, ISP, user agent, visited URL and other
+parts of the HTTP request header. The Website Owner is committed **not to
+disclose** this data to **any third party**, with the sole exception of the
+company hosting This Website, and to use it exclusively to evaluate and improve
 This Website.
 
 The Website Owner only keeps this data for the time necessary to fulfill the
 purpose of collection or further processing. Adequate security measures have
 been taken to safeguard your information against possible misuse or unauthorized
 access as much as it is feasible.
-
-In any moment the User has the right to access the collected data about him/her
-and request the complete removal of it from the logs. For any query or
-complaint, please [contact](/contact/) the Website Owner.
 
 The Website Owner has the discretion to update this privacy policy at any
 time. The User is encouraged to frequently check this page for any changes.
