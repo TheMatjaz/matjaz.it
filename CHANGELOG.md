@@ -17,6 +17,46 @@ notable exceptions are:
 
 
 
+2016-10-15
+---------------------------------------
+
+New post about HTTPS on this blog, improvements of the RSS feed format and a
+small change in the [legal notice](https://matjaz.it/legal-notice/) about the
+web hosting company.
+
+
+## Added
+
+- New post about the switch to HTTPS.
+- Explicit mention in the legal notice that the web hosting company is one of
+  the third parties that has access to any logs.
+- GTmetrix, SSLlabs and Securityheaders.io to web tools used.
+
+
+## Changed
+
+- RSS feed format. Now it has the post description instead of the full post
+  body under each post (to make it smaller) and the author's name+email on each
+  post.
+
+
+## Removed
+
+- Part in legal-notice about access/removal of personal data. Since the website
+  is hosted by a web hosting company, I have no direct way ability to do it
+  myself. The only way is to contact the company itself. I'm still available for
+  any questions on the topic.
+
+
+## Fixed
+
+- Links to the RSS feed now have a MIME type.
+- Highlight.js now works even with HSTS headers.
+- Typo in the [BSD 3-clause license](https://matjaz.it/bsd-3-clause-license/).
+- Added trailing slashes in basically all taxonomy links.
+
+
+
 2016-10-13
 ---------------------------------------
 
