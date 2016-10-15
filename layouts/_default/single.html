@@ -9,8 +9,8 @@
 			</section>
             {{ if eq .Type "post" }}
             <div class="entry-taxonomies">
-              <strong>Categories</strong>: {{ range $index, $category := .Params.categories }}{{ if $index }} // {{ end }}<a href="/categories/{{ $category | urlize }}">{{ $category }}</a>{{ end }}<br>
-              <strong>Tags</strong>: {{ range $index, $tag := .Params.tags }}{{ if $index }} // {{ end }}<a href="/tags/{{ $tag | urlize }}">{{ $tag }}</a>{{ end }}
+              <strong>Categories</strong>: {{ range $index, $category := .Params.categories }}{{ if $index }} // {{ end }}<a href="/categories/{{ $category | urlize }}/">{{ $category }}</a>{{ end }}<br>
+              <strong>Tags</strong>: {{ range $index, $tag := .Params.tags }}{{ if $index }} // {{ end }}<a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>{{ end }}
             </div>
             {{ end }}
 		</article>
