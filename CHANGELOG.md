@@ -12,8 +12,8 @@ notable exceptions are:
   dates in ISO format since each version of the blog means a new post/page or a
   change of the content, not a new feature, bugfix or compatibility break, since
   the website is completely static.
-- no `Deprecated` and `Security` group changes for the same reason as in the 
-  previous point.
+- no `Deprecated` and `Security` sections for the same reason as in the previous
+  point.
 
 
 
@@ -25,7 +25,7 @@ small change in the [legal notice](https://matjaz.it/legal-notice/) about the
 web hosting company.
 
 
-## Added
+### Added
 
 - New post about the switch to HTTPS.
 - Explicit mention in the legal notice that the web hosting company is one of
@@ -33,14 +33,14 @@ web hosting company.
 - GTmetrix, SSLlabs and Securityheaders.io to web tools used.
 
 
-## Changed
+### Changed
 
 - RSS feed format. Now it has the post description instead of the full post
   body under each post (to make it smaller) and the author's name+email on each
   post.
 
 
-## Removed
+### Removed
 
 - Part in legal-notice about access/removal of personal data. Since the website
   is hosted by a web hosting company, I have no direct way ability to do it
@@ -48,7 +48,7 @@ web hosting company.
   any questions on the topic.
 
 
-## Fixed
+### Fixed
 
 - Links to the RSS feed now have a MIME type.
 - Highlight.js now works even with HSTS headers.
@@ -127,8 +127,8 @@ Nothing.
 2016-07-27
 ---------------------------------------
 
-My slides are online on a page, there is a new post of the #HugoPowerUser series
-and my Signal fingerprint is available.
+My slides are online on a page, there is a new post of the \#HugoPowerUser
+series and my Signal fingerprint is available.
 
 
 ### Added
@@ -170,7 +170,7 @@ Nothing.
 2016-07-19
 ---------------------------------------
 
-New post of the #HugoPowerUser series, new shortcode, minor fixes on previous
+New post of the \#HugoPowerUser series, new shortcode, minor fixes on previous
 post and 2 pages.
 
 
@@ -185,7 +185,7 @@ post and 2 pages.
 
 - Suggestion about CTRL+F in human sitemap.
 - Link to sitemap in 404 error page.
-- Highlighting and content fixes in previous post _"#HugoPowerUser: make it web
+- Highlighting and content fixes in previous post _"\#HugoPowerUser: make it web
   friendly pt. 2"_: improved highlighting, regex and sitemap content.
 
 
@@ -204,7 +204,7 @@ Nothing.
 2016-07-13
 ---------------------------------------
 
-New post of the #HugoPowerUser series, small web server fixes.
+New post of the \#HugoPowerUser series, small web server fixes.
 
 
 ### Added
@@ -235,13 +235,13 @@ Nothing.
 ---------------------------------------
 
 Small fixes on the web server, fonts and other stuff and the second post of the
-#HugoPowerUser series.
+\#HugoPowerUser series.
 
 
 ### Added
 
 - New post on how to organize your Hugo content, second of the series
-  #HugoPowerUser.
+  \#HugoPowerUser.
 - HTTP 301-Redirection from old RSS feed URL to new one to avoid problems with
   feed readers.
 - HTTP Reply headers with content language (en-US) and encoding (UTF-8).
