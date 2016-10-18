@@ -9,7 +9,7 @@ highlight = true
 date = "2016-10-15T13:30:10+02:00"
 priority = 0.5
 slug = "lets-encrypt-matjaz-it"
-lastmod = "2016-10-15T13:30:10+02:00"
+lastmod = "2016-10-18T16:38:19+02:00"
 draft = false
 description = "matjaz.it is now available over HTTPS only! This is my short journey about setting it up along with some extra security headers and redirects from the plaintext-HTTP version."
 weight = 0
@@ -26,14 +26,14 @@ than plaintext HTTP sooner or later.
 
 ## The provider
 
-I had to open a ticket to change my hosting plan to another with Let's Encrypt
-included in the offer. The problem was the long discussion with the assistance
-operator who was stubborn about selling me extra features I don't need, like 1
-GB of database (my website is static, duh!).
+I had to open a ticket to change my hosting plan to another one including Let's
+Encrypt. The annoying part was the long discussion with the assistance operator
+who was stubborn about selling me extra features I don't need, like 1 GB of
+database (my website is static, duh!).
 
-In the end now I have a cPanel menu for Let's Encrypt certificates which were
-automatically generated without even asking. My website was already available
-over HTTPS. But now the real work begins.
+Finally I have a cPanel menu for Let's Encrypt certificates which is
+automatically generated without even asking. My website is already available
+over HTTPS, but now the real setup begins to enforce it.
 
 
 ## Hugo
@@ -43,10 +43,10 @@ content Markdown files, just replace the `http://` in the `baseurl` variable in
 the Hugo configuration file with `https://` and rebuild the website.
 
 After rebuilding be sure to verify if the `http://` is hardcoded anywhere else
-in the website. I did it with the `grep command`:
+in the website. I did it with the `grep` command:
 
 ```bash
-# In the base Hugo directory, where the config.toml file is
+# Run in the base Hugo directory, where the config.toml file is.
 grep -Ri 'href="http://matjaz.it' public
 ```
  
@@ -92,7 +92,7 @@ I personally don't like the `www.` part in the URLs. The plain domains have the
 problem of getting the cookies of the plain domain in every subdomain, which is
 not a problem for me, since my website does not use cookies.
 
-[matjaz.it](/) is
+Result: [matjaz.it](/) is
 [ranked as Class B](http://no-www.org/verify.php?u=https%3A%2F%2Fmatjaz.it) by
 the [no-www.org](http://no-www.org/) website checker. Class B, as
 [they state](http://no-www.org/faq.php) is:
@@ -114,16 +114,16 @@ headers. To make it short those two make the browser remember to ask the HTTPS
 version instead of the HTTP from now on and to load resources only from
 specified domains and protocols, respectively.
 
-My headers now contain
+My headers now contain:
 
 ```text
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Content-Security-Policy: default-src https://matjaz.it:443
 ```
 
-which mean: remember that [matjaz.it](/) prefers HTTPS for one year and do not
-load any resource that is originating from anything else than
-`https://matjaz.it` and don't execute any inline style or JavaScript code.
+These two lines mean: hey browser, remember that [matjaz.it](/) prefers HTTPS
+for one year, do not load any resource that is originating from anything else
+than `https://matjaz.it` and don't execute any inline CSS or JavaScript code.
 
 Everything was done in the `.htaccess` file again:
 
@@ -144,12 +144,13 @@ Everything was done in the `.htaccess` file again:
 </ifModule>
 {{< /code >}}
 
-[matjaz.it](/) is ranked
-[A on securityheaders.io](https://securityheaders.io/?q=https%3A%2F%2Fmatjaz.it%2F)
-and
-[A- on SSLlabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=matjaz.it&hideResults=on).
-The last rank is mostly dependant on my hosting provider's server settings, but
-for a blog, hey, that's pretty OK!
+Result: [matjaz.it](/) is ranked:
+
+- [A on securityheaders.io](https://securityheaders.io/?q=https%3A%2F%2Fmatjaz.it%2F)
+- [A- on SSLlabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=matjaz.it&hideResults=on).
+  This is mostly dependant on my hosting provider's server settings, but for a
+  blog, hey, that's pretty OK!
+- [A+ on Mozilla's Observatory](https://observatory.mozilla.org/analyze.html?host=matjaz.it)
 
 
 ## HTTPS is not THE solution
@@ -161,5 +162,5 @@ web pages/files. This is why I sign with GnuPG the commits of the website's
 source code before uploading them to GitHub. Same for [signing my Signal
 fingerprint](/contact/#signal) and for verifying it on Twitter.
 
-HTTPS is good but does not solve every security problem. Please be aware of this
+HTTPS is good but does not solve every security problem. Please be aware of it
 when surfing the web.
