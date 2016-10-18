@@ -125,9 +125,10 @@ AddType application/font-woff2 .woff2
 </FilesMatch>
 
 
-## 404 custom error page
+## 404 and 403 custom error page
 ## --------------------------------------------------------
 ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
 
 
 ## 301-Redirections of page name aliases instead of HTML meta redirects
