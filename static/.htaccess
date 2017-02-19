@@ -34,6 +34,10 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
     Header always set X-Content-Type-Options nosniff
     # Enable the built in reflective XSS protection in some browsers
     Header always set X-Xss-Protection "1; mode=block"
+    # When navigating within this website, send full URL as referrer,
+    # when from this to another HTTPS website send only home URL,
+    # when from this to another HTTP website, send nothing.
+    Header always set Referrer-Policy strict-origin-when-cross-origin
 </ifModule>
 
 

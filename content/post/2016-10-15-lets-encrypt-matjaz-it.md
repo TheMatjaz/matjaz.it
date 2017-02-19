@@ -9,7 +9,7 @@ highlight = true
 date = "2016-10-15T13:30:10+02:00"
 priority = 0.5
 slug = "lets-encrypt-matjaz-it"
-lastmod = "2016-10-18T16:38:19+02:00"
+lastmod = "2017-02-19T18:53:44+01:00"
 draft = false
 description = "matjaz.it is now available over HTTPS only! This is my short journey about setting it up along with some extra security headers and redirects from the plaintext-HTTP version."
 weight = 0
@@ -141,6 +141,10 @@ Everything was done in the `.htaccess` file again:
     Header always set X-Content-Type-Options nosniff
     # Enable the built in reflective XSS protection in some browsers
     Header always set X-Xss-Protection "1; mode=block"
+    # When navigating within this website, send full URL as referrer,
+    # when from this to another HTTPS website send only home URL,
+    # when from this to another HTTP website, send nothing.
+    Header always set Referrer-Policy strict-origin-when-cross-origin
 </ifModule>
 {{< /code >}}
 
@@ -152,7 +156,7 @@ Result: [matjaz.it](/) is ranked:
   blog, hey, that's pretty OK!
 - [A+ on Mozilla's Observatory](https://observatory.mozilla.org/analyze.html?host=matjaz.it)
 
-
+    
 ## HTTPS is not THE solution
 
 We have to remember that the connection from the hosting server to the client is
@@ -164,3 +168,7 @@ fingerprint](/contact/#signal) and for verifying it on Twitter.
 
 HTTPS is good but does not solve every security problem. Please be aware of it
 when surfing the web.
+
+****
+
+_Edit 2017-02-19_: added Referrer-Policy rule header to `.htaccess` snippet.
