@@ -1,5 +1,5 @@
 +++
-aliases      = ["gpg", "pgp", "contact-me", "siggpg"]
+aliases      = ["gpg", "pgp", "contact-me", "siggpg", "signal"]
 date         = "2014-05-19T09:44:44+00:00"
 description  = "Contact information of the blog author along with the PGP public key, social links and the blog's RSS."
 draft        = false

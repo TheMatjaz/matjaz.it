@@ -146,6 +146,7 @@ RedirectMatch 301 (?i)^/info/?$            https://matjaz.it/about/
 RedirectMatch 301 (?i)^/gpg/?$             https://matjaz.it/contact/
 RedirectMatch 301 (?i)^/pgp/?$             https://matjaz.it/contact/
 RedirectMatch 301 (?i)^/contact-me/?$      https://matjaz.it/contact/
+RedirectMatch 301 (?i)^/signal/?$          https://matjaz.it/contact/
 
 # E-mail signature to Keybase profile
 RedirectMatch 301 (?i)^/siggpg/?$          https://keybase.io/TheMatjaz
