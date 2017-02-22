@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{{ $logo_url := "/images/logos/matjaz_it_logo@2x.png" | absURL }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}"{{ if eq .Section "post" }} itemscope itemtype="http://schema.org/Article"{{ end }}>
 <head>
 <meta charset="utf-8"/>
@@ -13,17 +14,18 @@
 {{ if or (eq .Section "post") (eq .Section "page") }}
 <meta itemprop="name" content="{{ .Title }}"> {{/* Schema.org markup for Google+ */}}
 <meta itemprop="description" content="{{ .Description }}">
-<meta itemprop="image" content="/favicon-194x194.png">
+<meta itemprop="image" content="{{ $logo_url }}">
 <meta name="twitter:card" content="summary_large_image"> {{/* Twitter Card data, the image should be at least 280x150px */}}
 <meta name="twitter:site" content="{{ .Site.Params.handle }}">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
 <meta name="twitter:creator" content="{{ .Site.Params.handle }}">
-<meta name="twitter:image:src" content="/favicon-194x194.png"> 
+<meta name="twitter:image:src" content="{{ "/images/logos/matjaz_it_card_560x300.png" | absURL }}">
+<meta name="twitter:image:alt" content="matjaz.it logo: an arrow twisted in the shape of the infinite symbol">
 <meta property="og:title" content="{{ .Title }}" /> {{/*  Open Graph data */}}
 <meta property="og:type" content="{{ .Section }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="/favicon-194x194.png" />
+<meta property="og:image" content="{{ $logo_url }}" />
 <meta property="og:description" content="{{ .Description }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
@@ -33,17 +35,18 @@
 {{ end }}{{ else }}
 <meta itemprop="name" content="{{ .Site.Title }}"> {{/* Schema.org markup for Google+ */}}
 <meta itemprop="description" content="{{ .Site.Params.description }}">
-<meta itemprop="image" content="/favicon-194x194.png">
+<meta itemprop="image" content="{{ $logo_url }}">
 <meta name="twitter:card" content="summary_large_image"> {{/* Twitter Card data, the image should be at least 280x150px */}}
 <meta name="twitter:site" content="{{ .Site.Params.handle }}">
 <meta name="twitter:title" content="{{ .Site.Title }}">
 <meta name="twitter:description" content="{{ .Site.Params.description }}">
 <meta name="twitter:creator" content="{{ .Site.Params.handle }}">
-<meta name="twitter:image:src" content="/favicon-194x194.png"> 
+<meta name="twitter:image:src" content="{{ "/images/logos/matjaz_it_card_560x300.png" | absURL }}">
+<meta name="twitter:image:alt" content="matjaz.it logo: an arrow twisted in the shape of the infinite symbol">
 <meta property="og:title" content="{{ .Site.Title }}" /> {{/*  Open Graph data */}}
 <meta property="og:type" content="home" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="/favicon-194x194.png" />
+<meta property="og:image" content="{{ $logo_url }}" />
 <meta property="og:description" content="{{ .Site.Params.description }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 {{ end }}
