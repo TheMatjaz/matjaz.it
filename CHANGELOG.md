@@ -17,6 +17,40 @@ notable exceptions are:
 
 
 
+2017-02-22
+---------------------------------------
+
+New post about read-only access to a PostgreSQL database.
+
+
+### Added
+
+- New post about read-only access to a PostgreSQL database.
+- Explanation about the order of the sitemap lists.
+- `/signal` alias that points to the `/contact/` page.
+- `Referrer-Policy` security header.
+
+
+### Changed
+
+- Edited post about HTTPS on matjaz.it to add the new `Referrer-Policy` security
+  header
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Missing lastmod date in 2016-10-15 post.
+- Title sizes and escape hashtags in this Changelog.
+- Syntax fixes in the previous post about HTTPS on matjaz.it.
+- 403 HTTP errors (Forbidden) now show the 404 error page.
+
+
+
 2016-10-15
 ---------------------------------------
 
