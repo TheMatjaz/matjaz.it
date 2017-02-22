@@ -13,7 +13,4 @@ weight       = 0
 
 +++
 
-The lists are in alphabetical order. Use **CTRL+F** (**CMD+F** on Macs) to
-quickly search the titles.
-
 {{< human-sitemap >}}

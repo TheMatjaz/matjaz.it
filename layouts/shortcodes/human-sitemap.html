@@ -3,18 +3,20 @@ Generates a site map for humans where pages and posts are listed in alphabetical
 */}}
 <h2>Pages</h2>
 <ul>
-{{ range (where .Site.Pages.ByTitle ".Type" "page") }}
+{{ range where .Site.Pages.ByTitle "Section" "page" }}
+  {{ if ne .RelPermalink "/sitemap/" }}
     <li><article itemscope itemtype="http://schema.org/Blog">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </article></li>
+  {{ end }}
 {{ end }}
 </ul>
 
 <h2>Blog posts</h2>
 <ul>
-{{ range (where .Site.Pages.ByTitle ".Type" "post") }}
+{{ range where .Site.Pages.ByPublishDate "Section" "post" }}
     <li><article itemscope itemtype="http://schema.org/Blog">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ .Date.Format "2006-01-02" }}: <a href="{{ .Permalink }}">{{ .Title }}</a>
     </article></li>
 {{ end }}
 </ul>
