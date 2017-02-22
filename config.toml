@@ -33,6 +33,7 @@ verboseLog = true
     logo      = "/images/logos/matjaz_it_logo.png"
     logohr    = "/images/logos/matjaz_it_logo@2x.png"
     twitter   = "https://twitter.com/TheMatjaz"
+    handle    = "@TheMatjaz"
     github    = "https://github.com/TheMatjaz"
     email     = "blog@matjaz.it"
     keybase   = "https://keybase.io/TheMatjaz"
