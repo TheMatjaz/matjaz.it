@@ -1,13 +1,13 @@
 +++
 aliases      = ["gpg", "pgp", "contact-me", "siggpg", "signal"]
 date         = "2014-05-19T09:44:44+00:00"
-description  = "Contact information of the blog author along with the PGP public key, social links and the blog's RSS."
+description  = "Contact information, OpenPGP public key, Signal fingerprint, social links and the blog's RSS feed."
 draft        = false
 hidefromhome = true
 highlight    = false
 lastmod      = "2016-07-26T00:46:26+02:00"
 slug         = "contact"
-title        = "Contact & GnuPG"
+title        = "Contacts, Signal and OpenPGP"
 type         = "page"
 weight       = 0
 +++
