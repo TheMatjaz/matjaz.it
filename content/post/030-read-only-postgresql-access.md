@@ -12,7 +12,7 @@ changefreq = "monthly"
 aliases = []
 lastmod = "2017-02-21T21:15:23+01:00"
 priority = 0.5
-tags = ["database", "postgresql", "read-only", "user"]
+tags = ["database", "postgresql", "read-only", "user", "tutorial"]
 
 +++
 
