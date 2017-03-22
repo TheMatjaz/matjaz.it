@@ -9,7 +9,7 @@ highlight = true
 date = "2016-10-15T13:30:10+02:00"
 priority = 0.5
 slug = "lets-encrypt-matjaz-it"
-lastmod = "2017-02-19T18:53:44+01:00"
+lastmod = "2017-03-22T22:53:44+01:00"
 draft = false
 description = "matjaz.it is now available over HTTPS only! This is my short journey about setting it up along with some extra security headers and redirects from the plaintext-HTTP version."
 weight = 0
@@ -163,8 +163,7 @@ We have to remember that the connection from the hosting server to the client is
 protected, but nothing guarantees that the hosting provider is not changing the
 content _before_ sending it to the client or when the website owner uploads the
 web pages/files. This is why I sign with GnuPG the commits of the website's
-source code before uploading them to GitHub. Same for [signing my Signal
-fingerprint](/contact/#signal) and for verifying it on Twitter.
+source code before uploading them to GitHub.
 
 HTTPS is good but does not solve every security problem. Please be aware of it
 when surfing the web.
@@ -172,3 +171,8 @@ when surfing the web.
 ****
 
 _Edit 2017-02-19_: added Referrer-Policy rule header to `.htaccess` snippet.
+
+_Edit 2017-03-22_: removed note about signing and publishing the Signal
+fingerprint as it
+[not anymore required](https://whispersystems.org/blog/safety-number-updates/)
+to publish it online.
