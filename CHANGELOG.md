@@ -14,7 +14,67 @@ notable exceptions are:
   the website is completely static.
 - no `Deprecated` and `Security` sections for the same reason as in the previous
   point.
+  
+********************************************************************************
 
+
+2017-03-26
+---------------------------------------
+
+Two new posts on PostgreSQL, one on the pronunciation of Matjaž,
+removal of Signal fingerprint, Twitter cards support, extended-latin fonts,
+updates of Highlight.js and improvements in its usage.
+
+
+### Added
+
+- New posts:
+  - On size of PostgreSQL database
+  - On UNIQUE constraints for NULL values in PostgreSQL
+  - On the correct pronunciation of Matjaž
+- Social media meta tags for various socials, most importantly for Twitter
+  summary cards. A JPG version of the logo is also added to avoid problems with
+  PNG on black backgrounds completely hiding the logo.
+- Inline SVG Signal icon although it's not currently used.
+- Link to sitemap in the header links.
+
+
+### Changed
+
+- Improved Sitemap shortcode and thus the Sitemap page to show only the required
+  links. The pages are in alphabetical order, the posts are in reversed
+  chronological order based on the publishing date, which is also provided next
+  to the post title.
+- Post Markdown file naming schema: dropped ISO date in favor of a sequential
+  number. Makes it easier to understand and avoids confusion when a post is
+  written and published on different days.
+- Horizontal scrolling of `pre` and `code` blocks now works even without the
+  highlighting library enabled (loaded). As a consequence the library loading
+  is removed when not necessary anymore.
+- Updated the Highlight.js library from 9.4 to 9.10, added some programming
+  languages to it to have more options for the syntax highlighting. As a 
+  consequence the programming languages for the sections requiring the 
+  highlighting are chosen better improving the existing highlights.
+- Added more tools in the [THANKS.md](THANKS.md) file and improved its
+  formatting.
+
+
+### Removed
+
+- Signal fingerprint links in the contact page and all related files. Fixed all
+  links within the website to the Signal section of the contact page. The
+  fingerprints are not required to be public
+  anymore. [More info](https://whispersystems.org/blog/safety-number-updates/)
+- Shortcode `{{< code >}}` which was used to provide horizontal scrolling
+  for text blocks without syntax highlighting. It is not required anymore due 
+  to the enabling of the horizontal scrolling for `pre` and `code` blocks.
+
+
+### Fixed
+
+- Roboto and Inconsolata fonts now support latin-extended characters.
+- Consolas is used as a fallback font for fixed-width sections instead of 
+  using the OS default fixed-width font immediately.
 
 
 2017-02-22
