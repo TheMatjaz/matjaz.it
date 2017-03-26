@@ -2,6 +2,57 @@ Software used to build the _matjaz.it_ blog
 ===============================================================================
 
 
+Tools on my computer
+--------------------
+
+- The [Hugo](https://gohugo.io) static website engine to generate the website
+- [Git](https://git-scm.com/) (quite obviously) to manage the code and content
+- A text editor, currently [Emacs](https://www.emacswiki.org)
+- [GNU Ispell](https://www.gnu.org/software/ispell/ispell.html) to spell-check
+  my website's content
+- [My custom shell](https://github.com/TheMatjaz/dotfiles)
+- [Inkscape](https://www.inkscape.org/) to manipulate SVG images
+- [Imagemagick](https://www.imagemagick.org/script/index.php) to create smaller
+  thumbnails of the images in the posts
+- [Exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) to manipulate JPG
+  metadata, like the copyright notice
+
+
+Web tools
+---------
+
+- Website building tools:
+    - [Real Favicon Generator](https://realfavicongenerator.net/) is an awesome
+      generator of the _right way_ to create the favicons for your website
+    - [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts)
+      is an extremely useful tool that organizes a Google Font and its CSS code
+      to self-host it easily
+    - [Can I use](http://caniuse.com/) tests if an HTML, CSS, JS feature is
+      supported by the most common browsers
+    - [CSS Lint](http://csslint.net/) can find errors in the CSS code
+
+- Website speed and quality tests:
+    - [Varvy](https://varvy.com/): it has different tests for SEO, speed and
+      mobile and many many suggestions on speeding up your website
+    - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+    - [Pingdom Tools](https://tools.pingdom.com/)
+    - [GTmetrix](https://gtmetrix.com/)
+    - [Web bloat score calculator](http://www.webbloatscore.com/) compares the
+      size of your website with a screenshot of it. If the picture has smaller
+      size than the code, the website is bloated.
+
+- Compression and minimization:
+    - [CSS Compressor](http://csscompressor.com/) can minify your CSS easily
+    - [Inline SVG Optimizer](https://petercollingridge.appspot.com/svg-optimiser)
+      made my logo 50% smaller
+      
+- HTTPS and security:
+    - [SSLlabs.com](https://www.ssllabs.com/ssltest/) is the leading test on the
+       web to check your SSL/TLS certificate
+    - [Securityheaders.io](https://securityheaders.io/) check and teaches you
+      about HTTP headers you can use to improve your website's security
+
+
 Third party code
 ----------------
 
@@ -23,36 +74,3 @@ Third party code
   Ivan Sagalaev (BSD 3-clause License)
 - [Base16 Atelier Forest Light Highlighting CSS](https://github.com/atelierbram/syntax-highlighting/)
    by Bram de Haan (MIT License)
-
-
-Software tools used
--------------------
-
-- The [Hugo](https://gohugo.io) static website engine to generate the website
-- [Git](https://git-scm.com/) (quite obviously) to manage the code and content
-- A text editor, currently [Emacs](https://www.emacswiki.org)
-- [My custom shell](https://github.com/TheMatjaz/dotfiles)
-- [Inkscape](https://www.inkscape.org/) to manipulate SVG images
-- [Exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) to manipulate JPG
-  metadata, like the copyright notice
-
-
-Web tools used
---------------
-
-- [Real Favicon Generator](https://realfavicongenerator.net/) is an awesome 
-  generator of the _right way_ to create the favicons for your website
-- Website speed and quality test:
-    - [Varvy](https://varvy.com/): it has tests for SEO, speed and mobile and
-      many many suggestions on speeding up your website
-    - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
-    - [Pingdom Tools](https://tools.pingdom.com/)
-    - [GTmetrix](https://gtmetrix.com/)
-- [CSS Compressor](http://csscompressor.com/) can minify your CSS easily, while
-  [CSS Lint](http://csslint.net/) can find any errors in it
-- [Inline SVG Optimizer](https://petercollingridge.appspot.com/svg-optimiser)
-  made my logo 50% smaller
-- [SSLlabs.com](https://www.ssllabs.com/ssltest/) is the leading test on the web
-  to check your SSL/TLS certificate
-- [Securityheaders.io](https://securityheaders.io/) check and teaches you about
-  HTTP headers you can use to improve your website's security
