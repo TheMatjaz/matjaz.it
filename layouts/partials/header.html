@@ -1,18 +1,56 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ $logo_url := "/images/logos/matjaz_it_logo@2x.png" | absURL }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}"{{ if eq .Section "post" }} itemscope itemtype="http://schema.org/Article"{{ end }}>
 <head>
 <meta charset="utf-8"/>
-<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<title>{{ .Title }}{{ if eq .IsHome false }} - {{ .Site.Title }}{{ end }}</title>
 <link rel="author" href="/humans.txt"/>
 <meta name="author" content="{{ .Site.Author.name }}"/>
 <meta name="keywords" content="{{ .Site.Params.keywords }}"/>
-<meta name="description" content="{{ .Site.Params.description }}"/>
+<meta name="description" content="{{ if eq .Section "post" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
 {{ .Hugo.Generator }}
 <link rel="license" href="{{ .Site.Params.licenseURL }}"/>
 {{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>{{ end }}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Real Favicon Generator -->
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+{{ if or (eq .Section "post") (eq .Section "page") }}
+<meta itemprop="name" content="{{ .Title }}"> {{/* Schema.org markup for Google+ */}}
+<meta itemprop="description" content="{{ .Description }}">
+<meta itemprop="image" content="{{ $logo_url }}">
+<meta name="twitter:card" content="summary"> {{/* Twitter Card data, the image should be at least 120x120px */}}
+<meta name="twitter:site" content="{{ .Site.Params.handle }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:creator" content="{{ .Site.Params.handle }}">
+<meta name="twitter:image:src" content="{{ "/images/logos/matjaz_it_logo.jpg" | absURL }}">
+<meta name="twitter:image:alt" content="matjaz.it logo: an arrow twisted in the shape of the infinite symbol">
+<meta property="og:title" content="{{ .Title }}" /> {{/*  Open Graph data */}}
+<meta property="og:type" content="{{ .Section }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ $logo_url }}" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+{{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />
+{{ end }}{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}" />
+{{ end }}{{ else }}
+<meta itemprop="name" content="{{ .Site.Title }}"> {{/* Schema.org markup for Google+ */}}
+<meta itemprop="description" content="{{ .Site.Params.description }}">
+<meta itemprop="image" content="{{ $logo_url }}">
+<meta name="twitter:card" content="summary"> {{/* Twitter Card data, the image should be at least 120x120px */}}
+<meta name="twitter:site" content="{{ .Site.Params.handle }}">
+<meta name="twitter:title" content="{{ .Site.Title }}">
+<meta name="twitter:description" content="{{ .Site.Params.description }}">
+<meta name="twitter:creator" content="{{ .Site.Params.handle }}">
+<meta name="twitter:image:src" content="{{ "/images/logos/matjaz_it_logo.jpg" | absURL }}">
+<meta name="twitter:image:alt" content="matjaz.it logo: an arrow twisted in the shape of the infinite symbol">
+<meta property="og:title" content="{{ .Site.Title }}" /> {{/*  Open Graph data */}}
+<meta property="og:type" content="home" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ $logo_url }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ end }}
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"> {{/* Real Favicon Generator */}}
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
@@ -28,6 +66,7 @@
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-title" content="matjaz.it">
 <meta name="application-name" content="matjaz.it">
 <meta name="msapplication-TileColor" content="#ffffff">
@@ -41,7 +80,7 @@
 		<div class="header-logo">
 			<a href="/">{{ .Site.Data.svglogos.matjazit | safeHTML }}</a>
 		</div>
-		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
+		{{ if eq .IsHome true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
         <div class="contact-links">
           <a class="contact-link TwitterLink" href="{{ .Site.Params.twitter }}" target="_blank">{{ .Site.Data.svglogos.twitter | safeHTML }}</a>
           <a class="contact-link GithubLink" href="{{ .Site.Params.github }}" target="_blank">{{ .Site.Data.svglogos.github | safeHTML }}</a>
@@ -49,9 +88,9 @@
           <a class="contact-link KeybaseLink" href="{{ .Site.Params.keybase }}" target="_blank">{{ .Site.Data.svglogos.pgp | safeHTML }}</a>
           {{ if .Site.RSSLink }}<a class="contact-link RSSLink" type="application/rss+xml" href="{{ .Site.RSSLink }}" target="_blank">{{ .Site.Data.svglogos.rss | safeHTML }}</a>{{ end }}
         </div>
-        {{ if eq $isHomePage true }}
+        {{ if eq .IsHome true }}
        	<div class="pages-links">
-          <a href="/software/">Software</a> &ndash; <a href="/slides/">Slides</a> &ndash; <a href="/about/">About</a>
+          <a href="/software/">Software</a> &ndash; <a href="/slides/">Slides</a> &ndash; <a href="/about/">About</a> &ndash; <a href="/sitemap/">Sitemap</a>
 		</div>
         {{ end }}
 	</header>

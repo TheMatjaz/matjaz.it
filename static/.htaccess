@@ -173,9 +173,6 @@ RedirectMatch 301 (?i)^/sitemap.html?      https://matjaz.it/sitemap/
 RedirectMatch 301 (?i)^/sw/?$              https://matjaz.it/software/
 RedirectMatch 301 (?i)^/numerus/?$         https://matjaz.it/software/
 
-# First post
-RedirectMatch 301 (?i)^/first/?$           https://matjaz.it/hi-out-there/
-
 # Talks and slides page
 RedirectMatch 301 (?i)^/slide/?$           https://matjaz.it/slides/
 RedirectMatch 301 (?i)^/talks?/?$          https://matjaz.it/slides/
@@ -185,3 +182,7 @@ RedirectMatch 301 (?i)^/powerpoints?/?$    https://matjaz.it/slides/
 # Taxonomies singular to plural
 RedirectMatch 301 (?i)^/category/?(.*)$    https://matjaz.it/categories/$1
 RedirectMatch 301 (?i)^/(tag|tag/(.*))$    https://matjaz.it/tags/$2
+
+# Post aliases
+RedirectMatch 301 (?i)^/first/?$           https://matjaz.it/hi-out-there/
+RedirectMatch 301 (?i)^/(my-)?name/?$      https://matjaz.it/how-to-pronounce-matjaz/
