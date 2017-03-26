@@ -42,7 +42,7 @@ an array of integers.
 Before even starting let's fix the search path so we can avoid inserting
 the schema name for every query.
 
-{{< code sql >}}
+```sql
 ALTER ROLE some_username
   SET search_path
    TO example_schema, public;
@@ -53,12 +53,12 @@ ALTER DATABASE example_db
    TO example_schema, public;
       -- For all users when they connect to the database.
       -- I prefer this one, less administration when new roles are created.
-{{< /code >}}
+```
 
 
 ### Create a user for `example_schema` with read-only access
 
-{{< code sql >}}
+```sql
 CREATE ROLE readonly_user
        WITH LOGIN
        ENCRYPTED PASSWORD 'placeAVeryLongPasswordHereWith30+Characters';
@@ -89,7 +89,7 @@ CREATE ROLE readonly_user
     IN SCHEMA example_schema
     TO readonly_user;
        -- The user can now SELECT all tables and all views in the schema.
-{{< /code >}}
+```
 
 
 ### Grant the same permissions for newly created tables
@@ -103,7 +103,7 @@ Alternatively we can store the setting in the database so that all new objects
 should a read-only default permission level for our `readonly_user` on their
 generation.
 
-{{< code sql >}}
+```sql
 ALTER DEFAULT PRIVILEGES
    IN SCHEMA example_name
 GRANT SELECT
@@ -115,7 +115,8 @@ ALTER DEFAULT PRIVILEGES
 GRANT USAGE
    ON SEQUENCES  -- without the ALL keyword
    TO readonly_user;
-{{< /code >}}
+```
+
 
 ### Final note
 

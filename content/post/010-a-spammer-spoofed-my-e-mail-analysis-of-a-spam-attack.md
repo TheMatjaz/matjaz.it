@@ -4,7 +4,7 @@ categories   = ["Privacy and Security"]
 date         = "2015-01-30T12:47:05+00:00"
 description  = "My e-mail box was filled with answers to spam e-mails because somebody spoofed my e-mail address. I did some analysis of the data, tried to find out who answered the most and what the answers where about."
 draft        = false
-highlight    = true
+highlight    = false
 slug         = "a-spammer-spoofed-my-e-mail-analysis-of-a-spam-attack"
 tags         = ["E-mail", "Security", "Spam", "Spoofing"]
 title        = "A spammer spoofed my e-mail: analysis of a spam attack"
@@ -31,7 +31,8 @@ My first thought was:_"Holy cow, somebody cracked in my inbox, stole my identity
 and sent 1000 e-mails from my account!"_ but it was not that - fortunately,
 because any consequences of an identity theft are really complicated.
 
-What happened to me is called **_spoofing_**. Let me cite the almighty [Wikipedia](https://en.wikipedia.org/wiki/Email_spoofing) here:
+What happened to me is called **_spoofing_**. Let me cite the almighty
+[Wikipedia](https://en.wikipedia.org/wiki/Email_spoofing) here:
 
 > Email spoofing is the creation of email messages with a forged sender
 > address. [...] Spam and phishing emails typically use such spoofing to mislead
@@ -119,6 +120,7 @@ Tom Colombo
 +12 3456 78 910
 ```
 
+
 ## So what? Could also be an authentic seller writing!
 
 Actually... No. Just pay some attention to those details:
@@ -148,7 +150,7 @@ reseller (_eBay_, _Amazon_, whatever).
 friends of mine and even my personal account got the same spam, but apparently
 sent from another unlucky spoofed user. The national police department for
 web-crimes also wrote a
-[warning (italian)](https://www.commissariatodips.it/notizie/articolo/attenzione-invio-email-con-allegato-virus.html) [[here](https://translate.googleusercontent.com/translate_c?act=url&depth=1&hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=it&tl=en&u=https://www.commissariatodips.it/notizie/articolo/attenzione-invio-email-con-allegato-virus.html&usg=ALkJrhhDL2okPLcFlbriha5x1fZjrT-Y1Q)
+[warning (in italian)](https://www.commissariatodips.it/notizie/articolo/attenzione-invio-email-con-allegato-virus.html) [[here](https://translate.googleusercontent.com/translate_c?act=url&depth=1&hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=it&tl=en&u=https://www.commissariatodips.it/notizie/articolo/attenzione-invio-email-con-allegato-virus.html&usg=ALkJrhhDL2okPLcFlbriha5x1fZjrT-Y1Q)
 the translation by Google] about this spam attack on their home page - which
 means **it reached many users**.
 
@@ -265,12 +267,13 @@ find out what the e-mail is about and get **infected**.
 
 Now think about sending **10.000.000 e-mails** instead of 100 or even more,
 since
-[70% of the e-mail traffic is spam](http://mashable.com/2013/08/09/70-percent-email-is-spam/). How
-many infected computers you got? And there is basically nothing to stop it,
+[70% of the e-mail traffic is spam](http://mashable.com/2013/08/09/70-percent-email-is-spam/).
+How many infected computers you got? And there is basically nothing to stop it,
 except defending your self with spam filters and antivirus software and be aware
 of what are you reading, trying to think before clicking anything.
 
-But of course 100% of computer users are doing that, right? _Right??_ [ref. [PEBCAK](https://en.wikipedia.org/wiki/User_error) error]
+But of course 100% of computer users are doing that, right? _Right??_
+[ref. [PEBCAK](https://en.wikipedia.org/wiki/User_error) error]
 
 
 ## The fun part: my spoofed address... does not exist!

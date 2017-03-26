@@ -8,7 +8,7 @@ highlight    = false
 lastmod      = "2016-07-08T13:58:58+02:00"
 slug         = "my-gpg-or-how-to-look-like-a-real-nerd"
 tags         = ["E-mail", "Security", "Privacy", "GnuPG", "PGP"]
-title        = "My GPG or 'How to look like a real nerd'"
+title        = "My GPG or How to look like a real nerd"
 type         = "post"
 weight       = 0
 +++
@@ -27,4 +27,6 @@ commits.
 
 Happy e-mailing!
 
-[Edited on 2016-02-07 to update to my new public key and Keybase]
+********************************************************************************
+
+_Edit 2016-02-07:_ new key pair and Keybase profile.

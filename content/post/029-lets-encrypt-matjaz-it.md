@@ -62,7 +62,7 @@ To achieve the 301 "Moved permanently" redirection while still removing any
 `www.` (which I don't like), the following rules were enough in the `.htaccess`
 file:
 
-{{< code htaccess >}}
+```apache
 ## Redirect www to non-www URL (plain domain) over HTTPS
 ## --------------------------------------------------------
 RewriteEngine On
@@ -75,7 +75,7 @@ RewriteRule ^(.*)$ https://matjaz.it/$1 [R=301,L]
 ## --------------------------------------------------------
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-{{< /code >}}
+```
 
 Plus I had to change manually every other pre-existing redirection in the
 `.htaccess` file to `https://` as well.
@@ -116,7 +116,7 @@ specified domains and protocols, respectively.
 
 My headers now contain:
 
-```text
+```HTTP
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Content-Security-Policy: default-src https://matjaz.it:443
 ```
@@ -127,7 +127,7 @@ than `https://matjaz.it` and don't execute any inline CSS or JavaScript code.
 
 Everything was done in the `.htaccess` file again:
 
-{{< code htaccess >}}
+```apache
 ## Security headers: HSTS, CSP etc.
 ## --------------------------------------------------------
 <ifModule mod_headers.c>
@@ -146,7 +146,7 @@ Everything was done in the `.htaccess` file again:
     # when from this to another HTTP website, send nothing.
     Header always set Referrer-Policy strict-origin-when-cross-origin
 </ifModule>
-{{< /code >}}
+```
 
 Result: [matjaz.it](/) is ranked:
 
@@ -168,11 +168,11 @@ source code before uploading them to GitHub.
 HTTPS is good but does not solve every security problem. Please be aware of it
 when surfing the web.
 
-****
+********************************************************************************
 
-_Edit 2017-02-19_: added Referrer-Policy rule header to `.htaccess` snippet.
+_Edit 2017-02-19:_ added Referrer-Policy rule header to `.htaccess` snippet.
 
-_Edit 2017-03-22_: removed note about signing and publishing the Signal
+_Edit 2017-03-22:_ removed note about signing and publishing the Signal
 fingerprint as it
 [not anymore required](https://whispersystems.org/blog/safety-number-updates/)
 to publish it online.

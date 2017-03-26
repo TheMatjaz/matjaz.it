@@ -145,7 +145,7 @@ images in a better way than pure Markdown. The images will be shown as
 thumbnails and will link to the full-sized version when clicked on. An example
 from one of my posts:
 
-```
+```html
 {{</* figure 
     src="/images/ring-distance/thumbnails/Circular_buffer.png" 
     link="/images/ring-distance/Circular_buffer.png"
@@ -157,7 +157,7 @@ more. Just an example here, but
 [check the documentation](https://gohugo.io/extras/shortcodes#figure) for the
 full list.
 
-```
+```html
 {{</* figure 
     src="/images/ring-distance/thumbnails/Circular_buffer.png" 
     link="/images/ring-distance/Circular_buffer.png"
@@ -180,6 +180,7 @@ your case and for your webserver, if needed.
 
 For the full configuration I'm using on my website, check my [.htaccess file](https://github.com/TheMatjaz/matjaz.it/blob/master/static/.htaccess).
 
+
 ### Compression
 
 I tried the Gzip compression but found out that the Deflate method works better
@@ -187,7 +188,7 @@ in my case. Just add the following lines to your `.htaccess` to enable
 compression of text(ish) files. Images don't need to be compressed, since they
 already are, as well as Woff2 font files.
 
-{{< code htaccess >}}
+```apache
 ## Enable compression for common file types
 ## --------------------------------------------------------
 <IfModule mod_deflate.c>
@@ -222,7 +223,7 @@ already are, as well as Woff2 font files.
     Header append Vary User-Agent
   </IfModule>
 </IfModule>
-{{< /code >}}
+```
 
 
 ### Keep-Alive header
@@ -234,13 +235,13 @@ download the next file.
 Add this lines to the `.htaccess` file to let the connection be open even after
 the first transfer.
 
-{{< code htaccess >}}
+```apache
 ## Enable Keep-Alive connections
 ## --------------------------------------------------------
 <ifModule mod_headers.c>
     Header set Connection keep-alive
 </ifModule>
-{{< /code >}}
+```
 
 
 ### Cache-Control header
@@ -250,7 +251,7 @@ Finally the browser cache, a great tool to make your website fast. I use the
 cache, so the browser does not even ask the server for validation. It just
 serves the user the cached content.
 
-{{< code htaccess >}}
+```apache
 ## Set browser cache time to live
 ## --------------------------------------------------------
 # 1 YEAR - fonts
@@ -276,7 +277,7 @@ serves the user the cached content.
 <FilesMatch "\.(php|py|cgi|pl)$">
     Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
 </FilesMatch>
-{{< /code >}}
+```
 
 
 ## Load resources only when needed
@@ -296,17 +297,19 @@ library is not loaded and we have a faster website, since its a resource less.
 The conditional loading is obtained with this simple lines in the footer partial
 file:
 
-```
+```html
 {{ if eq .Params.highlight true }}
 <script src="/css/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 {{ end }}
 ```
 
+
 ## Final note: Wordpress vs optimized Hugo
 
 Just a few rating results for this optimized version of my Hugo website compared
 to my previous version based on Wordpress
+
 
 #### Google PageSpeed Insights
 

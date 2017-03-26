@@ -101,7 +101,7 @@ exit 0
 Whatever version do you choose (even your own), create a script file. To do it
 open a terminal and run the following command to open nano
 
-```bash
+```nohighlight
 nano /path/to/file/apt-get-autoupdater.sh
 ```
 
@@ -110,7 +110,7 @@ Paste the code into it (`CTRL+SHIFT+V` on Linux, `CMD+V` on Mac or _right-click
 
 Make it executable with the following command or it won't run:
 
-```bash
+```nohighlight
 sudo chmod +x /path/to/file/apt-get-autoupdater.sh
 ```
 
@@ -119,13 +119,13 @@ some commands in this file with their execution time and they will be executed
 on that time. That's it. Each user has a crontab, but since we run apt-get, we
 need root permissions; so open the root crontab (notice the sudo):
 
-```bash
+```nohighlight
 sudo crontab -e
 ```
 
 Add the following line at the bottom of the file:
 
-```bash
+```nohighlight
 30 4 * * 3 bash /path/to/file/apt-get-autoupdater.sh >> /var/log/apt/apt-get-autoupdater.log
 ```
 
@@ -134,6 +134,6 @@ since the first 5 numbers in the line indicate the time of execution of the
 command specified in this order: minute, hour, day of the month, month, day of
 the week. More information is found in the beginning of the crontab file itself.
 
-Also the command in the crontab creates a basic log by appending the output of
+Also the command in the crontab creates a basic log by appending the output of
 the script. The command `date` in the script is intended to help the search for
-a certain execution of the script in time.
+a certain execution of the script in time.

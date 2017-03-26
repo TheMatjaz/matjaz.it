@@ -4,7 +4,7 @@ categories   = ["Software"]
 date         = "2015-11-30T20:51:48+00:00"
 description  = "Wget is amazing but how to make it work smoothly on unstable connections? I use a shell alias to make it retry the download infinite times until it's done."
 draft        = false
-highlight    = true
+highlight    = false
 lastmod      = "2016-07-08T18:03:09+02:00"
 slug         = "wget-retry-until-completed-alias"
 tags         = ["Wget", "Shell", "Linux", "Download", "Software", "Connection"]
@@ -22,7 +22,7 @@ With this parameters `wget` tries and retries to download a specific file from
 an URL until it is completely finished. Also it does not restart the download
 from the beginning but continues from where it has stopped, if possible.
 
-```bash
+```nohighlight
 wget \
   --tries=0 \
   --retry-connrefused \
@@ -40,7 +40,7 @@ wget \
 It is most useful as an alias in your `~/.bashrc` or `~/.zshrc` or whatever
 shell you're using:
 
-```bash
+```nohighlight
 alias wget-infinite="wget --tries=0 --retry-connrefused --continue --timeout=30 --random-wait --background --append-output=/tmp/wget_background"
 ```
 
@@ -50,13 +50,13 @@ Note for OS X: if you installed `wget` through Homebrew, you may need the
 To check the current status of your download (if there is only one simultaneous
 download), run:
 
-```bash
+```nohighlight
 tail -2 /var/log/wget_background | head -1
 ```
 
 which can be saved as an alias as well:
 
-```bash
+```nohighlight
 alias wget-infinite-status="tail -2 /tmp/wget_background | head -1"
 ```
 

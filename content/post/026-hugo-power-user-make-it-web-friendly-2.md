@@ -77,7 +77,7 @@ You may want to add a redirection rule from `/sitemap.html` to your actual
 sitemap (`/sitemap/` in my case) to your web server. I used the `.htaccess` file
 by adding:
 
-```nginx
+```apache
 # Site map for humans
 RedirectMatch 301 (?i)^/sitemap.html? https://matjaz.it/sitemap/
 ```
@@ -155,7 +155,7 @@ On some hostings the 404.html generated page is picked automatically for 404
 errors. When using an Apache web server, just add the following line to the
 `.htaccess` file to make it happen:
 
-```nginx
+```apache
 # 404 custom error page
 ErrorDocument 404 /404.html
 ```
@@ -182,7 +182,7 @@ it. I've stated it also in my [legal notice](/legal-notice/) page.
 You may want to add a link to your content license page or the Creative Commons
 page in the HTML head of your pages:
 
-```
+```html
 <link rel="license" href="https://yourdomain.com/content-license/" />
 ```
 

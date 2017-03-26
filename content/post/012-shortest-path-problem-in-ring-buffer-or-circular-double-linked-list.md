@@ -226,10 +226,8 @@ string description, so _12_ points to _"Noon"_.
 
 This is one of the possible abstract structures that satisfies the hypotheses.
 
+********************************************************************************
 
-**********
-
-
-**Edit** 2015-04-28: added Image 4, hypothesis (now) 1, change chapters
+_Edit 2015-04-28:_ added Image 4, hypothesis (now) 1, change chapters
 order and modify text to include the sequentiality of the numbers.
 

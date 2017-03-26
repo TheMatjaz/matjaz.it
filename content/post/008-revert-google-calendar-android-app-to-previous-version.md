@@ -15,7 +15,7 @@ weight       = 0
 +++
 
 
-> **EDIT**: since the update of the graphical design of the Google Calendar app
+> **Edit**: since the update of the graphical design of the Google Calendar app
 > into a much more suitable one, with more space for the events, zooming
 > ability, week view and more, reverting to the older version is not necessary
 > anymore. If possible **keep the most updated version**, which is the most

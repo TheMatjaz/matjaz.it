@@ -28,15 +28,15 @@ from all sensor is inserted. The table with the sensors data has this format:
 
 ```sql
 CREATE TABLE sensors (
-    instant timestamp NOT NULL PRIMARY KEY DEFAULT now()
-  , sensor1 real
-  , sensor2 real
-  , sensor3 real
-  -- And so on for many sensors
-    );
+       instant timestamp NOT NULL PRIMARY KEY DEFAULT now(),
+       sensor1 real,
+       sensor2 real,
+       sensor3 real,
+       -- And so on for many sensors
+);
 
 CREATE INDEX idx_sensors_timestamp
-    ON sensors(instant);
+    ON sensors (instant);
 ```
     
 The website had to perform a relatively simple SQL query, explained in words:
@@ -83,20 +83,22 @@ So this query does the exact same thing, but for all sensors and takes less than
 a millisecond to complete. **More than 4000 times faster**.
 
 ```sql
-SELECT avg(sensor1)
-    ,  avg(sensor2)
-    ,  avg(sensor3)
-    -- And so on for many sensors
-    FROM sensors
-    WHERE instant BETWEEN timestampadd(minute,-10,now()) AND timestampadd(minute,-5,now())
-    -- instants between 10 minutes ago from now and 5 minutes ago from now
+SELECT avg(sensor1),
+       avg(sensor2),
+       avg(sensor3)
+       -- and so on for many sensors
+  FROM sensors
+ WHERE instant BETWEEN timestampadd(minute,-10,now())
+                   AND timestampadd(minute,-5,now())
+       -- instants between 10 minutes ago from now and 5 minutes ago from now
 UNION
-SELECT avg(sensor1)
-    ,  avg(sensor2)
-    ,  avg(sensor3)
-    -- And so on for many sensors
-    FROM sensors
-    WHERE instant BETWEEN timestampadd(minute,-5,now()) AND now();
-    -- instants between 5 minutes ago from now and, well... now
+SELECT avg(sensor1),
+       avg(sensor2),
+       avg(sensor3)
+       -- and so on for many sensors
+  FROM sensors
+ WHERE instant BETWEEN timestampadd(minute,-5,now())
+                   AND now();
+       -- instants between 5 minutes ago from now and, well... now
 ```
     

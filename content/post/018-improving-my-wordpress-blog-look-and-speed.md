@@ -85,7 +85,7 @@ By adding the following text at the end of the _.htaccess_ file on the Wordpress
 root folder, the server "tells" the browser to keep static content in cache for
 a certain period.
 
-```
+```apache
 # BEGIN Browser caching expires
 <IfModule mod_expires.c>
 ExpiresActive On
@@ -121,7 +121,7 @@ of being closed and reopened. Watch out: this configuration depends on the
 Apache Web Server configuration. If you are on a shared hosting, it may not work
 since you won't have access to the Apache settings.
 
-```
+```apache
 # BEGIN keep alive
 <IfModule mod_headers.c>
 Header set Connection keep-alive

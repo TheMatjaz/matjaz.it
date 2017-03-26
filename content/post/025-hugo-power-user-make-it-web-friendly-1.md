@@ -85,7 +85,7 @@ website. It's a configuration file for the web server; Google it for more info.
 You'll need to add this lines (if you don't know where, at the end of the file
 is fine):
 
-```nginx
+```apache
 # Set HTTP headers for Charset
 AddDefaultCharset UTF-8
 ```
@@ -125,7 +125,7 @@ I'm not experienced in plurilingual websites with Hugo, although there are
 Just as for the UTF-8 configuration of HTTP transmission metadata, do the same
 for content language by adding the following lines to the `.htaccess` file:
 
-```nginx
+```apache
 # Set HTTP headers for Content language
 DefaultLanguage en-US
 ```
@@ -246,7 +246,7 @@ Since Wordpress has a different feed link `yourdomain.com/feed/`, after the
 switch to Hugo, the feed subscription to my website broke. I fixed it adding a
 301-Permanent HTTP redirection to the `.htaccess` file by adding the line:
 
-```nginx
+```apache
 # Redirect Wordpress RSS feed URL to Hugo RSS feed URL
 RedirectMatch 301 (?i)^/feed/?(index.xml)?$ https://matjaz.it/index.xml
 ```

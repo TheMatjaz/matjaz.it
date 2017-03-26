@@ -1,6 +1,6 @@
 +++
 lastmod = "2017-03-21T20:49:27+01:00"
-description = "Distinguishing between NULL values is impossible, as per SQL standard.These are my favorite workarounds for one and multiple columns."
+description = "Distinguishing between NULL values is impossible, as per SQL standard. These are my favorite workarounds for one and multiple columns."
 aliases = []
 tags = ["database", "postgresql", "null", "unique", "tutorial"]
 priority = 0.5

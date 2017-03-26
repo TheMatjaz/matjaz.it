@@ -101,7 +101,7 @@ Inspired by [Stackoverflow](http://stackoverflow.com/a/18907188).
 
 #### Example result
 
-```
+```nohighlight
  database_name | database_size_bytes | database_size
 ---------------+---------------------+---------------
  template0     |             7111172 | 6945 kB
@@ -166,7 +166,7 @@ Inspired by [wiki-bsse.ethz.ch](https://wiki-bsse.ethz.ch/display/ITDOC/Check+si
 
 #### Example result
 
-```
+```nohighlight
        table      | table_size | related_objects_size | total_table_size | live_rows
 ------------------+------------+----------------------+------------------+-----------
  users            | 25 kB      | 24 kB                | 49 kB            |       100

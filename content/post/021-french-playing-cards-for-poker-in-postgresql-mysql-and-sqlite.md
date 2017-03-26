@@ -18,7 +18,7 @@ Not much to tell. I thought a nice SQL-programming exercise would be to see how
 a deck of cards could be implemented in a database. It's simple and
 straightforward but got me thinking a bit.
 
-[Check it out on GitHub](https://github.com/TheMatjaz/sql-playcard). I
+[Check it out on GitHub](https://github.com/TheMatjaz/sql-playcard). I
 programmed different versions of the same solution for PostgreSQL, MySQL and
 SQLite (this one in 2 versions). Everything is BSD licensed, use it as you wish.
 
@@ -31,5 +31,5 @@ relation would suffice. A lesson for the future:
 
 A standard french playing deck (yes, that's the official name for the _Poker
 cards_) contains 52 cards, 13 for each suit, and two jokers. In my solution I
-added an additional _Covered card_ for a card with unknown value.
+added an additional _Covered card_ for a card with unknown value.
 

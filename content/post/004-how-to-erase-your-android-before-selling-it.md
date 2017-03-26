@@ -28,8 +28,8 @@ I'll try to put it in a simple way: when you write a new file on your disk or
 memory card, let's say a video you made with your phone's camera, it occupies a
 certain amount of space - e.g. 100 MB. The file is stored as a series of 0 an 1
 in your hard disk or memory card or phone's internal memory. This applies to
-basically any device or computer. When you trash your file, it's simply moved to
-a _Trash_ directory, but when the Trash is emptied or you "permanently delete"
+basically any device or computer. When you trash your file, it's simply moved to
+a _Trash_ directory, but when the Trash is emptied or you "permanently delete"
 your file, it's still there!
 
 Why? The computer or phone or whatever device you have does not overwrite the
@@ -38,7 +38,8 @@ file_. Instead it flags the file as _deleted_. And no, it's not a hack form the
 NSA to get your data. It's simply a time saving technique (and also life saving
 for your disk or memory card).
 
-When you write another file to the disk, the device will use the space flagged as _deleted_ as it was empty an just then the file will actually be overwritten.
+When you write another file to the disk, the device will use the space flagged
+as _deleted_ as it was empty an just then the file will actually be overwritten.
 
 There are many tools like [Recuva](http://www.piriform.com/recuva) (for Windows)
 to scan your disk for files _flagged as deleted_ and recover them. It's the same
@@ -69,9 +70,9 @@ extra paranoia.
 ## Overwrite them
 
 Install
-[SecureWipe](https://play.google.com/store/apps/details?id=com.pinellascodeworks.securewipe). It's
-a free tool that actually overwrites the files flagged as _deleted_ and all the
-empty space. Check **Sanitize System Space** and **Sanitize SD Card** and
+[SecureWipe](https://play.google.com/store/apps/details?id=com.pinellascodeworks.securewipe).
+It's a free tool that actually overwrites the files flagged as _deleted_ and all
+the empty space. Check **Sanitize System Space** and **Sanitize SD Card** and
 **Start wiping**. It could take some time, like an hour or two, depending on the
 speed of your device and the amount of free space left. Keep the phone charging
 and be patient.

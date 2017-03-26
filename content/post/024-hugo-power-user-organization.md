@@ -140,7 +140,7 @@ partially filled in a new content file whenever `hugo new post/a-post-title.md`
 is called (works for any content type, obviously). Try to put a lot of
 information in the archetypes. Here is my `post` archetype:
 
-```
+```nohighlight
 +++
 aliases      = []
 categories   = []
@@ -176,11 +176,11 @@ For instance, creating a shortcode to list the pages looks something like this:
 
 ## Content filenames
 
-I add the current date in ISO format at the beginning of each content filename
-to keep them sorted and to understand what is newer without opening the files
-and looking at the frontmatter.
+I add the current date in ISO format YYYY-MM-DD at the beginning of each content
+filename to keep them sorted and to understand what is newer without opening the
+files and looking at the frontmatter.
 
-```
+```nohighlight
 content/post
 ├── 2014-01-16-hi-out-there.md
 ├── 2014-04-26-cool-time-saving-tech-tips-everybody-should-know.md
