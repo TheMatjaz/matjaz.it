@@ -5,7 +5,7 @@ date         = "2016-07-10T20:10:37+02:00"
 description  = "Today we dive into how to organize the Hugo folder and the structure of the content you are going to publish on the web after a potential export from the previous CMS."
 draft        = false
 highlight    = true
-lastmod      = "2016-07-10T20:10:11+02:00"
+lastmod      = "2017-03-26T23:16:18+02:00"
 slug         = "hugo-power-user-organization"
 tags         = ["Hugo Power User", "Hugo", "Blog", "Git", "Wordpress"]
 title        = "#HugoPowerUser: content organization"
@@ -188,6 +188,23 @@ content/post
 ...
 └── 2016-07-10-hugo-power-user-organization.md
 ```
+
+**Edit 2017-03-26**: after some months I found this type of filenames is not
+very useful when I write a post on one date and publish it on another. So I
+switched format to a serial number of three digits (supposing I will never write
+more than 999 posts). This still keeps the files chronologically organized. I
+started using the number 000 for drafts and I switch it to the actual number
+when I publish the post.
+
+```nohighlight
+content/post
+├── 001-hi-out-there.md
+├── 002-cool-time-saving-tech-tips-everybody-should-know.md
+├── 003-diy-standing-desk-for-8-euro.md
+...
+└── 024-hugo-power-user-organization.md
+```
+
 
 
 ## Be sure to have lists, singles and terms layouts
