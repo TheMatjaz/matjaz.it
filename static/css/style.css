@@ -733,7 +733,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Inconsolata, monospace, monospace; /* 1 */
+  font-family: Inconsolata, Consolas, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
