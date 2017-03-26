@@ -371,11 +371,14 @@ code {
   white-space: nowrap;
   background: #F7F7F7;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  border-radius: 4px;
+  overflow-x: scroll;
+}
 pre > code {
   display: block;
-  padding: 1rem 1.5rem;
-  white-space: pre; }
+  padding: 0.5em;
+  white-space: pre; 
+}
 
 
 /* Tables
