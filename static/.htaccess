@@ -185,4 +185,5 @@ RedirectMatch 301 (?i)^/(tag|tag/(.*))$    https://matjaz.it/tags/$2
 
 # Post aliases
 RedirectMatch 301 (?i)^/first/?$           https://matjaz.it/hi-out-there/
-RedirectMatch 301 (?i)^/(my-)?name/?$      https://matjaz.it/how-to-pronounce-matjaz/
+RedirectMatch 301 (?i)^/my-name/?$         https://matjaz.it/name/
+RedirectMatch 301 (?i)^/how-to-pronounce-matjaz/?$ https://matjaz.it/name/
