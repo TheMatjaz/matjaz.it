@@ -12,7 +12,7 @@ RewriteRule ^(.*)$ https://matjaz.it/$1 [R=302,L]
 ## Redirect www to non-www URL (plain domain) over HTTPS
 ## --------------------------------------------------------
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://matjaz.it/$1 [R=301,L]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 
 ## Redirect HTTP request to HTTPS
