@@ -41,3 +41,5 @@ verboseLog = true
     keywords    = "Matjaž, Guštin, Matjaz, Gustin, blog, software, sysadmin, database, security, privacy, unix, linux, hugo"
     description = "Software, privacy and system administration"
     licenseURL  = "/legal-notice/"
+    stylesheetURL = "/css/style.min.css"
+    highlightJSURL = "/css/highlight.pack.js"
