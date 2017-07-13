@@ -18,6 +18,47 @@ notable exceptions are:
 ********************************************************************************
 
 
+2017-07-13
+---------------------------------------
+
+New post about tabs vs. spaces, more details in post about name, some
+`.htaccess` fixes and minor Hugo improvements.
+
+
+### Added
+
+- New post about some valid points in the tabs vs. spaces debate
+
+
+### Changed
+
+- Post about my name pronuncation: added typing methods for various desktop
+  operating systems.
+- Take links to CSS and JS files from Hugo configuration files. This allows a
+  simple change to rebuild the website with a different file such as the
+  non-minified one.
+
+
+### Removed
+
+Nothing.
+
+
+### Fixed
+
+- Usage of deprecated `.Now` variable. Using the `now` function instead.
+- www-to-non-www redirection in `.htaccess` file is domain-agnostic (makes the
+  whole statement copy-pastable in another `.htaccess` file).
+- Remove `target="_blank"` from links. It's not required.
+
+#### Security fixes
+
+- Modified `Referrer-Policy` HTTP header to make it compliant with most browsers.
+  Chrome, Edge, IE etc. are not supporting the `strict-origin-when-cross-origin`
+  directive, so `no-referrer-when-downgrade` is chosen instead.
+
+
+
 2017-03-26
 ---------------------------------------
 

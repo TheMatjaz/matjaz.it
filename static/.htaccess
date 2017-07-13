@@ -12,7 +12,7 @@ RewriteRule ^(.*)$ https://matjaz.it/$1 [R=302,L]
 ## Redirect www to non-www URL (plain domain) over HTTPS
 ## --------------------------------------------------------
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://matjaz.it/$1 [R=301,L]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 
 ## Redirect HTTP request to HTTPS
@@ -37,7 +37,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
     # When navigating within this website, send full URL as referrer,
     # when from this to another HTTPS website send only home URL,
     # when from this to another HTTP website, send nothing.
-    Header always set Referrer-Policy strict-origin-when-cross-origin
+    Header always set Referrer-Policy no-referrer-when-downgrade
 </ifModule>
 
 
@@ -185,4 +185,5 @@ RedirectMatch 301 (?i)^/(tag|tag/(.*))$    https://matjaz.it/tags/$2
 
 # Post aliases
 RedirectMatch 301 (?i)^/first/?$           https://matjaz.it/hi-out-there/
-RedirectMatch 301 (?i)^/(my-)?name/?$      https://matjaz.it/how-to-pronounce-matjaz/
+RedirectMatch 301 (?i)^/my-name/?$         https://matjaz.it/name/
+RedirectMatch 301 (?i)^/how-to-pronounce-matjaz/?$ https://matjaz.it/name/

@@ -1,10 +1,12 @@
-	<footer role="contentinfo">
-		<div class="hr"></div>
-		<div class="footer-link"><a href="/contact/">Contact</a> &ndash; <a href="/sitemap/">Site map</a> &ndash; <a href="/legal-notice/">Legal notice and copyright</a></div>
-		<div class="footer-link"><a href="{{ .Site.Params.logo }}">Logo image</a> © 2012. Where unspecified: code is <a href="/bsd-3-clause-license/">BSD 3-clause licensed</a>, other content is under the {{ .Site.Params.cc | safeHTML }}. Made with <a href="https://gohugo.io/">Hugo</a>. Theme based on <a href="https://themes.gohugo.io/hugo-zen/">Hugo Zen</a> and <a href="https://www.machothemes.com/themes/decode/">Decode</a>. Source on <a href="https://github.com/TheMatjaz/matjaz.it">GitHub</a>.</div>
-	</footer>
+    <footer role="contentinfo">
+        <div class="hr"></div>
+        <div class="footer-link"><a href="/contact/">Contact</a> &ndash; <a href="/sitemap/">Site map</a> &ndash; <a href="/legal-notice/">Legal notice and copyright</a></div>
+        <div class="footer-link"><a href="{{ .Site.Params.logo }}">Logo image</a> © 2012. Where unspecified: code is <a href="/bsd-3-clause-license/">BSD 3-clause licensed</a>, other content is under the {{ .Site.Params.cc | safeHTML }}. Made with <a href="https://gohugo.io/">Hugo</a>. Theme based on <a href="https://themes.gohugo.io/hugo-zen/">Hugo Zen</a> and <a href="https://www.machothemes.com/themes/decode/">Decode</a>. Source on <a href="https://github.com/TheMatjaz/matjaz.it">GitHub</a>.</div>
+    </footer>
 </div>
-<link rel="stylesheet" type="text/css" href="/css/style.min.css" >
-{{ if eq .Params.highlight true }}<script src="/css/highlight.pack.js"></script>{{ end }}
+<link rel="stylesheet" type="text/css" href="{{ .Site.Params.stylesheetURL }}">
+{{ if eq .Params.highlight true -}}
+<script src="{{ .Site.Params.highlightJSURL }}"></script>
+{{- end -}}
 </body>
 </html>
