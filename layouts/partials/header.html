@@ -97,11 +97,11 @@
     <h1 class="site-title">{{ .Site.Title }}</h1>
     {{- end }}
     <div class="contact-links">
-      <a class="contact-link TwitterLink" href="{{ .Site.Params.twitter }}" target="_blank">{{ .Site.Data.svglogos.twitter | safeHTML }}</a>
-      <a class="contact-link GithubLink" href="{{ .Site.Params.github }}" target="_blank">{{ .Site.Data.svglogos.github | safeHTML }}</a>
-      <a class="contact-link EmailLink" href="mailto:{{ .Site.Params.email }}" target="_blank">{{ .Site.Data.svglogos.email | safeHTML }}</a>
-      <a class="contact-link KeybaseLink" href="{{ .Site.Params.keybase }}" target="_blank">{{ .Site.Data.svglogos.pgp | safeHTML }}</a>
-      {{ if .Site.RSSLink }}<a class="contact-link RSSLink" type="application/rss+xml" href="{{ .Site.RSSLink }}" target="_blank">{{ .Site.Data.svglogos.rss | safeHTML }}</a>{{ end }}
+      <a class="contact-link TwitterLink" href="{{ .Site.Params.twitter }}">{{ .Site.Data.svglogos.twitter | safeHTML }}</a>
+      <a class="contact-link GithubLink" href="{{ .Site.Params.github }}">{{ .Site.Data.svglogos.github | safeHTML }}</a>
+      <a class="contact-link EmailLink" href="mailto:{{ .Site.Params.email }}">{{ .Site.Data.svglogos.email | safeHTML }}</a>
+      <a class="contact-link KeybaseLink" href="{{ .Site.Params.keybase }}">{{ .Site.Data.svglogos.pgp | safeHTML }}</a>
+      {{ if .Site.RSSLink }}<a class="contact-link RSSLink" type="application/rss+xml" href="{{ .Site.RSSLink }}">{{ .Site.Data.svglogos.rss | safeHTML }}</a>{{ end }}
     </div>
     {{ if eq .IsHome true -}}
     <div class="pages-links">
