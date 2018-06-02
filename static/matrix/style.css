@@ -1,0 +1,63 @@
+body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: Source Code Pro, Menlo, Consolas, Lucida Console, monospace;
+    font-size: 1.5rem;
+}
+table {
+    overflow-x: auto;
+    border-spacing: 3rem;
+    border-collapse: collapse;
+}
+#matrix {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    overflow: hidden;
+}
+#matrix tr {
+    transition: background 0.2s ease-in;
+    height: 3rem;
+}
+#matrix tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+#matrix tr:hover {
+    background: #dddddd;
+}
+#matrix td {
+    border-right: 1px solid black;
+    font-weight: lighter;
+    text-align: center;
+    table-layout: fixed;
+}
+#matrix .value_column {
+    width: 15rem;
+}
+#matrix th {
+    text-align: center;
+    font-weight: normal;
+    background-color: #ffffff;
+}
+#matrix .row_indices {
+    width: 10rem;
+    background-color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+}
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+    border: none;
+    outline: none;
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+}
+#sorted_list div {
+    display: inline-block;
+    min-width: 5rem;
+    text-align: left;
+}
+#sorted_list .value {
+    text-align: right;
+}
