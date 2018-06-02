@@ -7,13 +7,14 @@
 </head>
 <body>
 <div id="input_table">
+ <form>
  <table id="matrix">
   <colgroup>
     <col class="col_indices" span="1">
     <col class="value_column" span="5">
   </colgroup>
   <thead>
-    <th></th>
+    <th><button type="reset" id="reset_button">Reset</button></th>
     <th>A</th>
     <th>B</th>
     <th>C</th>
@@ -23,54 +24,55 @@
   <tbody>
   <tr>
     <td class="row_indices">1</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr> 
   <tr>
     <td class="row_indices">2</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr>
   <tr>
     <td class="row_indices">3</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr> 
   <tr>
     <td class="row_indices">4</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr> 
   <tr>
     <td class="row_indices">5</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr> 
   <tr>
     <td class="row_indices">6</td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
-    <td contenteditable="true"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
+    <td><input type="number" onkeyup="refresh()"></td>
   </tr>
   </tbody>
   </table>
+  </form>
 </div>
 <div id="output">
 <div id="errors">

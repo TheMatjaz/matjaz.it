@@ -45,12 +45,11 @@ table {
     font-weight: normal;
     text-align: center;
 }
-[contenteditable="true"]:active,
-[contenteditable="true"]:focus {
-    border: none;
-    outline: none;
-    display: block;
-    background-color: #ccc;
+#matrix input {
+    width: 80%;
+    height: 80%;
+    font-size: inherit;
+    font-family: inherit;
     text-align: center;
 }
 #sorted_list div {
@@ -60,4 +59,18 @@ table {
 }
 #sorted_list .value {
     text-align: right;
+}
+#reset_button_wrapper {
+    text-align: right;
+}
+#reset_button {
+    background-color: #Af4F50; /* Red-ish */
+    border: 2px solid black;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: inherit;
+    margin:auto;
 }
