@@ -133,29 +133,36 @@ function save_cell_to_query_string(cell) {
         new_query_string = update_query_string_field(
                 window.location.search, cell.id, cell.value);
     } else {
-        new_query_string = update_query_string_field(
-                window.location.search, cell.id, null);
+        new_query_string = remove_query_string_field(
+                window.location.search, cell.id);
     }
     rewrite_query_string_in_url(new_query_string);
 }
 
 function update_query_string_field(uri, key, value) {
     // https://stackoverflow.com/a/6021027/5292928
-    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var re = new RegExp("([?&])" + key + "=[^&]*", "i");
     var separator = uri.indexOf('?') !== -1 ? "&" : "?";
     var new_uri;
     if (uri.match(re)) {
-        if (value == null) {
-            new_uri = uri.replace(re, ''); // Remove key and value
-        } else {
-            new_uri = uri.replace(re, '$1' + key + "=" + value + '$2');
-        }
+        new_uri = uri.replace(re, '$1' + key + "=" + value);
     } else {
-        if (value != null) {
-            new_uri = uri + separator + key + "=" + value;
-        } else {
-            new_uri = uri;
-        }
+        new_uri = uri + separator + key + "=" + value;
+    }
+    return new_uri;
+}
+
+function remove_query_string_field(uri, key) {
+    // https://stackoverflow.com/a/6021027/5292928
+    var re_first = new RegExp("[?]" + key + "=[^&]*&?", "i");
+    var re_nonfirst = new RegExp("&" + key + "=[^&]*", "i");
+    var new_uri;
+    if (uri.match(re_first)) {
+        new_uri = uri.replace(re_first, '');
+    } else if (uri.match(re_nonfirst)) {
+        new_uri = uri.replace(re_nonfirst, '');
+    } else {
+        new_uri = uri;
     }
     return new_uri;
 }
