@@ -1,7 +1,7 @@
 prepare_event_listener();
 
 function prepare_event_listener() {
-    var input_fields = document.getElementById("matrix").addEventListener("keyup", refresh);
+    document.getElementById("matrix").addEventListener("keyup", refresh);
 }
 
 function refresh() {
@@ -18,7 +18,7 @@ function clear_list(html_list_id) {
 }
 
 function table_to_sorted_list(html_table_id, html_list_id) {
-    cells = parse_html_table_into_cells(html_table_id);
+    var cells = parse_html_table_into_cells(html_table_id);
     sort_cells_by_value_desc(cells);
     cells_to_html_list(cells, html_list_id);
 }
@@ -28,7 +28,7 @@ function parse_html_table_into_cells(html_table_id) {
     var table = document.getElementById(html_table_id);
     for (var row_index = 1, row; row = table.rows[row_index]; row_index++) {
         for (var col_index = 1, cell; cell = row.cells[col_index]; col_index++) {
-            cell_data = parse_cell_input_content(cell.children[0].value);
+            var cell_data = parse_cell_input_content(cell.children[0].value);
             cell_data.row_index = row_index;
             cell_data.col_index = col_index;
             cell_data.table = table;
@@ -71,11 +71,11 @@ function sort_cells_by_value_desc(cells) {
 
 function cell_sorter(cell_a, cell_b) {
     var diff = cell_b.value - cell_a.value;
-    if (diff != 0) {
+    if (diff !== 0) {
         return diff;
     }
     diff = cell_a.col_index - cell_b.col_index;
-    if (diff != 0) {
+    if (diff !== 0) {
         return diff;
     }
     return cell_a.row_index - cell_b.row_index;
@@ -93,7 +93,7 @@ function cell_to_html_list_element(cell) {
     return "<li>"
            + "<div class=\"value\">"
            + cell.value
-           + "</div>" 
+           + "</div>"
            + ": "
            + "<div class=\"coordinates\">"
            + col_index_to_character(cell.col_index)
@@ -104,8 +104,4 @@ function cell_to_html_list_element(cell) {
 
 function col_index_to_character(index) {
     return String.fromCharCode(65 + index - 1);
-}
-
-function left_pad_spaces(value, min_chars) {
-    return (Array(min_chars).join(" ") + value).slice(-min_chars);
 }
