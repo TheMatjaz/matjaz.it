@@ -56,13 +56,18 @@ table {
     font-size: 1rem;
     color: #555;
 }
+#sorted_list {
+    list-style-type: none;
+}
 #sorted_list div {
     display: inline-block;
-    min-width: 5rem;
-    text-align: left;
 }
 #sorted_list .value {
     text-align: right;
+    min-width: 5rem;
+}
+#sorted_list .coordinates {
+    text-align: left;
 }
 #reset_button_wrapper {
     text-align: right;
