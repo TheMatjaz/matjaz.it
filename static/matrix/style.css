@@ -52,6 +52,10 @@ table {
     font-family: inherit;
     text-align: center;
 }
+#matrix input::placeholder {
+    font-size: 1rem;
+    color: #555;
+}
 #sorted_list div {
     display: inline-block;
     min-width: 5rem;
