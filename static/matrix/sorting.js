@@ -55,27 +55,10 @@ function clean_string(string) {
 }
 
 function process_cell_data(cell_data, cells) {
-    if (cell_data.value.length == 0) {
-        clear_errors_in_cell(cell_data);
-    } else {
-        cell_data.value = parseInt(cell_data.value);
-        if (isNaN(cell_data.value)) {
-            report_error_in_cell(cell_data);
-        } else {
-            clear_errors_in_cell(cell_data);
-            cells.push(cell_data);
-        }
+    cell_data.value = parseInt(cell_data.value);
+    if (!isNaN(cell_data.value)) {
+        cells.push(cell_data);
     }
-}
-
-function report_error_in_cell(cell) {
-    cell.get_cell_in_html_table().style.color = "red";
-    cell.get_cell_in_html_table().style.fontWeight = "bold";
-}
-
-function clear_errors_in_cell(cell) {
-    cell.get_cell_in_html_table().style.color = "black"; 
-    cell.get_cell_in_html_table().style.fontWeight = "lighter"; 
 }
 
 function sort_cells_by_value_desc(cells) {
