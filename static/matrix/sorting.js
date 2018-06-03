@@ -1,55 +1,29 @@
-prepare_event_listener();
+var g_output_list_element = document.getElementById("sorted_list");
+var g_input_fields = document.getElementsByClassName("cell");
+var g_cells = {};
 
-function prepare_event_listener() {
-    document.getElementById("matrix").addEventListener("keyup", refresh);
+prepare_event_listeners();
+
+function prepare_event_listeners() {
+    Object.values(g_input_fields).forEach(function(input_field) {
+        input_field.addEventListener(
+            "keyup", function() {input_field_event(input_field);});
+    });
 }
 
-function refresh() {
-    refresh_list("matrix", "sorted_list");
+function input_field_event(input_field) {
+    var cell = input_field_to_cell(input_field);
+    g_cells[cell.id] = cell;
+    update_output_list(g_output_list_element, g_cells);
 }
 
-function refresh_list(html_table_id, html_list_id) {
-    clear_list(html_list_id);
-    table_to_sorted_list(html_table_id, html_list_id);
-}
-
-function clear_list(html_list_id) {
-    document.getElementById(html_list_id).innerHTML = "";
-}
-
-function table_to_sorted_list(html_table_id, html_list_id) {
-    var cells = parse_html_table_into_cells(html_table_id);
-    sort_cells_by_value_desc(cells);
-    cells_to_html_list(cells, html_list_id);
-}
-
-function parse_html_table_into_cells(html_table_id) {
-    var cells = [];
-    var table = document.getElementById(html_table_id);
-    for (var row_index = 1, row; row = table.rows[row_index]; row_index++) {
-        for (var col_index = 1, cell; cell = row.cells[col_index]; col_index++) {
-            var cell_data = parse_cell_input_content(cell.children[0].value);
-            cell_data.row_index = row_index;
-            cell_data.col_index = col_index;
-            cell_data.table = table;
-            process_cell_data(cell_data, cells);
-        }
-    }
-    return cells;
-}
-
-function parse_cell_input_content(string) {
-    var cell_value = clean_string(string);
-    var cell_data = {
-        table: undefined,
-        row_index: undefined,
-        col_index: undefined,
-        value: cell_value,
-        get_cell_in_html_table: function() {
-            return this.table.rows[this.row_index].cells[this.col_index];
-        },
+function input_field_to_cell(input_field) {
+    var cell = {
+        id: input_field.name,
+        value: parseInt(clean_string(input_field.value)),
+        is_valid: function() {return !isNaN(this.value);},
     };
-    return cell_data;
+    return cell;
 }
 
 function clean_string(string) {
@@ -58,50 +32,92 @@ function clean_string(string) {
     return string.trim();
 }
 
-function process_cell_data(cell_data, cells) {
-    cell_data.value = parseInt(cell_data.value);
-    if (!isNaN(cell_data.value)) {
-        cells.push(cell_data);
-    }
+function update_output_list(output_list_element, cells) {
+    output_list_element.innerHTML = cells_to_sorted_html_list(cells);
 }
 
-function sort_cells_by_value_desc(cells) {
-    cells.sort(cell_sorter);
+function cells_to_sorted_html_list(cells) {
+    var sorted_list_html = "";
+    var sorted_cells = cells_dictionary_to_sorted_array(cells);
+    Object.values(sorted_cells).forEach(function(cell) {
+        sorted_list_html += cell_to_html_list_element(cell);
+    });
+    return sorted_list_html;
+}
+
+function cells_dictionary_to_sorted_array(cells) {
+    var sorted = [];
+    Object.values(cells).forEach(function(cell) {
+        if (cell.is_valid()) {
+            sorted.push(cell);
+        }
+    });
+    sorted.sort(cell_sorter);
+    return sorted;
 }
 
 function cell_sorter(cell_a, cell_b) {
     var diff = cell_b.value - cell_a.value;
-    if (diff !== 0) {
-        return diff;
+    if (diff === 0) { // On same value, sort by ID
+        diff = cell_a.id.localeCompare(cell_b.id);
     }
-    diff = cell_a.col_index - cell_b.col_index;
-    if (diff !== 0) {
-        return diff;
-    }
-    return cell_a.row_index - cell_b.row_index;
-}
-
-function cells_to_html_list(cells, html_list_id) {
-    var sorted_list_html = "";
-    cells.forEach(function(cell) {
-        sorted_list_html += cell_to_html_list_element(cell);
-    });
-    document.getElementById(html_list_id).innerHTML = sorted_list_html;
+    return diff;
 }
 
 function cell_to_html_list_element(cell) {
     return "<li>"
-           + "<div class=\"value\">"
-           + cell.value
-           + "</div>"
+           + cell.id
            + ": "
-           + "<div class=\"coordinates\">"
-           + col_index_to_character(cell.col_index)
-           + cell.row_index
-           + "</div>"
-           + "</li>\n";
+           + cell.value
+           + "</li>";
 }
 
-function col_index_to_character(index) {
-    return String.fromCharCode(65 + index - 1);
+function save_cell_to_query_string(cell) {
+    if (cell.is_valid()) {
+        window.location.search = update_query_string_field(
+                window.location.search, cell.id, cell.value);
+    } else {
+        window.location.search = update_query_string_field(
+                window.location.search, cell.id, null);
+    }
+}
+
+function update_query_string_field(uri, key, value) {
+    // https://stackoverflow.com/a/6021027/5292928
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+    var new_uri;
+    if (uri.match(re)) {
+        if (value === null) {
+            new_uri = uri.replace(re, '$1' + '$2'); // Remove key and value
+        } else {
+            new_uri = uri.replace(re, '$1' + key + "=" + value + '$2');
+        }
+    } else {
+        new_uri = uri + separator + key + "=" + value;
+    }
+    return new_uri;
+}
+
+function load_cells_from_query_string() {
+    Object.values(g_input_fields).forEach(function(input_field) {
+        var cell_value = read_query_string_field(window.location.search, input_field.name);
+        if (cell_value !== null) {
+            input_field.value = cell_value;
+            var cell = input_field_to_cell(input_field);
+            g_cells[cell.id] = cell;
+        }
+    });
+    update_output_list(g_output_list_element, g_cells);
+}
+
+function read_query_string_field(uri, key) {
+    // https://stackoverflow.com/a/6021027/5292928
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var matched_values = uri.match(re);
+    if (matched_values === null) {
+        return null;
+    } else {
+        return matched_values[1];
+    }
 }

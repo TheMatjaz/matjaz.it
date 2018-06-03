@@ -75,7 +75,7 @@ table {
 #sorted_list {
     list-style-type: none;
 }
-#sorted_list div {
+#sorted_list span {
     display: inline-block;
 }
 #sorted_list .value {
