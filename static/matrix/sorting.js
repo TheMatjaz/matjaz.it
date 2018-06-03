@@ -1,4 +1,8 @@
-//document.getElementById("matrix").addEventListener("input", refresh);
+prepare_event_listener();
+
+function prepare_event_listener() {
+    var input_fields = document.getElementById("matrix").addEventListener("keyup", refresh);
+}
 
 function refresh() {
     refresh_list("matrix", "sorted_list");
