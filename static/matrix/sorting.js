@@ -10,13 +10,6 @@ function initialize() {
     prepare_event_listeners();
 }
 
-function refresh_cells_dict_from_input_fields() {
-    Object.values(g_input_fields).forEach(function(input_field) {
-        var cell = input_field_to_cell(input_field);
-        g_cells[cell.id] = cell;
-    });
-}
-
 function reset_state() {
     rewrite_query_string_in_url("");
     load_state_from_query_string();
@@ -33,6 +26,13 @@ function prepare_event_listeners() {
     Object.values(g_input_fields).forEach(function(input_field) {
         input_field.addEventListener(
             "keyup", function() {input_field_event(input_field);});
+    });
+}
+
+function refresh_cells_dict_from_input_fields() {
+    Object.values(g_input_fields).forEach(function(input_field) {
+        var cell = input_field_to_cell(input_field);
+        g_cells[cell.id] = cell;
     });
 }
 
@@ -98,6 +98,29 @@ function cell_to_html_list_element(cell) {
            + "</li>";
 }
 
+function load_input_field_contents_from_query_string() {
+    Object.values(g_input_fields).forEach(function(input_field) {
+        var cell_value = read_query_string_field(
+            window.location.search, input_field.name);
+        if (cell_value != null) {
+            input_field.value = cell_value;
+        } else {
+            input_field.value = "";
+        }
+    });
+}
+
+function read_query_string_field(uri, key) {
+    // https://stackoverflow.com/a/6021027/5292928
+    var re = new RegExp("[?&]" + key + "=(.*?)(&|$)", "i");
+    var matched_values = uri.match(re);
+    if (matched_values == null) {
+        return null;
+    } else {
+        return matched_values[1];
+    }
+}
+
 function refresh_query_string_from_cells_dict() {
     Object.values(g_cells).forEach(function(cell) {
         save_cell_to_query_string(cell);
@@ -139,30 +162,7 @@ function update_query_string_field(uri, key, value) {
 
 function rewrite_query_string_in_url(new_query_string) {
     // https://stackoverflow.com/a/19279428/5292928 in the comments
-    const new_url = new URL(window.location.href);
+    var new_url = new URL(window.location.href);
     new_url.search = new_query_string;
     window.history.replaceState(null, document.title, new_url.href);
-}
-
-function load_input_field_contents_from_query_string() {
-    Object.values(g_input_fields).forEach(function(input_field) {
-        var cell_value = read_query_string_field(
-            window.location.search, input_field.name);
-        if (cell_value != null) {
-            input_field.value = cell_value;
-        } else {
-            input_field.value = "";
-        }
-    });
-}
-
-function read_query_string_field(uri, key) {
-    // https://stackoverflow.com/a/6021027/5292928
-    var re = new RegExp("[?&]" + key + "=(.*?)(&|$)", "i");
-    var matched_values = uri.match(re);
-    if (matched_values == null) {
-        return null;
-    } else {
-        return matched_values[1];
-    }
 }
