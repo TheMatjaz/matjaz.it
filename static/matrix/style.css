@@ -14,21 +14,20 @@ table {
     margin-right: auto;
     table-layout: fixed;
     overflow: hidden;
+    text-align: center;
 }
 #matrix tr {
     transition: background 0.2s ease-in;
-    height: 3rem;
 }
 #matrix tr:nth-child(odd) {
-    background: #f2f2f2;
+    background-color: #f2f2f2;
 }
 #matrix tr:hover {
-    background: #dddddd;
+    background-color: #ddd;
 }
 #matrix td {
     border-right: 1px solid black;
     font-weight: lighter;
-    text-align: center;
     table-layout: fixed;
 }
 #matrix .value_column {
@@ -37,20 +36,30 @@ table {
 #matrix th {
     text-align: center;
     font-weight: normal;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 #matrix .row_indices {
-    width: 8rem;
-    background-color: #ffffff;
+    width: 6rem;
+    background-color: #fff;
     font-weight: normal;
     text-align: center;
 }
 #matrix input {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
     font-size: inherit;
     font-family: inherit;
     text-align: center;
+    border: none;
+    transition: background 0.2s ease-in;
+    transition: border 0.2s ease-in;
+    background-color: transparent;
+}
+#matrix input:hover,
+#matrix input:focus {
+    background-color: #fafafa;
+    border: 2px solid #8f8f8f;
 }
 #matrix input::placeholder {
     font-size: 1rem;
@@ -73,13 +82,13 @@ table {
     text-align: right;
 }
 #reset_button {
-    background-color: #Af4F50; /* Red-ish */
-    border: 2px solid black;
+    background-color: #ba372e; /* Darker red */
+    border: 1px solid black;
     color: white;
-    padding: 0.3rem 0.8rem;
+    /*padding: 0.3rem 0.8rem;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: inherit;
+    font-size: smaller;
     margin:auto;
 }
