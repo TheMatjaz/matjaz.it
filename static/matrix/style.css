@@ -75,16 +75,6 @@ table {
 #sorted_list {
     list-style-type: none;
 }
-#sorted_list span {
-    display: inline-block;
-}
-#sorted_list .value {
-    text-align: right;
-    min-width: 5rem;
-}
-#sorted_list .coordinates {
-    text-align: left;
-}
 #reset_button_wrapper {
     text-align: right;
 }
