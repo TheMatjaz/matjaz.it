@@ -141,7 +141,7 @@ function rewrite_query_string_in_url(new_query_string) {
     // https://stackoverflow.com/a/19279428/5292928 in the comments
     const new_url = new URL(window.location.href);
     new_url.search = new_query_string;
-    window.history.replaceState({ path: new_url.href }, '', new_url.href);
+    window.history.replaceState(null, document.title, new_url.href);
 }
 
 function load_input_field_contents_from_query_string() {
