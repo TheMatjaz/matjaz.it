@@ -4,6 +4,13 @@ body {
     font-family: Source Code Pro, Menlo, Consolas, Lucida Console, monospace;
     font-size: 1.5rem;
 }
+a {
+    color: #1EAEDB;
+    text-decoration: none;
+}
+a:hover {
+    color: #0F90BE;
+}
 table {
     overflow-x: auto;
     border-spacing: 3rem;
@@ -91,4 +98,12 @@ table {
     display: inline-block;
     font-size: smaller;
     margin:auto;
+}
+footer {
+  width: 100%;
+  height: 2rem;
+  font-size: x-small;
+  text-align: center;
+  bottom: 2rem;
+  right: 1rem;
 }

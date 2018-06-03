@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang=en-US>
 <head>
-<meta charset=utf-8>
-<title>Matrix</title>
-<link rel="stylesheet" type="text/css" href="style.min.css">
+ <meta charset=utf-8>
+ <title>Matrix</title>
+ <link rel="author" href="https://matjaz.it/humans.txt"/>
+ <meta name="author" content="Matjaž Guštin"/>
+ <link rel="license" href="https://matjaz.it/legal-notice/"/>
+ <link rel="stylesheet" type="text/css" href="style.min.css">
 </head>
 <body>
 <div id="input_table">
  <form>
  <table id="matrix">
-  <colgroup>
-    <col class="col_indices" span="1">
-    <col class="value_column" span="5">
-  </colgroup>
-  <thead>
-    <th><button type="reset" id="reset_button">&#x2718;</button></th>
-    <th>A</th>
-    <th>B</th>
-    <th>C</th>
-    <th>D</th>
-    <th>E</th>
-  </thead>
-  <tbody>
-  <tr>
-    <td class="row_indices">1</td>
-    <td><input type="number" placeholder="A1"></td>
-    <td><input type="number" placeholder="B1"></td>
-    <td><input type="number" placeholder="C1"></td>
-    <td><input type="number" placeholder="D1"></td>
-    <td><input type="number" placeholder="E1"></td>
-  </tr> 
-  <tr>
-    <td class="row_indices">2</td>
-    <td><input type="number" placeholder="A2"></td>
-    <td><input type="number" placeholder="B2"></td>
-    <td><input type="number" placeholder="C2"></td>
-    <td><input type="number" placeholder="D2"></td>
-    <td><input type="number" placeholder="E2"></td>
-  </tr>
-  <tr>
-    <td class="row_indices">3</td>
-    <td><input type="number" placeholder="A3"></td>
-    <td><input type="number" placeholder="B3"></td>
-    <td><input type="number" placeholder="C3"></td>
-    <td><input type="number" placeholder="D3"></td>
-    <td><input type="number" placeholder="E3"></td>
-  </tr> 
-  <tr>
-    <td class="row_indices">4</td>
-    <td><input type="number" placeholder="A4"></td>
-    <td><input type="number" placeholder="B4"></td>
-    <td><input type="number" placeholder="C4"></td>
-    <td><input type="number" placeholder="D4"></td>
-    <td><input type="number" placeholder="E4"></td>
-  </tr> 
-  <tr>
-    <td class="row_indices">5</td>
-    <td><input type="number" placeholder="A5"></td>
-    <td><input type="number" placeholder="B5"></td>
-    <td><input type="number" placeholder="C5"></td>
-    <td><input type="number" placeholder="D5"></td>
-    <td><input type="number" placeholder="E5"></td>
-  </tr> 
-  <tr>
-    <td class="row_indices">6</td>
-    <td><input type="number" placeholder="A6"></td>
-    <td><input type="number" placeholder="B6"></td>
-    <td><input type="number" placeholder="C6"></td>
-    <td><input type="number" placeholder="D6"></td>
-    <td><input type="number" placeholder="E6"></td>
-  </tr>
-  </tbody>
-  </table>
-  </form>
+ <colgroup>
+  <col class="col_indices" span="1">
+  <col class="value_column" span="5">
+ </colgroup>
+ <thead>
+  <th><button type="reset" id="reset_button">&#x2718;</button></th>
+  <th>A</th>
+  <th>B</th>
+  <th>C</th>
+  <th>D</th>
+  <th>E</th>
+ </thead>
+ <tbody>
+ <tr>
+  <td class="row_indices">1</td>
+  <td><input type="number" placeholder="A1"></td>
+  <td><input type="number" placeholder="B1"></td>
+  <td><input type="number" placeholder="C1"></td>
+  <td><input type="number" placeholder="D1"></td>
+  <td><input type="number" placeholder="E1"></td>
+ </tr> 
+ <tr>
+  <td class="row_indices">2</td>
+  <td><input type="number" placeholder="A2"></td>
+  <td><input type="number" placeholder="B2"></td>
+  <td><input type="number" placeholder="C2"></td>
+  <td><input type="number" placeholder="D2"></td>
+  <td><input type="number" placeholder="E2"></td>
+ </tr>
+ <tr>
+  <td class="row_indices">3</td>
+  <td><input type="number" placeholder="A3"></td>
+  <td><input type="number" placeholder="B3"></td>
+  <td><input type="number" placeholder="C3"></td>
+  <td><input type="number" placeholder="D3"></td>
+  <td><input type="number" placeholder="E3"></td>
+ </tr> 
+ <tr>
+  <td class="row_indices">4</td>
+  <td><input type="number" placeholder="A4"></td>
+  <td><input type="number" placeholder="B4"></td>
+  <td><input type="number" placeholder="C4"></td>
+  <td><input type="number" placeholder="D4"></td>
+  <td><input type="number" placeholder="E4"></td>
+ </tr> 
+ <tr>
+  <td class="row_indices">5</td>
+  <td><input type="number" placeholder="A5"></td>
+  <td><input type="number" placeholder="B5"></td>
+  <td><input type="number" placeholder="C5"></td>
+  <td><input type="number" placeholder="D5"></td>
+  <td><input type="number" placeholder="E5"></td>
+ </tr> 
+ <tr>
+  <td class="row_indices">6</td>
+  <td><input type="number" placeholder="A6"></td>
+  <td><input type="number" placeholder="B6"></td>
+  <td><input type="number" placeholder="C6"></td>
+  <td><input type="number" placeholder="D6"></td>
+  <td><input type="number" placeholder="E6"></td>
+ </tr>
+ </tbody>
+ </table>
+ </form>
 </div>
 <div id="output">
-<ul id="sorted_list">
-</ul> 
+ <ul id="sorted_list">
+ </ul> 
 </div>
+<footer>
+<a href="https://matjaz.it/contact/">Contact</a> &ndash; <a href="https://matjaz.it/legal-notice/">Legal notice and copyright</a></div> &ndash; Source code on <a href="https://github.com/TheMatjaz/matjaz.it">GitHub</a>
+</footer>
 <script type="text/javascript" src="sorting.min.js" charset="utf-8"></script>
 </body>
 </html>
