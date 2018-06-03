@@ -1,30 +1,35 @@
 var g_output_list_element = document.getElementById("sorted_list");
 var g_input_fields = document.getElementsByClassName("cell");
+var g_reset_button = document.getElementById("reset_button");
 var g_cells = {};
 
 initialize();
 
 function initialize() {
-    /*
-    load_input_field_contents_from_query_string();
-    refresh_cells_dict_from_input_fields();
-    refresh_query_string_from_cells_dict();
-    refresh_output_list_from_cells_dict();
-    */
+    load_state_from_query_string();
     prepare_event_listeners();
 }
 
 function refresh_cells_dict_from_input_fields() {
-    // The browser caches which were the last values written in the
-    // input fields. Read the values in the fields and load them to
-    // g_cells.
     Object.values(g_input_fields).forEach(function(input_field) {
         var cell = input_field_to_cell(input_field);
         g_cells[cell.id] = cell;
     });
 }
 
+function reset_state() {
+    rewrite_query_string_in_url("");
+    load_state_from_query_string();
+}
+
+function load_state_from_query_string() {
+    load_input_field_contents_from_query_string();
+    refresh_cells_dict_from_input_fields();
+    refresh_output_list_from_cells_dict();
+}
+
 function prepare_event_listeners() {
+    g_reset_button.addEventListener("click", reset_state);
     Object.values(g_input_fields).forEach(function(input_field) {
         input_field.addEventListener(
             "keyup", function() {input_field_event(input_field);});
@@ -145,13 +150,15 @@ function load_input_field_contents_from_query_string() {
             window.location.search, input_field.name);
         if (cell_value != null) {
             input_field.value = cell_value;
+        } else {
+            input_field.value = "";
         }
     });
 }
 
 function read_query_string_field(uri, key) {
     // https://stackoverflow.com/a/6021027/5292928
-    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var re = new RegExp("[?&]" + key + "=(.*?)(&|$)", "i");
     var matched_values = uri.match(re);
     if (matched_values == null) {
         return null;
