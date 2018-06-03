@@ -32,7 +32,7 @@ table {
     table-layout: fixed;
 }
 #matrix .value_column {
-    width: 15rem;
+    width: 12rem;
 }
 #matrix th {
     text-align: center;
@@ -40,7 +40,7 @@ table {
     background-color: #ffffff;
 }
 #matrix .row_indices {
-    width: 10rem;
+    width: 8rem;
     background-color: #ffffff;
     font-weight: normal;
     text-align: center;
