@@ -87,11 +87,11 @@ function cell_sorter(cell_a, cell_b) {
     if (diff != 0) {
         return diff;
     }
-    diff = cell_a.row_index - cell_b.row_index;
+    diff = cell_a.col_index - cell_b.col_index;
     if (diff != 0) {
         return diff;
     }
-    return cell_a.col_index - cell_b.col_index;
+    return cell_a.row_index - cell_b.row_index;
 }
 
 function cells_to_html_list(cells, html_list_id) {
