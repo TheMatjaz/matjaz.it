@@ -38,6 +38,9 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
     # when from this to another HTTPS website send only home URL,
     # when from this to another HTTP website, send nothing.
     Header always set Referrer-Policy no-referrer-when-downgrade
+    # Deactivate as many Features as possible as basically none are required
+    # for a blog.
+    Header always set Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; document-domain 'self'; fullscreen 'self'; execution-while-not-rendered 'self'; execution-while-out-of-viewport 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; sync-xhr 'self'; usb 'none'; wake-lock 'none'; xr2 'none'; speaker 'self'; geolocation 'none';
 </ifModule>
 
 

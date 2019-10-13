@@ -8,7 +8,7 @@
 <meta name="author" content="{{ .Site.Author.name }}"/>
 <meta name="keywords" content="{{ .Site.Params.keywords }}"/>
 <meta name="description" content="{{ if eq .Section "post" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <link rel="license" href="{{ .Site.Params.licenseURL }}"/>
 {{ if .Site.RSSLink -}}
   <link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>
