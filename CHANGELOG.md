@@ -17,6 +17,18 @@ notable exceptions are:
   
 ********************************************************************************
 
+2022-05-22
+---------------------------------------
+
+### Added
+
+- Page on CAN Bus Security protocol.
+
+### Changed
+
+- New links for the Software page, pointing to new repositories.
+
+
 
 2017-07-13
 ---------------------------------------
