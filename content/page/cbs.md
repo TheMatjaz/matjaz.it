@@ -5,7 +5,7 @@ date         = "2022-05-22T13:25:22+00:00"
 description  = "CAN Bus Security (CBS) protocol: lightweight message confidentiality, authentication, and freshness on an automotive bus."
 draft        = false
 hidefromhome = true
-lastmod      = ""
+lastmod      = "2023-05-08T13:10:00+00:00"
 priority     = 0.5
 slug         = "cbs"
 title        = "CAN Bus Security protocol"
@@ -27,6 +27,8 @@ of hardware failures.
 ### CBS specification
 
 - [Protocol v1.3, document revision 4](/pdf/CAN_Bus_Security_protocol_specification_1.3_rev4.pdf)
+- [Master thesis on CBS](/pdf/Matjaz_Gustin_Thesis_CAN_Bus_Security.pdf),
+  explaining the context of the protocol and design choices.
 
 **Protocol version**: `vMajor.Minor`. A `Major` number change indicates a 
 compatibility break of the protocol. A `Minor` number change indicates an
