@@ -5,7 +5,7 @@ date         = "2016-07-19T08:10:00+00:00"
 description  = "There are some things any website may easily have to make visitors feel more at home. Is your favicon all right on all devices? Do you have a human readable sitemap? What about some classic pages like the About page, the Legal notice/Privacy page? The second pare of the checklist of technical but easy things to change, this time to make the website human-friendly."
 draft        = false
 highlight    = true
-lastmod      = "2016-07-26T01:07:23+02:00"
+lastmod      = "2023-06-06T18:50:00+02:00"
 slug         = "hugo-power-user-make-it-web-friendly-2"
 tags         = ["Hugo power user", "Hugo", "Blog", "Standard"]
 title        = "#HugoPowerUser: make it web friendly pt. 2"
@@ -114,8 +114,10 @@ tab, in the address bar or in the entry in your bookmarks/favorites in your
 browser. It may be very simple to create a basic one: a 16x16 `.ico` file - but
 the simple is not perfect.
 
-[Real Favicon Generator](https://realfavicongenerator.net/) is the web tool for
-your. Just post a high-resolution raster image (PNG, JPG) or a SVG file of the
+[Real Favicon Generator](https://realfavicongenerator.net/) or 
+[Website Planet](https://www.websiteplanet.com/webtools/favicon-generator/) 
+are some web tools for
+you. Just post a high-resolution raster image (PNG, JPG) or a SVG file of the
 logo you want to have as your favicon. This tool will create versions for any
 mobile and desktop device, browser and operating system in order to have a
 cross-compatible icon anywhere.
